@@ -1,5 +1,9 @@
 # CS - Computer Science
 
+JS/TS:
+- [JavaScript Destructuring ES6: The Complete Guide](https://buginit.com/javascript/javascript-destructuring-es6-the-complete-guide/)
+- [TypeScript Tutorial For Beginners: The Missing Guide (2019)](https://www.valentinog.com/blog/typescript/)
+
 Tools & Programs:
 - [AWS From A to Z](http://www.helenanderson.co.nz/aws-a-z/)
 - [Cheat sheet for moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)
