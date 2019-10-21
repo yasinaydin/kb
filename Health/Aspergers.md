@@ -15,3 +15,6 @@ Expression and similarities:
 Autism.org.uk:
 - [Meltdowns](https://www.autism.org.uk/about/behaviour/meltdowns.aspx)
 - [Physical challenging behaviour](https://www.autism.org.uk/about/behaviour/challenging-behaviour/physical.aspx)
+
+Other:
+- [How Autistic Meltdowns Differ From Ordinary Temper Tantrums](https://www.verywellhealth.com/what-is-an-autistic-meltdown-260154)
