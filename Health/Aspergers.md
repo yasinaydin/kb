@@ -19,3 +19,8 @@ Autism.org.uk:
 Other:
 - [How Autistic Meltdowns Differ From Ordinary Temper Tantrums](https://www.verywellhealth.com/what-is-an-autistic-meltdown-260154)
 - [Overview of Stimming in Autism](https://www.verywellhealth.com/what-is-stimming-in-autism-260034)
+
+Estonia:
+- [autismtallinn.ee - Autism Association of Tallinn and Harju County](https://autismtallinn.ee/)
+- [autismiliit.ee - The Estonian Autism Union](https://www.autismiliit.ee/)
+- [sensus.ee - Sensus Center for Psychiatry and Psychotherapy](https://sensus.ee/et)
