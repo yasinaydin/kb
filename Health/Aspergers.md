@@ -18,3 +18,4 @@ Autism.org.uk:
 
 Other:
 - [How Autistic Meltdowns Differ From Ordinary Temper Tantrums](https://www.verywellhealth.com/what-is-an-autistic-meltdown-260154)
+- [Overview of Stimming in Autism](https://www.verywellhealth.com/what-is-stimming-in-autism-260034)
