@@ -13,3 +13,6 @@ ICT-Remote working:
 - [The best cities to live and work remotely for Digital Nomads](https://nomadlist.com/)
 - [https://remotemore.com/candidates](https://remotemore.com/candidates)
 - [https://news.ycombinator.com/item?id=20971098](https://news.ycombinator.com/item?id=20971098)
+
+Other:
+- [Fearless Salary Negotiation](https://fearlesssalarynegotiation.com/)
