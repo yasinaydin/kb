@@ -1,6 +1,6 @@
 # Reading
 
-## Physical
+## Books
 
 - [Most fundamental books on computer science](https://news.ycombinator.com/item?id=21311302)
 
