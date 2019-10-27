@@ -8,3 +8,7 @@
 ## E-Books
 
 - [Green Tea Press - Free books by Allen B. Downey - Think X series](https://greenteapress.com/)
+
+## Blog Posts
+
+- [Don't Call Yourself A Programmer, And Other Career Advice](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
