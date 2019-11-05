@@ -1,61 +1,61 @@
 # TTU Courses
 
-## Other
-- Oral and Written Communication Skills	
-Introduction to Entrepreneurship ( Continuous training)	
-Fundamentals of Thesis	
+## STEM
 
-## Maths
-- Probability Theory and Mathematical Statistics	
+- Probability Theory and Mathematical Statistics
 - Statistical and interdisciplinary physics	
 - Logic and Discrete Mathematics	
-
 - Physical basis of information technology
 
+## Non-Tech
 
-Introduction to Informatics and Computers	
+- Oral and Written Communication Skills
+- Introduction to Entrepreneurship
+- Fundamentals of Thesis
 
-## Programming
-- Algorithms and Data Structures	
-- Automated Testing
+## Programming Languages
+
 - Fundamentals of Programming	(Assembly, VHDL)
 - Web technologies (HTML/CSS, Javascript, PHP)
-- Fundamentals of Python
+- Fundamentals of Python / Advanced Python
 - Fundamentals of Ruby
-- Advanced Python
-- Fundamentals of C/C++ Programming
-- Advanced C/C++
+- Fundamentals of C/C++ Programming / Advanced C/C++
 - Fundamentals of C#
 - Java Technologies	
+- Functional Programming (Haskell)
+- Probability Theory and Mathematical Statistics (R)
 
+## Programming Concepts
+- Algorithms and Data Structures	
+- Automated Testing
+- Secure Programming	
+- Web Application Security	
 
+## Servers & IT Mgmt
 
+- Operating systems and its management	
+- IT Infrastructure Services	
+- Logging and Monitoring	
+- Windows administration	
+- Linux Administration	
+- Database Basics	
 
+## Networking (CCNA/CCNP eq)
 
+- Fundamentals of networking
+- Advanced networking	
+- Advanced routing and switching	
+- Computer Network Security	
 
-Functional Programming	
+## Cybersecurity
+- Governance and Management of Cyber Security	
+- Introduction to Cyber Security	
+- Cryptography	
+- Computer forensics	
+- Malware
+- Reverse Engineering	
 
-
-Operating systems and its management	
-IT Infrastructure Services	
-Fundamentals of networking	
-Logging and Monitoring	
-Windows administration	
-Advanced networking	
-Advanced routing and switching	
-Database Basics	
-Linux Administration	
-
-Machine Learning ( Work experience)	
-
-
-Governance and Management of Cyber Security	
-Introduction to Cyber Security	
-Social, Professional and Ethical Aspects of IT	
-Computer Network Security	
-Cryptography	
-Computer forensics	
-Malware
-Reverse Engineering	
-Secure Programming	
-Web Application Security	
+## Other
+- Introduction to Informatics and Computers	
+- Social, Professional and Ethical Aspects of IT	
+- Machine Learning ( Work experience)	
