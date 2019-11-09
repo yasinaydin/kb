@@ -5,7 +5,7 @@ ICT:
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
 - [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook)
 - [Series of Terrible Decisions That Will Make Your Job Way Worse](https://www.mcsweeneys.net/articles/in-order-to-become-more-competitive-in-our-sector-weve-decided-to-make-a-series-of-terrible-decisions-that-will-make-your-job-way-worse)
-
+- https://vuejobs.com/
 
 ICT-Remote working:
 - [A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
