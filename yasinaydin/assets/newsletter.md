@@ -20,12 +20,21 @@ Cyber Security:
 - [Daily, Morning Hacked](https://morninghacked.com/)
 - [Weekly, This week in security, by Jack Whittaker](http://newsletter.zackwhittaker.com/)
 
+JS/TS/Node.js/Frontend:
+- [Biweekly, JSter](http://jster.net/)
+- [Weekly, Node Weekly](https://nodeweekly.com/)
+- [Weekly, JavaScript Weekly](https://javascriptweekly.com/)
+- [Weekly, Node Module Of The Week!](https://nmotw.in/subscribe/)
+- [Weekly, Frontend Focus](https://frontendfoc.us/)
+- [Weekly, Awesome Node.js Newsletter by Libhunt](https://nodejs.libhunt.com/newsletter)
+- [Weekly, npm Week by NPM Inc.](https://www.npmjs.com/npm-weekly)
+- [Monthly, Node.js Inspiration by Nodejs Foundation](https://foundation.nodejs.org/newsletter)
+
+
 Development:
 - [Weekly, HackerNewsletter](https://hackernewsletter.com/)
-- [Weekly, NodeWeekly](https://nodeweekly.com/)
 - vue newsletter
 - github trending repos
-- https://www.libhunt.com/ multiple: 
 - js wekly peterc.org
 
 cloud:
