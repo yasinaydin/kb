@@ -5,6 +5,8 @@ Videos:
 - [Autism Stimming Examples](https://www.youtube.com/watch?v=4ALy6I1J1uo)
 - [What Is Autistic Stimming? We try to understand it first hand.](https://www.youtube.com/watch?v=fBW6Rnazl_Q)
 - [Autism Meltdown & Panic Attack](https://www.youtube.com/watch?v=C0rdZOhet24)
+- [Paranoia in the Asperger's Mind](https://www.youtube.com/watch?v=P1izup2uX3U)
+- [An Adult Meltdown (Autistic Spectrum)](https://www.youtube.com/watch?v=_iO6AsqC0Oo)
 
 Expression and similarities:
 - Meltdown
