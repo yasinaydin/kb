@@ -6,3 +6,7 @@
 - [Project Gutenberg](https://www.gutenberg.org/)
 - [Standard Ebooks](https://standardebooks.org/)
 - [Wikipedia:Vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles)
+
+Specific:
+- [Elements of AI](https://www.elementsofai.com/)
+- [Reading German](https://courses.dcs.wisc.edu/wp/readinggerman/)
