@@ -4,6 +4,7 @@
 
 - https://app.otta.co/jobs/
 - https://vuejobs.com/
+- https://angel.co/jobs
 
 
 ## Articles
