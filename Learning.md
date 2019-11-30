@@ -11,3 +11,4 @@ Specific:
 - [Elements of AI](https://www.elementsofai.com/)
 - [Reading German](https://courses.dcs.wisc.edu/wp/readinggerman/)
 - [Improve Your Social Skills](https://www.improveyoursocialskills.com/)
+- [CS50 - 2017](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
