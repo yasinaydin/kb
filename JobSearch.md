@@ -2,9 +2,14 @@
 
 ## To find a job
 
+Websites:
 - https://app.otta.co/jobs/
 - https://vuejobs.com/
 - https://angel.co/jobs
+
+Apps:
+- [Job Navigator](https://inspirationapps.com/job-navigator-app/)
+- [MeetFrank](https://meetfrank.com/)
 
 
 ## Articles
