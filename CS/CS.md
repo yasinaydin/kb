@@ -9,6 +9,11 @@
 
 
 
+## Other
+- [List of *aas free for developer](https://free-for.dev/#/?id=ci-cd)
+- [Diagram.codes](https://www.diagram.codes/)
+
+
 
 JS/TS:
 - [JavaScript Destructuring ES6: The Complete Guide](https://buginit.com/javascript/javascript-destructuring-es6-the-complete-guide/)
