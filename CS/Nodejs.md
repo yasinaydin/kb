@@ -1,2 +1,0 @@
-- [Handling Errors in Express](https://zellwk.com/blog/express-errors/)
-- [79 NodeJS Interview Questions & Answers](https://coderrocketfuel.com/article/node-js-interview-questions-and-answers)
