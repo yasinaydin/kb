@@ -1,7 +1,3 @@
----
-title: KB
----
-
 Links:
 - [Countries](./Links/Countries.md)
 - [CS](./Links/CS.md)
