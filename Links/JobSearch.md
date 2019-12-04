@@ -28,9 +28,20 @@ By Field
 
 
 Remote
+- [crossover.com](https://www.crossover.com/)
 - [remoteintech.company - A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
 - [remotemore.com](https://remotemore.com/candidates)
 - [weworkremotely.com](https://weworkremotely.com/#job-listings)
+
+
+Online/Freelance
+- [fiverr.com](https://www.fiverr.com/)
+- [freelancer.com](https://www.freelancer.com/jobs/)
+- [guru.com](https://www.guru.com/)
+- [HubStaff](https://talent.hubstaff.com/search/jobs)
+- [toptal.com](https://www.toptal.com/)
+- [upwork.com](https://www.upwork.com/)
+
 
 ---
 
