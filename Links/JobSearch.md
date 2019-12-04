@@ -13,28 +13,16 @@ Worldwide
 - [vettery.com](https://www.vettery.com)
 
 
-Local-EU
-- [EURES](https://ec.europa.eu/eures)
-- [European Job Days](https://www.europeanjobdays.eu/en/jobs/active)
-
-
-Local-UK
-- [otta.co](https://app.otta.co/jobs/)
-- [Oxford Knight Jobs Board][https://oxfordknight.co.uk/jobs]
-- [unicornhunt.io - Startup Jobs](https://unicornhunt.io)
-
-
-Local-US
-- [futurejobs.io - Machine learning, AI, and data science jobs](https://www.futurejobs.io/)
-
-
-Local-Canada
-- [freshgigs.ca](https://www.freshgigs.ca/)
-
-
 By Field
 - [careersjs.com](https://careersjs.com/)
 - [vuejobs.com](https://vuejobs.com/)
+
+
+By company
+- [Interpol](https://www.interpol.int/en/What-you-can-do/Careers)
+- [NATO](https://www.nato.int/cps/en/natolive/recruit-wide.htm)
+- [NATO CCDCOE](https://ccdcoe.org/)
+- [UN](https://careers.un.org/lbw/Home.aspx)
 
 
 Remote
@@ -52,12 +40,31 @@ Online/Freelance
 - [toptal.com](https://www.toptal.com/)
 - [upwork.com](https://www.upwork.com/)
 
-
 ---
 
 ## Finding Apps
 - [Job Navigator](https://inspirationapps.com/job-navigator-app/)
 - [MeetFrank](https://meetfrank.com/)
+
+---
+
+## Local Jobs
+
+EU
+- [EPSO](https://epso.europa.eu/job-opportunities_en)
+- [EURES](https://ec.europa.eu/eures)
+- [European Job Days](https://www.europeanjobdays.eu/en/jobs/active)
+
+
+UK
+- [otta.co](https://app.otta.co/jobs/)
+- [Oxford Knight Jobs Board][https://oxfordknight.co.uk/jobs]
+- [unicornhunt.io - Startup Jobs](https://unicornhunt.io)
+
+
+USA/Canada
+- [freshgigs.ca](https://www.freshgigs.ca/)
+- [futurejobs.io - Machine learning, AI, and data science jobs](https://www.futurejobs.io/)
 
 ---
 

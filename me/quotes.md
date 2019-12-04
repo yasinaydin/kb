@@ -7,6 +7,8 @@
 > Pick out associates whose behavior is better than yours and you'll drift in that direction.
 > - Warren Buffet
 
+---
+
 > Never hire someone without integrity, no matter how smart they are.
 > You're looking for three things, generally, in a person: intelligence, energy, and integrity. 
 > And if they don't have the last one, don't even bother with the first two.
