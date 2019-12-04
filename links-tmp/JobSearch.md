@@ -29,3 +29,8 @@ ICT-Remote working:
 
 Other:
 - [Fearless Salary Negotiation](https://fearlesssalarynegotiation.com/)
+
+
+
+- [Don't Call Yourself A Programmer, And Other Career Advice](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
+
