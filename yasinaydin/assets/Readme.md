@@ -1,3 +1,0 @@
-- [Newsletters that I'm subscribed to](./newsletter)
-- [Quotes I collect](./quotes)
-- [Global Yarn packages that I Install](./yarn-global)
