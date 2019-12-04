@@ -7,12 +7,17 @@ Astronomy:
 - [See a satellite tonight](https://james.darpinian.com/satellites/)
 - [Earth and Sun](https://ciechanow.ski/earth-and-sun/)
 
+
 Astronomy-Satellites:
+
 - [LibreSpace-The non-profit foundation for open source hardware and software in space](https://libre.space)
 - [NASA Open MCT (Mission Control Technologies)](https://github.com/nasa/openmct)
 
+
 Geology:
+
 - [International Commission on Stratigraphy - Timescale Chart](http://www.stratigraphy.org/index.php/ics-chart-timescale)
+
 
 Healthcare:
 
@@ -23,7 +28,6 @@ Healthcare:
 - [Reader's Digest - Health](https://www.rd.com/health/)
 - [OpenSourceSeeds](https://www.opensourceseeds.org/)
 
----
 
 Mathematics:
 

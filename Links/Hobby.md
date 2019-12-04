@@ -1,5 +1,8 @@
 # Hobby
 
+Blogging:
+- [Maybe the world's easiest website maker](https://sdnotes.com)
+
 Cooking:
 - [Feast Genius](https://www.feastgenius.com/search)
 
