@@ -1,1 +1,2 @@
 - https://talktotransformer.com/
+- [Elements of AI](https://www.elementsofai.com/)
