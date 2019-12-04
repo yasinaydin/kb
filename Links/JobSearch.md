@@ -20,6 +20,16 @@ Local-EU
 
 Local-UK
 - [otta.co](https://app.otta.co/jobs/)
+- [Oxford Knight Jobs Board][https://oxfordknight.co.uk/jobs]
+- [unicornhunt.io - Startup Jobs](https://unicornhunt.io)
+
+
+Local-US
+- [futurejobs.io - Machine learning, AI, and data science jobs](https://www.futurejobs.io/)
+
+
+Local-Canada
+- [freshgigs.ca](https://www.freshgigs.ca/)
 
 
 By Field
