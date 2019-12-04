@@ -4,13 +4,14 @@ Blogging
 - [Maybe the world's easiest website maker](https://sdnotes.com)
 
 
-Cooking
-- [Feast Genius](https://www.feastgenius.com/search)
-
-
-Entrepreneurship
+Business & New Ideas
 - [20000 startup ideas](https://unawaz.github.io/stochastic-hill-climbing/tasks/)
 - [Cool stuff that's still completely unregulated](https://news.ycombinator.com/item?id=21167689)
+- [Discover exploding trends](https://trennd.co/)
+
+
+Cooking
+- [Feast Genius](https://www.feastgenius.com/search)
 
 
 Gaming
