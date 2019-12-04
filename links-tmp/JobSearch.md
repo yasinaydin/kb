@@ -1,9 +1,5 @@
 # Job Searching
 
-## To find a job
-
-
-
 ## Articles
 
 ICT:
@@ -19,10 +15,5 @@ ICT-Remote working:
 - [https://remotemore.com/candidates](https://remotemore.com/candidates)
 - [https://news.ycombinator.com/item?id=20971098](https://news.ycombinator.com/item?id=20971098)
 
-Other:
-- [Fearless Salary Negotiation](https://fearlesssalarynegotiation.com/)
-
-
 
 - [Don't Call Yourself A Programmer, And Other Career Advice](https://www.kalzumeus.com/2011/10/28/dont-call-yourself-a-programmer/)
-
