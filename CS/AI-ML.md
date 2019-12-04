@@ -1,2 +1,3 @@
 - https://talktotransformer.com/
 - [Elements of AI](https://www.elementsofai.com/)
+- [Elements of AI: Free AI course from Finland](https://www.elementsofai.com/)

@@ -3,6 +3,9 @@
 Cooking:
 - [Feast Genius](https://www.feastgenius.com/search)
 
+Gaming:
+- [Web port of the original Diablo game](https://d07riv.github.io/diabloweb/)
+
 Linguistics:
 - [Reading German](https://courses.dcs.wisc.edu/wp/readinggerman/)
 
