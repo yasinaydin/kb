@@ -37,5 +37,6 @@ Tools:
 - [hunder.io - Find email addresses in seconds](https://hunter.io/)
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
+- [thexifer.net - Edit EXIF Online][https://www.thexifer.net/]
 
 
