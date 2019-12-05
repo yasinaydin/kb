@@ -19,6 +19,9 @@ Cloud
 - [free-for.dev - List of *aas free for developer](https://free-for.dev/#/?id=ci-cd)
 
 
+Cyber Security:
+- [hackertarget.com - Tools](https://hackertarget.com/find-dns-host-records/)
+
 DB
 - [Comparing Database Types: How Database Types Evolved to Meet Different Needs](https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37)
 - [jsonbox.io - Free HTTP based JSON Storage](https://jsonbox.io/)
@@ -37,6 +40,6 @@ Tools:
 - [hunder.io - Find email addresses in seconds](https://hunter.io/)
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
-- [thexifer.net - Edit EXIF Online][https://www.thexifer.net/]
+- [thexifer.net - Edit EXIF Online](https://www.thexifer.net/)
 
 
