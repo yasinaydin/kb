@@ -33,6 +33,9 @@ Templates & Illustrations
 Tools:
 - [Design System Playground](https://design-system-playground.netlify.com/)
 - [diagram.codes - Diagram generation tool](https://www.diagram.codes/)
+- [doka.photo](https://doka.photo/)
+- [hunder.io - Find email addresses in seconds](https://hunter.io/)
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
-- [https://pqina.nl/doka/image-editor/](https://pqina.nl/doka/image-editor/)
+
+
