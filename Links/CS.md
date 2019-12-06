@@ -34,9 +34,12 @@ Templates & Illustrations
 
 
 Tools:
+- [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
+- [creepyface.io - Animated Face maker](https://creepyface.io/create)
 - [Design System Playground](https://design-system-playground.netlify.com/)
 - [diagram.codes - Diagram generation tool](https://www.diagram.codes/)
 - [doka.photo](https://doka.photo/)
+- [happyhues.co - Color Palette Generator](https://www.happyhues.co)
 - [hunder.io - Find email addresses in seconds](https://hunter.io/)
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
