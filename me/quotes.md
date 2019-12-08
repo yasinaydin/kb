@@ -13,3 +13,8 @@
 > You're looking for three things, generally, in a person: intelligence, energy, and integrity. 
 > And if they don't have the last one, don't even bother with the first two.
 > - Warren Buffet
+
+---
+
+>If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!”
+> - Richard Branson
