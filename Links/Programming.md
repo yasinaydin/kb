@@ -22,6 +22,7 @@ React
 TypeScript
 - [Compile-time Immutability in TypeScript](https://www.sitepoint.com/compile-time-immutability-in-typescript/)
 - [TypeScript Tutorial For Beginners: The Missing Guide (2019)](https://www.valentinog.com/blog/typescript/)
+- [Basarat's TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
 
 
 Vue.js
