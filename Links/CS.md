@@ -30,8 +30,8 @@ DB
 Templates & Illustrations
 - [glazestock.com - Free illustrations, for everything](https://www.glazestock.com)
 - [creative-tim.com - Premium Bootstrap Themes and Templates](https://www.creative-tim.com/)
+- [print-to-css designs](https://www.dan-davies.co.uk/print-to-css)
 - [templatemag.com - Bootstrap and Website Templates](https://templatemag.com/)
-
 
 Tools:
 - [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
@@ -41,8 +41,8 @@ Tools:
 - [doka.photo](https://doka.photo/)
 - [happyhues.co - Color Palette Generator](https://www.happyhues.co)
 - [hunder.io - Find email addresses in seconds](https://hunter.io/)
+- [joincake.com - Make your ending meaningful and easier on loved ones](https://www.joincake.com/)
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
 - [thexifer.net - Edit EXIF Online](https://www.thexifer.net/)
-
-
+- [whocanuse.com - Color combination accessibility checker](https://whocanuse.com/)
