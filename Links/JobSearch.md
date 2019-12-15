@@ -86,3 +86,4 @@ Interviews-Technical
 Other
 - [Ask HN: Where can I find remote or quality oriented freelancing work?](https://news.ycombinator.com/item?id=20971098)
 - [Series of Terrible Decisions That Will Make Your Job Way Worse](https://www.mcsweeneys.net/articles/in-order-to-become-more-competitive-in-our-sector-weve-decided-to-make-a-series-of-terrible-decisions-that-will-make-your-job-way-worse)
+- [Ask HN: What mistakes did you make when starting as a consultant/freelancer?](https://news.ycombinator.com/item?id=21728436)
