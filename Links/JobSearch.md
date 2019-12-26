@@ -30,11 +30,16 @@ By company
 
 
 Remote
-- [crossover.com](https://www.crossover.com/)
+- [calmjobs.io](http://calmjobs.io/jobs)
 - [remoteintech.company - A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
+- [remotemasters.dev](https://remotemasters.dev/jobs)
 - [remotemore.com](https://remotemore.com/candidates)
 - [weworkremotely.com](https://weworkremotely.com/#job-listings)
 
+RaaJ:
+- [crossover.com](https://www.crossover.com/)
+- Vettery?
+- Xteam?
 
 Online/Freelance
 - [fiverr.com](https://www.fiverr.com/)
