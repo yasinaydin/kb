@@ -87,6 +87,10 @@ Interviews-Technical
 - [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook)
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
 
+For Hiring Department:
+- [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
+- [A hiring test I'd like to run](https://shkspr.mobi/blog/2019/12/a-hiring-test-id-like-to-run/)
+
 
 Other
 - [Ask HN: Where can I find remote or quality oriented freelancing work?](https://news.ycombinator.com/item?id=20971098)
