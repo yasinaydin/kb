@@ -1,9 +1,15 @@
 #!/bin/bash
 sudo localepurge > /dev/null
 
-pikaur -Scc
+# sudo pacman --sync --clean --noconfirm
+pikaur -Scc --noconfirm
 
-sudo journalctl -q --vacuum-time=1d > /dev/null
+# sudo pacman --database --check --quiet
+pikaur -Dk
+
+history -c
+
+sudo journalctl -q --vacuum-time=1h > /dev/null
 
 rm -f ~/.bash_history 
 rm -f ~/.bash_logout # Commants to run on BASH logout
