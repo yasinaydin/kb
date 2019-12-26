@@ -9,6 +9,7 @@ rm -f ~/.bash_history
 rm -f ~/.bash_logout # Commants to run on BASH logout
 rm -f ~/.dmrc # Legacy GNOME2 default user session
 rm -f ~/.cache/pikaur/*
+rm -f ~/.config/vlc/vlc-qt-interface.conf # vlc recent videos
 rm -f ~/.netrc # for heroku
 rm -f ~/.mysql_history
 rm -f ~/.node_repl_history
