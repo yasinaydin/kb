@@ -1,5 +1,9 @@
 # Programming
 
+CSS:
+- [CSS effects Snippets](https://emilkowalski.github.io/css-effects-snippets/)
+
+
 HTML:
 - https://dev.to/emmawedekind/10-html-element-you-didnt-know-you-needed-3jo4
 
