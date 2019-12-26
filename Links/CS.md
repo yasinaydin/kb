@@ -28,6 +28,10 @@ DB
 - [jsonbox.io - Free HTTP based JSON Storage](https://jsonbox.io/)
 
 
+HTTP:
+- [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
+
+
 Templates & Illustrations
 - [glazestock.com - Free illustrations, for everything](https://www.glazestock.com)
 - [creative-tim.com - Premium Bootstrap Themes and Templates](https://www.creative-tim.com/)
