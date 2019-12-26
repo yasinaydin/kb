@@ -20,6 +20,7 @@ Cloud
 
 
 Cyber Security:
+- [badssl.com - Verify Behaviour to Bad SSL](https://badssl.com/)
 - [hackertarget.com - Tools](https://hackertarget.com/find-dns-host-records/)
 
 DB
