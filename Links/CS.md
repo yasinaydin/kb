@@ -5,6 +5,7 @@ General
 - [Computer Science Illustrated](http://csillustrated.berkeley.edu/)
 - [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 - [Most fundamental books on computer science](https://news.ycombinator.com/item?id=21311302)
+- [History of Computers Online Exhibition](http://cs-exhibitions.uni-klu.ac.at/index.php?id=320)
 
 ---
 
