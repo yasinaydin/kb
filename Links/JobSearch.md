@@ -36,7 +36,7 @@ Remote
 - [remotemore.com](https://remotemore.com/candidates)
 - [weworkremotely.com](https://weworkremotely.com/#job-listings)
 
-RaaJ:
+Remote-Contract Based:
 - [crossover.com](https://www.crossover.com/)
 - Vettery?
 - Xteam?
@@ -58,6 +58,9 @@ Online/Freelance
 ---
 
 ## Local Jobs
+
+Europe:
+- [linuxrecruit.co.uk](https://www.linuxrecruit.co.uk/jobs)
 
 EU
 - [EPSO](https://epso.europa.eu/job-opportunities_en)
