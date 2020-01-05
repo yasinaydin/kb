@@ -1,0 +1,12 @@
+Sorry for late reply.
+I'd always suggest cloud backup first:
+
+1- Cloud storage prices for 50-100 gb storage from Apple, Dropbox, Google Drive, Amazon, OneDrive etc.. costs only few dollars/euros. That's much more convenient way.
+2- If you have android, you can also buy a new MicroSD card. If you have iPhone, iCloud subscription would cost only few bucks.
+3- Usually upload does not use your mobile internet quota :)
+
+However if you still need to us a public computer, keep in mind that:
+- Those computers might have viruses that can infect your computer. If you can, instead of plugging your phone to the pc, take out your MicroSD card and put it in a card reader
+- Those computers might have keyloggers, which records your every key stroke, including when you enter your password. Before using a public computer, first change your password of where you will upload to something uniquie (like GeorgiaTrip161) using your phone, and then use that password on the computer. When you are done, you change you can change it back :)
+- To improve security, if the service where you'll upload your files has 2FA (2 factor authentication or multi authentication, via SMS or apps), enable that feature for that website :)
+Edit
