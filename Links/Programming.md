@@ -1,5 +1,13 @@
 # Programming
 
+CSS:
+- [CSS effects Snippets](https://emilkowalski.github.io/css-effects-snippets/)
+
+
+HTML:
+- https://dev.to/emmawedekind/10-html-element-you-didnt-know-you-needed-3jo4
+
+
 Javascript
 - [Cheat sheet for moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)
 - [JavaScript Destructuring ES6: The Complete Guide](https://buginit.com/javascript/javascript-destructuring-es6-the-complete-guide/)

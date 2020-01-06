@@ -10,6 +10,7 @@ Listing-Worldwide
 - [Linkedin Jobs](https://www.linkedin.com/jobs/search/)
 - [jobrat.net](http://jobrat.net/)
 - [jobvertise.com](http://www.jobvertise.com/jobs/search?query=&city=&country=&button=Search+Jobs)
+- [stackoverflow Jobs](https://stackoverflow.com/jobs)
 - [vettery.com](https://www.vettery.com)
 
 
@@ -30,11 +31,16 @@ By company
 
 
 Remote
-- [crossover.com](https://www.crossover.com/)
+- [calmjobs.io](http://calmjobs.io/jobs)
 - [remoteintech.company - A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
+- [remotemasters.dev](https://remotemasters.dev/jobs)
 - [remotemore.com](https://remotemore.com/candidates)
 - [weworkremotely.com](https://weworkremotely.com/#job-listings)
 
+Remote-Contract Based:
+- [crossover.com](https://www.crossover.com/)
+- Vettery?
+- Xteam?
 
 Online/Freelance
 - [fiverr.com](https://www.fiverr.com/)
@@ -53,6 +59,9 @@ Online/Freelance
 ---
 
 ## Local Jobs
+
+Europe:
+- [linuxrecruit.co.uk](https://www.linuxrecruit.co.uk/jobs)
 
 EU
 - [EPSO](https://epso.europa.eu/job-opportunities_en)
@@ -81,6 +90,10 @@ Interviews
 Interviews-Technical
 - [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook)
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
+
+For Hiring Department:
+- [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)
+- [A hiring test I'd like to run](https://shkspr.mobi/blog/2019/12/a-hiring-test-id-like-to-run/)
 
 
 Other

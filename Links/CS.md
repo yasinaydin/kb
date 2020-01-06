@@ -5,6 +5,7 @@ General
 - [Computer Science Illustrated](http://csillustrated.berkeley.edu/)
 - [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 - [Most fundamental books on computer science](https://news.ycombinator.com/item?id=21311302)
+- [History of Computers Online Exhibition](http://cs-exhibitions.uni-klu.ac.at/index.php?id=320)
 
 ---
 
@@ -20,11 +21,16 @@ Cloud
 
 
 Cyber Security:
+- [badssl.com - Verify Behaviour to Bad SSL](https://badssl.com/)
 - [hackertarget.com - Tools](https://hackertarget.com/find-dns-host-records/)
 
 DB
 - [Comparing Database Types: How Database Types Evolved to Meet Different Needs](https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37)
 - [jsonbox.io - Free HTTP based JSON Storage](https://jsonbox.io/)
+
+
+HTTP:
+- [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
 
 
 Templates & Illustrations

@@ -2,6 +2,11 @@
 
 sources:
 - https://medium.com/engineered-publicis-sapient/javascript-es6-es7-es10-where-are-we-8ac044dfd964
+- http://thecodebarbarian.com/whats-new-in-es2019-flat-flatmap-catch.html
+- http://thecodebarbarian.com/async-generator-functions-in-javascript.html
+- https://danlevy.net/javascript-promises-quiz/
+- http://thecodebarbarian.com/object-assign-vs-object-spread.html
+
 
 ## ES2015 (ES6)
 
