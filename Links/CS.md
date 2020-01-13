@@ -38,6 +38,7 @@ Templates & Illustrations
 - [creative-tim.com - Premium Bootstrap Themes and Templates](https://www.creative-tim.com/)
 - [print-to-css designs](https://www.dan-davies.co.uk/print-to-css)
 - [templatemag.com - Bootstrap and Website Templates](https://templatemag.com/)
+- [undraw.co - Open-source illustrations for every project you can imagine and create](https://undraw.co/)
 
 Tools:
 - [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
@@ -51,4 +52,5 @@ Tools:
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
 - [thexifer.net - Edit EXIF Online](https://www.thexifer.net/)
+- [web.dev - Web tools and info](https://web.dev/)
 - [whocanuse.com - Color combination accessibility checker](https://whocanuse.com/)
