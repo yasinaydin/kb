@@ -52,5 +52,6 @@ Tools:
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
 - [thexifer.net - Edit EXIF Online](https://www.thexifer.net/)
+- [tiny-helpers.dev - Single-purpose online tools for web devs](https://tiny-helpers.dev/)
 - [web.dev - Web tools and info](https://web.dev/)
 - [whocanuse.com - Color combination accessibility checker](https://whocanuse.com/)
