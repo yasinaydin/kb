@@ -32,6 +32,7 @@ By company
 
 Remote
 - [calmjobs.io](http://calmjobs.io/jobs)
+- [indeed.com (Search for remote)](https://www.indeed.com/)
 - [remoteintech.company - A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
 - [remotemasters.dev](https://remotemasters.dev/jobs)
 - [remotemore.com](https://remotemore.com/candidates)
@@ -78,6 +79,7 @@ UK
 USA/Canada
 - [freshgigs.ca](https://www.freshgigs.ca/)
 - [futurejobs.io - Machine learning, AI, and data science jobs](https://www.futurejobs.io/)
+- [indeed.com](https://www.indeed.com/j)
 
 ---
 
