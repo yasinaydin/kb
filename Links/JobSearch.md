@@ -84,6 +84,7 @@ USA/Canada
 ## Companies
 
 - [Klarna.com](https://jobs.lever.co/klarna?team=Engineering)
+- [Palantir.com](https://www.palantir.com/careers/)
 
 ---
 
