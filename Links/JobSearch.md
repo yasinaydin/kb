@@ -69,17 +69,21 @@ EU
 - [EURES](https://ec.europa.eu/eures)
 - [European Job Days](https://www.europeanjobdays.eu/en/jobs/active)
 
-
 UK
 - [otta.co](https://app.otta.co/jobs/)
 - [Oxford Knight Jobs Board][https://oxfordknight.co.uk/jobs]
 - [unicornhunt.io - Startup Jobs](https://unicornhunt.io)
 
-
 USA/Canada
 - [freshgigs.ca](https://www.freshgigs.ca/)
 - [futurejobs.io - Machine learning, AI, and data science jobs](https://www.futurejobs.io/)
 - [indeed.com](https://www.indeed.com/j)
+
+---
+
+## Companies
+
+- [Klarna.com](https://jobs.lever.co/klarna?team=Engineering)
 
 ---
 
