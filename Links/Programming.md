@@ -11,7 +11,7 @@ HTML:
 Javascript
 - [Cheat sheet for moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)
 - [JavaScript Destructuring ES6: The Complete Guide](https://buginit.com/javascript/javascript-destructuring-es6-the-complete-guide/)
-
+- [quiz.typeofnan.dev - TypeOfNaN JavaScript Quizzes](https://quiz.typeofnan.dev/)
 
 Node.js
 - [79 NodeJS Interview Questions & Answers](https://coderrocketfuel.com/article/node-js-interview-questions-and-answers)
