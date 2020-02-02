@@ -1,0 +1,55 @@
+Env: Personal computer with Arch Linux, XFCE, VirtualBox, all updated. 
+
+VM: Linux-2019_2.ova
+
+Task: One of the partitions is filled up. Use Logical Volume Management to add more capacity to it.
+
+Video url (unlisted): https://www.youtube.com/watch?v=Y65e1cdD0aQ
+
+Work time: 15:00 - 16:00
+
+Steps: 
+
+- Imported `Linux-2019_2.ova` to Virtualbox
+- Booted up the machine
+- Run `df -h` to see which partition was full
+- `/dev/mapper/exam--vg-backups` was 100% used with 32MB size, mounted at /backups
+- Asked teached, he said to use new HDD
+- Followed `06 - block-devices-ex.pdf` lab file for steps
+- Turned off the computer
+- Created new hdd in the same controller
+- Booted machine
+- Checked if hdd mounted with `lsblk -a` and saw at `/dev/sdb`
+- Checked with `fdisk -l /dev/sdb`
+- Ran `fdisk /dev/sdb` to start formatting
+  - Typed `n` and enter>enter until done for creating
+  - Typed `t` and set type to `8e` (LVM)
+  - Typed `p` to print
+  - Typed `w` to write
+- Checked with `lsblk -a` and `fdisk -l`
+- Created new LVM part with `pvcreate /dev/sdb1`
+- Checked new LVM part with `pvscan`
+- Created new VG with `vgcreate disk2-vg /dev/sdb1`
+- Checked new VG with `vgdisplay`
+- Created LV with `lvcreate -l 100%FREE -n disk2-lv disk2-vg`
+- Checked with `lvdisplay`
+- Formatted logical volume with `mkfs -t ext4 /dev/disk2-vg/disk2-lv`
+- Mounted with `mount /dev/disk2-vg/disk2-lv /mnt`
+Checked with `ls -lah /mnt` and `df -h`
+- Entered single user mode with `init 1`, entered password
+
+cp -auv /backups/* /mnt
+diff -qr /backups /mnt
+
+- Backed up fstab with `cp /etc/fstab /etc/fstab.bck`
+- Saw disk2-lg 's uuid with `blkid`, first 3 characters are: 8aa
+- Use autocomplete to get blkid with `ls /dev/disk/by-uuid/???`, remove the non-uuid part and append it to /etc/fstab
+- Unmount old and new partitions via `umount /mnt && umount /backups`
+- Editing fstab with `nano /etc/fstab`
+- Commented old backup, clone it to new UUID, add UUID= in the start
+- Saved it and mounted with `mount -a`
+- Used `df -h` to see size, `ls -al /backups` to see files
+- Rebooted
+- Used `df -h` to see size, `ls -al /backups` to see files
+
+

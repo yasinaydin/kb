@@ -1,0 +1,35 @@
+Env: Personal computer with Arch Linux, XFCE, VirtualBox, all updated. 
+
+
+Video url (unlisted):
+https://www.youtube.com/watch?v=tmAb6adFT_s
+
+
+
+Steps:
+- Imported `Linux-2019_2.ova` image to Virtualbox
+- Booted machine
+- Cat all files in `/root`, didnt find anything
+- Used these commands to get zombie PID and its PPID
+
+```sh
+ps aux | grep Z
+ps axo stat,ppid,pid,comm | grep -w defunct
+ps -ef | grep defunct
+```
+
+- Used these commands to find process details:
+
+```sh
+cat /proc/{$PARENTPROCID}/comm
+cat /proc/{$PARENTPROCID}/cmdlinecat /
+```
+
+- Tried to kill zombie but it runs again
+- Then goodled for "linux find source of zombie process" 
+- Found https://unix.stackexchange.com/questions/163603/how-to-find-source-of-spawning-process
+- When checking one by one, though it could be a cron job since it runs back after killing
+- Used `crontab -e` to check and comment all jobs
+- Restarted machine
+- Saw that they are still there, commented .bashrc files, rebooted again
+- Done

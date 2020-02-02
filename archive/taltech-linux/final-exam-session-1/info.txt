@@ -1,0 +1,108 @@
+/Avalik/elmet-linux/Exam 
+These are exam images
+And in ../ lab images
+
+/Avalik/elmet-linux/Exam, one which you have to fix to make it boot.
+You pick boot-fix-13579.ova since your student code ends with an odd number.
+
+
+I sort of took it, I'm not sure if it got submitted. Though I do remember a bit, sure.
+You can find some .ova files in /Avalik/elmet-linux/Exam, one which you have to fix to make it boot. You pick boot-fix-13579.ova since your student code ends with an odd number.
+All VMs have root:student and student:student logins, aside from Linux-2019_1.ova, which has root:20191219, I think.
+
+
+debian? linux
+
+
+The exam should be in 4 hours. (Kernel) compilation is strictly excluded.
+
+questions:
+
+---
+
+bridge
+I only did network bridging.
+Then there was a network task, bridging thing
+Linux partition extension
+Where you had four VMs, two of them clients and two of them bridges
+The bridging thing was basically the same as the one in the labs
+But with one more "bridge" vm
+2nd, bridging networks, you have 4 VM-s 1st is client, 2nd has 2 bridges, 3rd has 2 bridges and 4th is a client you need to ping from 1 to 4
+You have to set up bridging in a setup like this (and it said to use the boot-fix vm for one client, I think?): client1 <=> bridge1 <=> bridge2 <=> client2
+
+---
+
+network
+Network setup, bridging and routing. 
+Three networks and four computers?
+Routing needs to be improved.
+Add a simple IP filter. The Flush must not be done, but a mistake must be corrected.
+For example, this rule is for eth0 but is set to eth1. And it breaks the conf.
+And other about fixing nic names
+It was on Gentoo
+3rd task = the network interfaces were messedu p.
+There's one which has the issue of generating old-style interface names (ethN instead of enpXsY) which you have to fix.
+
+---
+
+Zombie
+Also there was finding zombie process
+I think it was a cron job
+Zombie process was created at login, in .bashrc i think
+/bin/smth was executed
+End that executed systemd-serviced
+Which is not legit systemd part
+that shouldnt be hard, ps -auxf or systemd-analyze blame might also find it
+4th task = there is a zombie process in the system and you have to kill it and all parent processes.
+Linux-2019_1.ova had something with locating and dealing with zombie processes being created at boot.
+
+---
+
+boot-fix-13579.ova
+Initramfs was missing / Initrd.img , So just generate a new one
+/etc/default/grub had a directive forcing old-style interface names
+Fix that and grub-mkconfig
+And /boot wasnt mounted
+
+for me:
+bash
+mount -o remount,rw /
+cd sbin
+mv "init ... (tab) init 
+mount -o remount,ro /
+reboot -f
+login: root/student
+
+---
+
+grub-fix-small.ova
+tbd
+
+---
+
+Easteregg
+Then there was a weird one, just an .ova file given, you had to boot it up in a VM and "find an easteregg, which contained the next steps"
+After boot, there is some "easter egg" that must be found with find | grep.
+Easter egg was in .bash_history
+.bash_history was the first file I looked into
+how did you find it? my guessess are last accessed/modified, modified by/date, or find/grep
+
+6th task = there is something fishy/interesting in the system find it this is literally the whole explanation for the task
+
+---
+
+logical volume
+5th task = expand a logical võlume, the logical volume is on a partition that is also full.
+It also had something with resizing LVM volumes and the filesystems on them.
+.
+
+
+1st task = linux is not booting, fix init and grub
+2nd, bridging networks, you have 4 VM-s 1st is client, 2nd has 2 bridges, 3rd has 2 bridges and 4th is a client you need to ping from 1 to 4
+3rd task = the network interfaces were messedu p.
+4th task = there is a zombie process in the system and you have to kill it and all parent processes.
+5th task = expand a logical võlume, the logical volume is on a partition that is also full.
+6th task = there is something fishy/interesting in the system find it this is literally the whole explanation for the task
+
+
+.

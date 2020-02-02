@@ -1,0 +1,37 @@
+Env: Personal computer with Arch Linux, XFCE, VirtualBox, all updated. 
+
+Work time: 12:15 - 12:45
+
+Steps:
+
+- Imported 'boot-fix-01234.ova' to Virtualbox clean env
+- Booted virtual machine
+- Received the following error:
+```
+Loading initial ramdisk ...
+"error: file /initrd.img-3.16.0-4-amd64' not found
+Press any key to continue
+```
+
+- Downloaded sftp://yaaydi@enos.itcollege.ee/Avalik/elmet-linux/ubuntu-14.04.6-server-amd64.iso with FileZilla
+- Mounted Ubuntu ISO to VirtualBox
+- Booted from Ubuntu ISO
+- Selected "Rescue a Broken System"
+- Went all the way to the last stage
+- When asked, selected /dev/...(lvm path).../root for root partition
+- When asked, selected /dev/sda1 for boot partition (sometimes auto detected)
+- In Ubuntu recover options, selected "Execute shell in root (/) SSH"
+- Entered following commands:
+```
+bash
+cd /boot/grub # to check if its there
+update-initramfs -c -k 3.16.0-4-amd64 # got the kernel version from error message
+cd /
+umount /boot
+CTRL+D # to sh
+CTRL+D # to Ubuntu options
+```
+
+- Selected reboot
+- Ejected Ubuntu CD
+- Booted normally, used student/student to login. No errors

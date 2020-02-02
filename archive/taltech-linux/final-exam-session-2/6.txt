@@ -1,0 +1,33 @@
+Env: Personal computer with Arch Linux, XFCE, VirtualBox, all updated. 
+
+Task: There is a secret message hidden somewhere obvious, follow the guide once you find it. Post what you found here. VM: Linux-2019_2.ova
+
+Answer(s) = 5061466351c087e9e5911ed63f229f49223ff33b428671ddc4ed73ebec05db7b
+cc243e171a5d0d652f7d855311f21d5562062d54258ba8a173b14a4142008476
+
+Work time: 14:30 - 15:00
+
+Video url: https://www.youtube.com/watch?v=BkPyoluoe0U
+
+Steps:
+
+- Import `Linux-2019_2.ova`
+- Boot machine
+- Login
+- When solving 4, I already saw .bash_history file
+- Run `cat ~/.bash_history`
+- Run command obvious
+- I gives error "Permission denied"
+- Make executable by "chmod +x /sbin/obvious"
+- Run `obvious`. It shows some output
+- (Tried to convert hex to ascii but it didnt make any meaningful output. Asked teacher, he said long hex output is what we want)
+- Thought to get the output via file > SFTP
+- To get the output, first checked network with `ping 1.1.1.1` and saw that it works
+- Enabled sshd on my host machine
+- Get the output to txt file via `obvious > out.txt`
+- Got my host machine's IP address
+- opened sftp to my host machine via `ftp yasin@{ip}`
+- Uploaded file via `put out.txt` command
+- Verified the file is in my host machine
+- Shut down machine
+- Disabled sshd on my host machine

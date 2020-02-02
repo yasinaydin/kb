@@ -1,0 +1,33 @@
+Env: Personal computer with Arch Linux, XFCE, VirtualBox, all updated. 
+
+Task:
+Client1 --intnet1-- Bridge1 --intnet2-- Router1 --intnet3-- Client2
+Client1 IP: 172.16.66.100/24
+Client2 IP: 172.16.77.100/24
+Desired result: Client1 should be able to ping Client2 and vice versa. 
+
+Network access to outside world (ie. masquerading etc) not neccessary in this task. 
+
+Hint: you may want to disable DHCP service and restart VM-s before setting up your network configuration.
+
+Hint: promisc
+
+steps:
+- Import grubfix 4 times (client1, bridge1, router1, client2)
+- When importing, randomize mac
+- Configure virtualbox intnets as Client1 --intnet1-- Bridge1 --intnet2-- Router1 --intnet3-- Client2 , allowing PMISC
+- Set static IP address by `nano /etc/network/interfaces`
+```
+iface eth0 inet static
+address 172.16.xx.yy
+netmask 255.255.255.0
+broadcast 172.16.xx.255
+network 172.16.xx.0
+gateway 172.16.xx.1
+```
+- Save network settings with `/etc/init.d/networking restart`
+- Check net config with `ifconfig`
+- Configured client1, bridge client2 and router interfaces 
+
+
+PS: I was hungry so I left this question in the middle, sorry.

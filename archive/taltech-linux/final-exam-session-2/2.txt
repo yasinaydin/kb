@@ -1,0 +1,67 @@
+Env: Personal computer with Arch Linux, XFCE, VirtualBox, all updated. 
+
+
+RIGHT/Current solution:
+Work time: 14:00 - 14:30
+
+Unlisted video link: https://youtu.be/2q8sIGJe-t8
+
+Steps:
+- Through VirtualBox, imported network.ova image
+- Booted the machine
+- On boot saw the error:
+
+```
+Ensure that you have loadded the correct kernel module for your hardware
+ERROR: net.enp0s3 failed to start
+```
+
+- First, to fix /boot error, went to /etc/fstab and changed LABEL=BOOT to /dev/sda2 (where I got it from 
+lsblk -a)
+- Then I manually mounted as "mount /dev/sda2 /boot"
+- Then I searched for gentoo grub consitent network and found https://angrysysadmins.tech/index.php/2018/12/bailey/gentoo-disable-network-adapter-naming/
+- Then I edited /etc/default/grub file to make ifnames=1
+- Then I ran `grub-mkconfig -o /boot/grub/grub.cfg`
+- Then I rebooted
+- Configured VirtualBox's network settings as NAT (not NAT Network)
+- In reboot there are were errors and showed auto IP info
+= I pinged 1.1.1.1 and it works
+
+
+
+----
+
+MISSING/WRONG Previously tried:
+Work time: 12:45 - 13:15
+
+(Unlisted) Video link at: https://www.youtube.com/watch?v=pTuJAQr6yIQ
+
+- Through VirtualBox, imported network.ova image
+- Booted the machine
+- On boot saw the error:
+```
+Ensure that you have loadded the correct kernel module for your hardware
+ERROR: net.enp0s3 failed to start
+```
+- Used following commands to check the interface's real name(s):
+```
+lspci -v | grep -i eth
+dmesg | grep -i eth 
+ifconfig -a 
+```
+- Saw that there is no `enp0s3` but `eth0` instead
+- Googled the error on boot, found https://forums.gentoo.org/viewtopic-t-957608-start-0.html
+- Thought that since the error is failed to start, it looks like a boot service. Checked init.d folder by `ls -al /etc/init.d | grep eth` and found that `net.enp0s3` was linked to `net.lo`. 
+- Moved the errorenous file away by `mv /etc/init.d/net.enp0s3 /root`
+- Rebooted the system
+- Edited `/etc/conf.d/net` as:
+```
+# config_enp0s3="dhcp"
+modules="dhcpcd"
+config_eth0="dhcp"
+```
+- Configured VirtualBox's network settings as NAT (not NAT Network)
+- Ran `dhcpcd eth0` to get an IP address
+- Ran `ifconfig` to see if there's an IP address
+- Ran `ping 1.1.1.1` to test network connectivity.
+
