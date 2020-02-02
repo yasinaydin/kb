@@ -22,6 +22,7 @@ Cloud
 
 Cyber Security:
 - [badssl.com - Verify Behaviour to Bad SSL](https://badssl.com/)
+- [facebook.com/off_facebook_activity - Off-Facebook Activity](https://www.facebook.com/off_facebook_activity/)
 - [hackertarget.com - Tools](https://hackertarget.com/find-dns-host-records/)
 
 DB
