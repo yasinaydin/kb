@@ -37,10 +37,10 @@ alias upp='pikaur -Syu'
 export PATH="/home/yasin/.local/bin:$PATH"
 
 # ruby
-export PATH="/home/yasin/.gem/ruby/2.6.0/bin:$PATH"
+export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
 # yarn
-export PATH="/home/yasin/.yarn/bin/:$PATH"
+# export PATH="/home/yasin/.yarn/bin/:$PATH"
 
 # vuejs
 # alias vue='vue -m yarn'
