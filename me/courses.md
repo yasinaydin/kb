@@ -1,5 +1,7 @@
 # TTU Courses
 
+(Also published at https://yasinaydin.net/cv.pdf)
+
 ## STEM
 
 - Probability Theory and Mathematical Statistics
