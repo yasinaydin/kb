@@ -1,12 +1,12 @@
 Links
-- [Countries](./Links/Countries.md)
-- [CS](./Links/CS.md)
-- [Estonia](./Links/Estonia.md)
-- [Hobby](./Links/Hobby.md)
-- [JobSearch](./Links/JobSearch.md)
-- [Newsletter](./Links/Newsletter.md)
-- [Programming](./Links/Programming.md)
-- [STEM](./Links/STEM.md)
+- [Countries](./links/Countries.md)
+- [CS](./links/CS.md)
+- [Estonia](./links/Estonia.md)
+- [Hobby](./links/Hobby.md)
+- [JobSearch](./links/JobSearch.md)
+- [Newsletter](./links/Newsletter.md)
+- [Programming](./links/Programming.md)
+- [STEM](./links/STEM.md)
 
 
 My stuff
