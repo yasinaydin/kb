@@ -32,6 +32,7 @@ By company
 
 Remote
 - [calmjobs.io](http://calmjobs.io/jobs)
+- [indeed.com (Search for remote)](https://www.indeed.com/)
 - [remoteintech.company - A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
 - [remotemasters.dev](https://remotemasters.dev/jobs)
 - [remotemore.com](https://remotemore.com/candidates)
@@ -68,16 +69,22 @@ EU
 - [EURES](https://ec.europa.eu/eures)
 - [European Job Days](https://www.europeanjobdays.eu/en/jobs/active)
 
-
 UK
 - [otta.co](https://app.otta.co/jobs/)
 - [Oxford Knight Jobs Board][https://oxfordknight.co.uk/jobs]
 - [unicornhunt.io - Startup Jobs](https://unicornhunt.io)
 
-
 USA/Canada
 - [freshgigs.ca](https://www.freshgigs.ca/)
 - [futurejobs.io - Machine learning, AI, and data science jobs](https://www.futurejobs.io/)
+- [indeed.com](https://www.indeed.com/j)
+
+---
+
+## Companies
+
+- [Klarna.com](https://jobs.lever.co/klarna?team=Engineering)
+- [Palantir.com](https://www.palantir.com/careers/)
 
 ---
 
@@ -89,7 +96,9 @@ Interviews
 
 Interviews-Technical
 - [Front End Interview Handbook](https://github.com/yangshun/front-end-interview-handbook)
+- [Google Interview Questions](https://www.interviewcake.com/google-interview-questions)
 - [Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/)
+
 
 For Hiring Department:
 - [Challenging projects every programmer should try](http://web.eecs.utk.edu/~azh/blog/challengingprojects.html)

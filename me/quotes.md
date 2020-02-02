@@ -18,3 +18,7 @@
 
 >If somebody offers you an amazing opportunity but you are not sure you can do it, say yes – then learn how to do it later!”
 > - Richard Branson
+
+---
+>Dude, sucking at something is the first step towards being sorta good at something.
+> - Jake the Dog

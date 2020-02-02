@@ -22,6 +22,7 @@ Cloud
 
 Cyber Security:
 - [badssl.com - Verify Behaviour to Bad SSL](https://badssl.com/)
+- [facebook.com/off_facebook_activity - Off-Facebook Activity](https://www.facebook.com/off_facebook_activity/)
 - [hackertarget.com - Tools](https://hackertarget.com/find-dns-host-records/)
 
 DB
@@ -38,6 +39,7 @@ Templates & Illustrations
 - [creative-tim.com - Premium Bootstrap Themes and Templates](https://www.creative-tim.com/)
 - [print-to-css designs](https://www.dan-davies.co.uk/print-to-css)
 - [templatemag.com - Bootstrap and Website Templates](https://templatemag.com/)
+- [undraw.co - Open-source illustrations for every project you can imagine and create](https://undraw.co/)
 
 Tools:
 - [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
@@ -51,4 +53,6 @@ Tools:
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
 - [thexifer.net - Edit EXIF Online](https://www.thexifer.net/)
+- [tiny-helpers.dev - Single-purpose online tools for web devs](https://tiny-helpers.dev/)
+- [web.dev - Web tools and info](https://web.dev/)
 - [whocanuse.com - Color combination accessibility checker](https://whocanuse.com/)
