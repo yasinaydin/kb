@@ -36,6 +36,9 @@ alias upp='pikaur -Syu'
 # python
 export PATH="/home/yasin/.local/bin:$PATH"
 
+# php
+alias phps='php -S 0.0.0.0:8088'
+
 # ruby
 export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
@@ -67,3 +70,4 @@ alias grv='git remote -v'
 export NVM_DIR="/home/yasin/.nvm"
 [ -s "/home/yasin/.nvm/nvm.sh" ] && \. "/home/yasin/.nvm/nvm.sh"  # This loads nvm
 # [ -s "/home/yasin/.nvm/bash_completion" ] && \. "/home/yasin/.nvm/bash_completion"  # This loads nvm bash_completion
+export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
