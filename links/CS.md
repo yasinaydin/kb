@@ -42,17 +42,28 @@ Templates & Illustrations
 - [undraw.co - Open-source illustrations for every project you can imagine and create](https://undraw.co/)
 
 Tools:
-- [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
 - [creepyface.io - Animated Face maker](https://creepyface.io/create)
-- [Design System Playground](https://design-system-playground.netlify.com/)
 - [diagram.codes - Diagram generation tool](https://www.diagram.codes/)
-- [doka.photo](https://doka.photo/)
-- [happyhues.co - Color Palette Generator](https://www.happyhues.co)
-- [hunder.io - Find email addresses in seconds](https://hunter.io/)
+- [explorabl.es - Explorable Explanations](https://explorabl.es/)
+- [gitexplorer.com - Git Command Explorer](https://gitexplorer.com/)
 - [joincake.com - Make your ending meaningful and easier on loved ones](https://www.joincake.com/)
+- [tiny-helpers.dev - Single-purpose online tools for web devs](https://tiny-helpers.dev/)
+- [web.dev - Web tools and info](https://web.dev/)
+
+Tools-email:
+- [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
+- [hunder.io - Find email addresses in seconds](https://hunter.io/)
+
+Tools-Image:
+- [doka.photo](https://doka.photo/)
 - [photopea.com - Advanced Image Editor](https://www.photopea.com/)
 - [picsvg.com - Picture to SVG converter](https://picsvg.com/)
 - [thexifer.net - Edit EXIF Online](https://www.thexifer.net/)
-- [tiny-helpers.dev - Single-purpose online tools for web devs](https://tiny-helpers.dev/)
-- [web.dev - Web tools and info](https://web.dev/)
+
+Tools-UI/UX:
+- [Design System Playground](https://design-system-playground.netlify.com/)
+- [happyhues.co - Color Palette Generator](https://www.happyhues.co)
 - [whocanuse.com - Color combination accessibility checker](https://whocanuse.com/)
+
+Fun stuff:
+- [defprogramming.com - Quotes about coding](https://www.defprogramming.com/)
