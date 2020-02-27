@@ -5,6 +5,13 @@
 - Installed Extensions: vetur,eslint,editorcnfig,dotenv,prettier
 - Disabled extensions: all themes except default
 
+## Shortcuts
+
+- Open settings: ctrl + ,
+- Fold/Unfold code block: Ctrl + Shift + [ or Ctrl + Shift + ]
+- Show/Focus Explorer: Ctrl + Shift + E
+
+
 ## In bashrc
 
 ```sh
