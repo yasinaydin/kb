@@ -14,6 +14,10 @@ Cooking
 - [Feast Genius](https://www.feastgenius.com/search)
 
 
+Design & Lifestyle
+- [Stuff I use - Paul Stamatiou](https://paulstamatiou.com/stuff-i-use/)
+
+
 Gaming
 - [Web port of the original Diablo game](https://d07riv.github.io/diabloweb/)
 

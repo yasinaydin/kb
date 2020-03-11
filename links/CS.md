@@ -28,7 +28,7 @@ Cyber Security:
 DB
 - [Comparing Database Types: How Database Types Evolved to Meet Different Needs](https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37)
 - [jsonbox.io - Free HTTP based JSON Storage](https://jsonbox.io/)
-
+- [SQL in small steps](https://sql-steps.wizardzines.com/)
 
 HTTP:
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)

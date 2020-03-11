@@ -9,8 +9,8 @@ Free eBooks
 - [greenteapress.com - Free books of Think X series](https://greenteapress.com/)
 - [gutenberg.org - Free eBooks - Project Gutenberg](https://www.gutenberg.org/)
 - [Library Genesis (libgen)](http://gen.lib.rus.ec/)
+- [openlibrary.org - Open Library by Internat Archive](https://openlibrary.org/)
 - [standardebooks.org - Free and liberated ebooks](https://standardebooks.org/ebooks)
-
 
 Self development
 - [Improve Your Social Skills](https://www.improveyoursocialskills.com/)
