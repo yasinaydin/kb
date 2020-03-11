@@ -1,1 +1,0 @@
-- [IVSB Discord Channel - ITC Cyka Security](https://discordapp.com/channels/352434296218451970)
