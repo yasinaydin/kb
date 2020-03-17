@@ -8,3 +8,6 @@ Immune system:
 - Vitamin D
 - Zinc
 - Antioxidants (eg Soy)
+
+Exercises:
+- Radio Taisou ([example](https://www.youtube.com/watch?v=LuiDj3wa0UA))
