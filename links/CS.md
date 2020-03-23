@@ -24,6 +24,7 @@ Cyber Security:
 - [badssl.com - Verify Behaviour to Bad SSL](https://badssl.com/)
 - [facebook.com/off_facebook_activity - Off-Facebook Activity](https://www.facebook.com/off_facebook_activity/)
 - [hackertarget.com - Tools](https://hackertarget.com/find-dns-host-records/)
+- [shodan.io - Header Search Engine](https://www.shodan.io/search?query=%22Content-Sec-Policy%3A+default-src+%27self%27%22)
 
 DB
 - [Comparing Database Types: How Database Types Evolved to Meet Different Needs](https://www.prisma.io/blog/comparison-of-database-models-1iz9u29nwn37)
@@ -45,10 +46,13 @@ Tools:
 - [creepyface.io - Animated Face maker](https://creepyface.io/create)
 - [diagram.codes - Diagram generation tool](https://www.diagram.codes/)
 - [explorabl.es - Explorable Explanations](https://explorabl.es/)
-- [gitexplorer.com - Git Command Explorer](https://gitexplorer.com/)
 - [joincake.com - Make your ending meaningful and easier on loved ones](https://www.joincake.com/)
 - [tiny-helpers.dev - Single-purpose online tools for web devs](https://tiny-helpers.dev/)
 - [web.dev - Web tools and info](https://web.dev/)
+
+Tools-collaboration:
+- [gitduck.com - Code sharing and screen recorder](https://gitduck.com/)
+- [gitexplorer.com - Git Command Explorer](https://gitexplorer.com/)
 
 Tools-email:
 - [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
