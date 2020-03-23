@@ -3,11 +3,31 @@
 ## Maps & Data
 - [KoroonaKaart](https://koroonakaart.ee/en)
 
-## News
+## Sources
+- [Tallinn City Center for Expats](https://www.facebook.com/groups/1199304950256641/)
 
+## News
 March 23:
 - [Health Board: Initial forecast not fulfilled, but no time to be complacent](https://news.err.ee/1067682/health-board-initial-forecast-not-fulfilled-but-no-time-to-be-complacent)
 
 ## Trivial Info
 - In Netflx, top 10 in Estonia include #7: [Contagion](https://www.imdb.com/title/tt1598778/) and #7: [Pandemic](https://www.imdb.com/title/tt11497904/)
 - All government websites has a Coronavirus update section or news
+
+## By Section
+Pharmacies:
+- 1 meters between sellers, most of OTC closed, most drugs sold on prescription/with family doctor's approval
+
+Education:
+- School and uni's are online
+
+Monetary:
+- Most banks shut down their offices, there are many banks do cash-free ops, CC and contactless payments were already popular, they banks clean ATMS but still don't suggest using
+
+***
+
+## For Turkish Citizens
+- *Mart 23*: - Koronavirüs (COVID-19) salgını çerçevesinde alınan tedbirler nedeniyle
+ Büyükelçiliğimiz Konsolosluk Şubesi yarından (24 Mart)
+ itibaren hafta içi 9:30 - 12:30 saatlerinde hizmet vermeye başlayacaktır. ([Kaynak](https://www.facebook.com/groups/703210996411998/))
+ 
