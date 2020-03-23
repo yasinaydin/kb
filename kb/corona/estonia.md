@@ -12,6 +12,7 @@
 
 ## News
 March 23:
+- [Government launches 'chatbot' to answer coronavirus crisis queries](https://news.err.ee/1067675/government-launches-chatbot-to-answer-coronavirus-crisis-queries)
 - [Health Board: Initial forecast not fulfilled, but no time to be complacent](https://news.err.ee/1067682/health-board-initial-forecast-not-fulfilled-but-no-time-to-be-complacent)
 
 March 12:
