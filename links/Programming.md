@@ -29,6 +29,8 @@ React
 
 Rust
 - [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/)
+- [HN: How I Start: Rust](https://news.ycombinator.com/item?id=22591544)
+- [HN: Considering Rust - video](https://news.ycombinator.com/item?id=22512214)
 
 TypeScript
 - [Compile-time Immutability in TypeScript](https://www.sitepoint.com/compile-time-immutability-in-typescript/)
