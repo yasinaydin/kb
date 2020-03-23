@@ -21,7 +21,7 @@ Node.js
 Python
 - [Fundamentals of Programming](https://python.cs.southern.edu/pythonbook/pythonbook.pdf)
 - [Python learning from PySpace](https://pyspace.eu/)
-
+- [Python Cheatsheet](https://github.com/gto76/python-cheatsheet)
 
 React
 - [Build your own React](https://pomb.us/build-your-own-react/)
