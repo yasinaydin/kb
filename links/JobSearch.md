@@ -32,6 +32,8 @@ By company
 
 Remote
 - [calmjobs.io](http://calmjobs.io/jobs)
+- [freedomiseverything.com - Fastest Growing Remote](https://www.freedomiseverything.com/fastest-growing-remote/)
+- [github/ awesome remote job](https://github.com/lukasz-madon/awesome-remote-job)
 - [indeed.com (Search for remote)](https://www.indeed.com/)
 - [remoteintech.company - A list of semi to fully remote-friendly companies in tech](https://remoteintech.company/)
 - [remotemasters.dev](https://remotemasters.dev/jobs)
