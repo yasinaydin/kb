@@ -4,11 +4,15 @@
 - [KoroonaKaart](https://koroonakaart.ee/en)
 
 ## Sources
-- [Tallinn City Center for Expats](https://www.facebook.com/groups/1199304950256641/)
+- [Facebook: Tallinn City Center for Expats](https://www.facebook.com/groups/1199304950256641/)
+- [Gov: Rep.of Estonia Government](https://www.valitsus.ee/en/news)
 
 ## News
 March 23:
 - [Health Board: Initial forecast not fulfilled, but no time to be complacent](https://news.err.ee/1067682/health-board-initial-forecast-not-fulfilled-but-no-time-to-be-complacent)
+
+March 12:
+- [The government declared an emergency situation in Estonia until 1 May](https://www.valitsus.ee/en/news/government-declared-emergency-situation-estonia-until-1-may)
 
 ## Trivial Info
 - In Netflx, top 10 in Estonia include #7: [Contagion](https://www.imdb.com/title/tt1598778/) and #7: [Pandemic](https://www.imdb.com/title/tt11497904/)
