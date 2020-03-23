@@ -1,5 +1,8 @@
 # Coronavirus-Estonia
 
+## Other Links
+- [SuVe chatbot](https://eebot.ee/en/)
+
 ## Maps & Data
 - [KoroonaKaart](https://koroonakaart.ee/en)
 
