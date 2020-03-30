@@ -31,6 +31,10 @@ DB
 - [jsonbox.io - Free HTTP based JSON Storage](https://jsonbox.io/)
 - [SQL in small steps](https://sql-steps.wizardzines.com/)
 
+Git:
+- [gitexplorer.com - Git Command Explorer](https://gitexplorer.com/)
+- [Setting up Git identities](https://news.ycombinator.com/item?id=22672491)
+
 HTTP:
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
 
@@ -52,7 +56,6 @@ Tools:
 
 Tools-collaboration:
 - [gitduck.com - Code sharing and screen recorder](https://gitduck.com/)
-- [gitexplorer.com - Git Command Explorer](https://gitexplorer.com/)
 
 Tools-email:
 - [anonaddy.com - Anonymouse Email Alias](https://anonaddy.com/)
