@@ -6,7 +6,7 @@ CSS:
 
 HTML:
 - https://dev.to/emmawedekind/10-html-element-you-didnt-know-you-needed-3jo4
-
+- [htmldom.dev - HTML DOM With Vanilla JS](https://htmldom.dev/)
 
 Javascript
 - [Cheat sheet for moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/)
