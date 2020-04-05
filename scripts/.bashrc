@@ -25,7 +25,7 @@ export CCACHE_DIR=/tmp/ccache
 # pacman
 alias bul='sudo updatedb && sudo locate -i'
 alias kur='pikaur -S --needed'
-alias sil='pikaur -Rsc'
+# alias sil='pikaur -Rscnu'
 alias pro='ps aux | grep -i'
 alias upp='pikaur -Syu'
 
@@ -43,7 +43,7 @@ alias phps='php -S 0.0.0.0:8088'
 export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
 # yarn
-# export PATH="/home/yasin/.yarn/bin/:$PATH"
+export PATH="/home/yasin/.yarn/bin/:$PATH"
 
 # vuejs
 # alias vue='vue -m yarn'
@@ -76,3 +76,27 @@ export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
 # WORK
 #
 [[ -f ~/.bashrc.work ]] && . ~/.bashrc.work
+
+#
+# RM
+#
+function sil() {
+    if [ -z "$1" -o -z "$1" ]; then
+        echo "Usage: sil [package_name]";
+        return -1;
+    fi
+
+    pikaur -Rscnu $1;
+
+    FILE="./git/yasin/kb/uninstallers/$1.sh";
+    if test -f "$FILE"; then
+        echo "Has custom script.";
+        . "$FILE"
+    else
+        echo "Doesnt have custom script.";
+    fi
+
+    pikaur -Scc --noconfirm;
+    pikaur -Dk;
+    rm -f ~/.cache/pikaur/*;
+}
