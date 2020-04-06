@@ -1,5 +1,9 @@
 # Hobby
 
+General:
+- [homenauts.com - Resource directory to #StayAtHome](https://www.homenauts.com/)
+
+
 Blogging
 - [Maybe the world's easiest website maker](https://sdnotes.com)
 
