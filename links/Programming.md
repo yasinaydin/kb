@@ -25,7 +25,7 @@ Python
 
 React
 - [Build your own React](https://pomb.us/build-your-own-react/)
-
+- [fullstackopen.com - Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go](https://fullstackopen.com/en/)
 
 Rust
 - [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/)
