@@ -1,6 +1,7 @@
 #!/bin/bash
 rm -rf ~/.digidocpp
-rm -rf ~/.config/Estonian\ ID\ Card
+rm -f ~/.config/Estonian\ ID\ Card.conf
+
 rm -rf ~/.config/RIA
 rm -rf ~/.digidocpp
 rm -rf ~/.local/share/RIA
