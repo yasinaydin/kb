@@ -88,9 +88,9 @@ function sil() {
 
     pikaur -Rscnu $1;
 
-    FILE="./git/yasin/kb/uninstallers/$1.sh";
+    FILE="/home/yasin/git/yasin/kb/uninstallers/$1.sh";
     if test -f "$FILE"; then
-        echo "Has custom script.";
+        echo "Has custom script: $FILE";
         . "$FILE"
     else
         echo "Doesnt have custom script.";
