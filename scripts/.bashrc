@@ -43,7 +43,7 @@ alias phps='php -S 0.0.0.0:8088'
 export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
 # yarn
-export PATH="/home/yasin/.yarn/bin/:$PATH"
+# export PATH="/home/yasin/.yarn/bin/:$PATH"
 
 # vuejs
 # alias vue='vue -m yarn'
@@ -67,10 +67,11 @@ alias gcm='git clone --mirror'
 alias grv='git remote -v'
 
 # nvm
-export NVM_DIR="/home/yasin/.nvm"
-[ -s "/home/yasin/.nvm/nvm.sh" ] && \. "/home/yasin/.nvm/nvm.sh"  # This loads nvm
+# export NVM_DIR="/home/yasin/.nvm"
+# [ -s "/home/yasin/.nvm/nvm.sh" ] && \. "/home/yasin/.nvm/nvm.sh"  # This loads nvm
+# export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
+#
 # [ -s "/home/yasin/.nvm/bash_completion" ] && \. "/home/yasin/.nvm/bash_completion"  # This loads nvm bash_completion
-export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
 
 #
 # WORK
