@@ -42,8 +42,11 @@ alias phps='php -S 0.0.0.0:8088'
 # ruby
 export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
+# sencha
+export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
+
 # yarn
-# export PATH="/home/yasin/.yarn/bin/:$PATH"
+export PATH="/home/yasin/.yarn/bin/:$PATH"
 
 # vuejs
 # alias vue='vue -m yarn'
@@ -61,6 +64,10 @@ export VISUAL=code
 export ELECTRON_TRASH=gio
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 # alias code="flatpak run com.visualstudio.code.oss"
+
+# docker
+alias docker-remove-containers='docker rm $(docker ps -a -q) -f'
+alias docker-remove-volumes='docker volume prune'
 
 # git
 alias gcm='git clone --mirror'
