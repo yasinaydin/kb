@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo rm -rf ~/go/
+rm -rf ~/go/
+rm -rf ~/.cache/go-build
