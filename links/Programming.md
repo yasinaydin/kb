@@ -39,7 +39,7 @@ TypeScript
 - [Compile-time Immutability in TypeScript](https://www.sitepoint.com/compile-time-immutability-in-typescript/)
 - [TypeScript Tutorial For Beginners: The Missing Guide (2019)](https://www.valentinog.com/blog/typescript/)
 - [Basarat's TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
-
+- [How does TypeScript work? The bird’s eye view](https://2ality.com/2020/04/typescript-workflows.html)
 
 Vue.js
 - [10 Good Practices for Building and Maintaining Large Vue.js Projects](https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects)
