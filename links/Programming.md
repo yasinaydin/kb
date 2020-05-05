@@ -32,6 +32,9 @@ Rust
 - [HN: How I Start: Rust](https://news.ycombinator.com/item?id=22591544)
 - [HN: Considering Rust - video](https://news.ycombinator.com/item?id=22512214)
 
+SQL:
+- [drawsql.app - Database schema templates](https://drawsql.app/templates)
+
 TypeScript
 - [Compile-time Immutability in TypeScript](https://www.sitepoint.com/compile-time-immutability-in-typescript/)
 - [TypeScript Tutorial For Beginners: The Missing Guide (2019)](https://www.valentinog.com/blog/typescript/)
