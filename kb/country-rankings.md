@@ -9,3 +9,8 @@ More info: https://eksisozluk.com/turkiyenin-ekonomik-buyuklukte-19-siraya-dusme
 
 Other:
 - [worldbank.org - Physicians per capita](https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?most_recent_value_desc=true)
+
+OECD:
+- [Employment Flexibility Index 2020][oe1]
+
+[oe1]: https://www.llri.lt/wp-content/uploads/2019/12/Employment-flexibility-index2020.pdf
