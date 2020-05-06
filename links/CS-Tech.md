@@ -1,4 +1,4 @@
-# Programming
+# CS-Tech
 
 CSS:
 - [CSS effects Snippets](https://emilkowalski.github.io/css-effects-snippets/)
