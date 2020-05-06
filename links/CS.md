@@ -7,6 +7,9 @@ General
 - [Most fundamental books on computer science](https://news.ycombinator.com/item?id=21311302)
 - [History of Computers Online Exhibition](http://cs-exhibitions.uni-klu.ac.at/index.php?id=320)
 
+Learning:
+- [hyperskill.org - JetBrains Academy (free) - Python/Java/Kotlin](https://hi.hyperskill.org/)
+
 ---
 
 AI/ML
