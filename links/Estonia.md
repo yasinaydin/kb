@@ -7,3 +7,6 @@ Healthcare
 
 News
 - [estonianworld.com - Estonian World](https://estonianworld.com/)
+
+Language
+- [hm.ee - Tasuta kursused 2020 otsing](https://www.hm.ee/en/kursused)

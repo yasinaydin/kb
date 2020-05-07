@@ -1,4 +1,4 @@
-# Programming
+# CS-Tech
 
 CSS:
 - [CSS effects Snippets](https://emilkowalski.github.io/css-effects-snippets/)
@@ -32,11 +32,14 @@ Rust
 - [HN: How I Start: Rust](https://news.ycombinator.com/item?id=22591544)
 - [HN: Considering Rust - video](https://news.ycombinator.com/item?id=22512214)
 
+SQL:
+- [drawsql.app - Database schema templates](https://drawsql.app/templates)
+
 TypeScript
 - [Compile-time Immutability in TypeScript](https://www.sitepoint.com/compile-time-immutability-in-typescript/)
 - [TypeScript Tutorial For Beginners: The Missing Guide (2019)](https://www.valentinog.com/blog/typescript/)
 - [Basarat's TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
-
+- [How does TypeScript work? The bird’s eye view](https://2ality.com/2020/04/typescript-workflows.html)
 
 Vue.js
 - [10 Good Practices for Building and Maintaining Large Vue.js Projects](https://www.telerik.com/blogs/10-good-practices-building-maintaining-large-vuejs-projects)
