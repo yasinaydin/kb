@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    html,body,div { margin: 0; padding: 0; }
+    #timeline { width: 100%; height: calc(100vh - 30px); }
+    #top { width: 100%; height: 30px; }
+  </style>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+
+<div id="top">
+  Zoom level: 
+  <button onclick='_zoom(100)'>100</button>
+  <button onclick='_zoom(150)'>150</button>
+  <button onclick='_zoom(200)'>200</button>
+  <button onclick='_zoom(300)'>300</button>
+</div>
+
+<div id="timeline"></div>
+<script>
+// Legend:
+// _XXX: user-defined function
+// myXXX: user-defined variable
+
+const myCols = [
+  { type: 'string', id: 'Type' },
+  { type: 'string', id: 'Details' },
+  { type: 'date', id: 'Start' },
+  { type: 'date', id: 'End' },
+];
+
+// Source: https://en.wikipedia.org/wiki/List_of_Trailer_Park_Boys_episodes
+const myData = [
+  ['Specials', 'The Cart Boy', "1995-01-01" ],
+  ['Specials', 'Dear Santa Claus, Go Fuck Yourself', "2004-12-12" ],
+  ['Specials', 'Hearts of Dartmouth: Life of a Trailer Park Girl', "2006-03-05" ],
+  ['Specials', 'Trailer Park Boys 101', "2007-04-08" ],
+  ['Specials', 'Say Goodnight to the Bad Guys', "2008-12-07" ],
+  ['Specials', 'Live in Fuckin\' Dublin', "2014-06-01" ],
+  ['Specials', 'Live at the North Pole', "2014-11-15" ],
+  ['Specials', 'Drunk, High and Unemployed (Live in Austin)', "2015-12-09" ],
+  ['Specials', 'One Last Shot', "2017-10-30" ],
+  
+  ['Movie', 'Trailer Park Boys', "1999-07-15"],
+  ['Movie', 'Trailer Park Boys: The Movie', "2006-10-06"],
+  ['Movie', 'Countdown to Liquor Day', "2009-09-25"],
+  ['Movie', 'Don\'t Legalize It', "2014-04-18"],
+
+  ['Tv Series', 'S 1', "2001-04-22", "2001-05-27"],
+  ['Tv Series', 'S 2', "2002-06-23", "2002-08-04"],
+  ['Tv Series', 'S 3', "2003-04-20", "2003-06-08"],
+  ['Tv Series', 'S 4', "2004-04-11", "2004-05-30"],
+  ['Tv Series', 'S 5', "2005-04-17", "2005-06-19"],
+  ['Tv Series', 'S 6', "2006-04-16", "2006-05-21"],
+  ['Tv Series', 'S 7', "2007-04-08", "2007-06-10"],
+  ['Tv Series', 'S 8', "2014-09-05" ],
+  ['Tv Series', 'S 9', "2015-03-27" ],
+  ['Tv Series', 'S 10', "2016-03-25" ],
+  ['Tv Series', 'S 11', "2017-03-31" ],
+  ['Tv Series', 'S 12', "2018-03-30" ],
+
+  ['Webisodes', 'S 7.5', "2014-09-01", "2014-09-04" ],
+  ['Webisodes', 'S 8.5', "2014-12-10", "2015-03-18" ],
+
+  ['Spin-off', 'Trailer Park Boys: Out of the Park: Europe', "2016-10-28" ],
+  ['Spin-off', 'Trailer Park Boys: Out of the Park: USA', "2017-11-24" ],
+  ['Spin-off', 'Trailer Park Boys: The Animated Series', "2019-03-31" ],
+];
+
+const _strToTime = str => {
+  const arr = str.split("-");
+  return new Date(arr[0], arr[1]-1, arr[2]);
+}
+
+const _parseData = data => {
+  const newData = JSON.parse(JSON.stringify(data));
+  return newData.map(record => {
+    record[2] = _strToTime(record[2]);
+    record[3] = record[3] ? _strToTime(record[3]) : record[2];
+    return record;
+  })
+}
+
+const _drawCallback = () => {
+  const myContainer = document.getElementById('timeline');
+  const myChart = new google.visualization.Timeline(myContainer);
+  const myDataTable = new google.visualization.DataTable();
+
+  myCols.forEach(col => myDataTable.addColumn(col));
+  myDataTable.addRows(_parseData(myData));
+
+  myChart.draw(myDataTable);
+}
+
+const _zoom = zoomLevel => {
+  document.getElementById("timeline").style["width"] = `${zoomLevel}%`;
+  _drawCallback();
+}
+
+google.charts.load('current', {'packages':['timeline']});
+google.charts.setOnLoadCallback(_drawCallback);
+</script>
+</body>
+</html>
