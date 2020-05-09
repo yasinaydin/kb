@@ -8,6 +8,7 @@ General education and learning
 Free eBooks
 - [greenteapress.com - Free books of Think X series](https://greenteapress.com/)
 - [gutenberg.org - Free eBooks - Project Gutenberg](https://www.gutenberg.org/)
+- [hathitrust.org](https://www.hathitrust.org/)
 - [Library Genesis (libgen)](http://gen.lib.rus.ec/)
 - [openlibrary.org - Open Library by Internat Archive](https://openlibrary.org/)
 - [standardebooks.org - Free and liberated ebooks](https://standardebooks.org/ebooks)
