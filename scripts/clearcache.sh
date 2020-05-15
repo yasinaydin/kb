@@ -1,15 +1,50 @@
 #!/bin/bash
-sudo localepurge > /dev/null
 
+#
+# Packages
+#
 # sudo pacman --sync --clean --noconfirm
 pikaur -Scc --noconfirm
-
 # sudo pacman --database --check --quiet
 pikaur -Dk
 
+
+#
+# Locales
+#
+sudo localepurge > /dev/null
+
+
+#
+# Flatpak
+#
+if [ -x "$(command -v flatpak)" ]
+  then
+    flatpak uninstall --delete-data
+    flatpak --unused uninstall --delete-data
+fi
+
+
+#
+# Journal
+#
+sudo journalctl -q --vacuum-time=1h > /dev/null
+
+
+#
+# Bash history
+#
 history -c
 
-sudo journalctl -q --vacuum-time=1h > /dev/null
+
+#
+# Files
+#
+# Delete empty files and folders:
+find ~/.cache ~/.local ~/.mozilla -empty -delete
+
+# Just delete empty folders:
+find ~/.config -type d -empty -delete
 
 rm -f ~/.bash_history 
 rm -f ~/.bash_logout # Commants to run on BASH logout
@@ -37,6 +72,11 @@ rm -fr ~/.subversion
 rm -fr ~/.thumbnails
 rm -fr ~/.uml
 
+
+#
+# Tmp
+#
+
 # a better way to do this?
 # rm -fr ~/.config/chromium/Profile\ 1/Service\ Worker/*
 # rm -fr ~/.config/chromium/Profile\ 2/Service\ Worker/*
@@ -46,19 +86,14 @@ rm -fr ~/.uml
 # rm -fr ~/.config/chromium/Profile\ 9/Service\ Worker/*
 # rm -fr ~/.config/chromium/Profile\ 10/Service\ Worker/*
 
-if [ $# -ne 0 ] # If has any parameter
-  then
-    rm -fr ~/.cache
-    rm -fr ~/.npm
-    rm -fr ~/.node-gyp
+# if [ $# -ne 0 ] # If has any parameter
+#   then
+#     rm -fr ~/.cache
+#     rm -fr ~/.npm
+#     rm -fr ~/.node-gyp
 
-    # Requires restart
-    rm -f ~/.ICEauthority # X11 Auth Client2Client
-    rm -f ~/.Xauthority # X11 Auth Client2Server
-fi
+#     # Requires restart
+#     rm -f ~/.ICEauthority # X11 Auth Client2Client
+#     rm -f ~/.Xauthority # X11 Auth Client2Server
+# fi
 
-if [ -x "$(command -v flatpak)" ]
-  then
-    flatpak uninstall --delete-data
-    flatpak --unused uninstall --delete-data
-fi
