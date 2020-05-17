@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+    html,body,div { margin: 0; padding: 0; }
+    #timeline { width: 100%; height: calc(100vh - 30px); }
+    #top { width: 100%; height: 30px; }
+  </style>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</head>
+<body>
+
+  <div id="top">
+    Zoom level: 
+    <button onclick='_zoom(100)'>100%</button>
+    <button onclick='_zoom(175)'>175%</button>
+    <button onclick='_zoom(250)'>250%</button>
+    <button onclick='_zoom(500)'>500%</button>
+  </div>
+
+  <div id="timeline"></div>
+
+<script>
+const myContainer = document.getElementById("timeline");
+let myData;
+let myDataTable;
+let myChart;
+
+const _parseRows = rows => {
+  const strToTime = str => {
+    const arr = str.split("-");
+    return new Date(arr[0], arr[1]-1, arr[2]);
+  }
+
+  const newRows = JSON.parse(JSON.stringify(rows));
+  return newRows.map(record => {
+    record[2] = strToTime(record[2]);
+    record[3] = record[3] ? strToTime(record[3]) : record[2];
+    return record;
+  })
+}
+
+const _initChart = () => {
+  myDataTable = new google.visualization.DataTable();
+  myData.columns.forEach(col => myDataTable.addColumn(col));
+  myDataTable.addRows(_parseRows(myData.rows));
+
+  myChart = new google.visualization.Timeline(myContainer);
+  myChart.draw(myDataTable);
+}
+
+const _zoom = zoomLevel => {
+  myContainer.style["width"] = `${zoomLevel}%`;
+  myChart.draw(myDataTable);
+}
+
+const _loadUrl = () => {
+  const hash = window.location.hash.substring(1);
+  const myUrl = `https://yasinaydin.net/unlisted/timelinedata/${hash}.json`;
+
+  fetch(myUrl)
+  .then(response => response.json())
+  .then(data => {
+    myData = data;
+    google.charts.load('current', {'packages':['timeline']});
+    google.charts.setOnLoadCallback(_initChart);
+  })
+}
+
+_loadUrl();
+
+</script>
+</body>
+</html>
