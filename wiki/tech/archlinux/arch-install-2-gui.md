@@ -29,7 +29,7 @@ sudo systemctl enable bumblebeed
 
 XFCE
 ```sh
-sudo pacman -S gtk-xfce-engine thunar xfce4-appfinder xfce4-panel xfce4-session xfce4-settings xfconf xfdesktop xfwm4
+sudo pacman -S gtk-xfce-engine thunar xfce4-appfinder xfce4-notifyd xfce4-panel xfce4-session xfce4-settings xfconf xfdesktop xfwm4
 ```
 
 Lightdm
@@ -40,7 +40,7 @@ sudo systemctl enable lightdm
 
 Networkmanager
 ```sh
-sudo pacman -S networkmanager network-manager-applet dhclient xfce4-notifyd
+sudo pacman -S networkmanager network-manager-applet dhclient
 sudo systemctl enable NetworkManager
 sudo systemctl disable dhcpcd
 ```

@@ -31,14 +31,19 @@ timedatectl status
 
 ## Disk
 
+Verify boot mode:
+```sh
+ls /sys/firmware/efi/efivars
+```
+
 UEFI
 
 ```sh
 BOOTPART=/dev/sda1 #IF:Asus /dev/nvme0n1p1
-DISKPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
+ROOTPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
 fdisk -l
-mkfs.ext4 $DISKPART
-mount $DISKPART /mnt
+mkfs.ext4 $ROOTPART
+mount $ROOTPART /mnt
 mkdir -p /mnt/boot
 mount $BOOTPART /mnt/boot
 rm /mnt/boot/vmlinuz-linux #IF: Already exists
@@ -58,7 +63,7 @@ mount /dev/sda1 /mnt
 
 ```sh
 nano /etc/pacman.d/mirrorlist # Move Finland to top
-pacstrap /mnt base
+pacstrap /mnt base base-devel git linux linux-firmware nano net-tools dhcpcd sudo
 
 genfstab -U /mnt >> /mnt/etc/fstab
 cat /mnt/etc/fstab
@@ -81,11 +86,15 @@ cat /etc/hostname
 echo "127.0.1.1  XXXXX.localdomain  XXXXX" >> /etc/hosts
 cat /etc/hosts
 
-pacman -S net-tools
 pacman -S iw wpa_supplicant dialog  #IF: Wireless
+
 systemctl enable dhcpcd
 
 passwd
+
+useradd -m -G wheel -s /bin/bash yasin
+passwd yasin
+nano /etc/sudoers # uncomment wheel line
 ```
 
 ## Bootloader
@@ -117,34 +126,15 @@ umount -R /mnt
 reboot
 ```
 
-## User
-```sh
-pacman -S sudo
-
-useradd -m -G wheel -s /bin/bash yasin
-passwd yasin
-nano /etc/sudoers # uncomment wheel line
-
-exit # Log-off and log-in again
-```
-
 ## (Optional) Pikaur
 <https://github.com/actionless/pikaur>
 ```sh
-sudo pacman -S --needed base-devel git
 mkdir -p tmp
 cd tmp
 git clone https://aur.archlinux.org/pikaur.git
 cd pikaur
 makepkg -fsri
 pikaur -Syu
-```
-
-## (Optional) Multilib
-<https://wiki.archlinux.org/index.php/Multilib>
-```sh
-sudo nano /etc/pacman.conf # Uncomment multilib
-sudo pacman -Syu
 ```
 
 ***
@@ -156,10 +146,10 @@ sudo pacman -Syu
 (Optional) to reset EFI partition if needed:
 ```sh
 BOOTPART=/dev/sda1 #IF:Asus /dev/nvme0n1p1
-DISKPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
+ROOTPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
 umount -R /boot /mnt
 mkfs.fat -F32 $BOOTPART
-mount $DISKPART /mnt
+mount $ROOTPART /mnt
 mkdir -p /mnt/boot
 mount $BOOTPART /mnt/boot
 arch-chroot /mnt
