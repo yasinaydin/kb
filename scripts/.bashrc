@@ -70,7 +70,6 @@ alias docker-remove-containers='docker rm $(docker ps -a -q) -f'
 alias docker-remove-volumes='docker volume prune'
 
 # git
-alias ggc='git commit -m'
 alias gcm='git clone --mirror'
 alias grv='git remote -v'
 

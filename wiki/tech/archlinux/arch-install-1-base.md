@@ -36,8 +36,17 @@ Verify boot mode:
 ls /sys/firmware/efi/efivars
 ```
 
-UEFI
+Check disk:
+```sh
+fdisk -l
+lsblk -a
+```
 
+UEFI-new
+```sh
+```
+
+UEFI-existing
 ```sh
 BOOTPART=/dev/sda1 #IF:Asus /dev/nvme0n1p1
 ROOTPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
@@ -115,7 +124,7 @@ bootctl --path=/boot install
 echo -e "default arch\ntimeout 0\neditor 0" > /boot/loader/loader.conf
 
 echo -e "title   Arch Linux\nlinux   /vmlinuz-linux\ninitrd  /initramfs-linux.img" > /boot/loader/entries/arch.conf
-param=`blkid -s PARTUUID -o value /dev/sdaX` # Change /sdaX with your drive
+param=`blkid -s PARTUUID -o value /dev/XXX` # Change /sdaX with your root part
 echo "options root=PARTUUID=$param add_efi_memmap" >> /boot/loader/entries/arch.conf
 ```
 
