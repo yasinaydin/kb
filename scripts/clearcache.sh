@@ -5,6 +5,8 @@
 #
 # sudo pacman --sync --clean --noconfirm
 pikaur -Scc --noconfirm
+sudo pacman -Sc --noconfirm
+sudo pacman -Scc --noconfirm
 # sudo pacman --database --check --quiet
 pikaur -Dk
 

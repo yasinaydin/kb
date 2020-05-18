@@ -5,6 +5,12 @@ slug: optimizing-arch-linux
 title: Optimizing Arch Linux
 ---
 
+also:
+
+https://averagelinuxuser.com/clean-arch-linux/#5-remove-duplicates-empty-files-empty-directories-and-broken-symlinks
+
+
+
 - <https://wiki.archlinux.org/index.php/Solid_State_Drives>
 - <https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501>
 - <https://wiki.archlinux.org/index.php/microcode>
