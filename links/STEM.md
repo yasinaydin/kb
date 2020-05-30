@@ -26,7 +26,7 @@ Healthcare
 Healthcare-Genetics
 - [Human mitochondrial DNA haplogroup](https://en.wikipedia.org/wiki/Human_mitochondrial_DNA_haplogroup)
 - [Human Y-chromosome DNA haplogroup](https://en.wikipedia.org/wiki/Human_Y-chromosome_DNA_haplogroup)
-
+- [learn.genetics.utah.edu](https://learn.genetics.utah.edu/)
 
 Mathematics
 - [Calculus For The People -- Season 1](https://www.geogebra.org/m/x39ys4d7)
