@@ -22,6 +22,10 @@ alias encfs-keys='encfs ~/Dropbox/keys/ ~/keys'
 export PATH="/usr/lib/ccache/bin/:$PATH"
 export CCACHE_DIR=/tmp/ccache
 
+#dns
+alias dns-cf="sudo cp ~/git/yasin/kb/settings/resolv.conf.cf /etc/resolv.conf"
+alias dns-next="sudo cp ~/git/yasin/kb/settings/resolv.conf.next /etc/resolv.conf"
+
 # pacman
 alias bul='sudo updatedb && sudo locate -i'
 alias kur='pikaur -S --needed'
@@ -107,4 +111,6 @@ function sil() {
     pikaur -Scc --noconfirm;
     pikaur -Dk;
     rm -f ~/.cache/pikaur/*;
+    sudo rm -rf /var/cache/pacman/pkg/$1-*
+    sudo rm -rf /var/lib/systemd/coredump/core.$1.*
 }
