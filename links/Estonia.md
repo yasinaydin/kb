@@ -10,3 +10,9 @@ News
 
 Language
 - [hm.ee - Tasuta kursused 2020 otsing](https://www.hm.ee/en/kursused)
+
+Waste:
+- [tallinn.ee - A Guide to Sorting Waste](https://www.tallinn.ee/eng/A-Guide-to-Sorting-Waste)
+- [kuhuviia.ee - Where to dispose](https://kuhuviia.ee)
+- [kuhuviia.ee - Sorting Guide](https://kuhuviia.ee/sorting-guide)
+- [envir.ee - Collection instructions and labels by type (ET)](https://www.envir.ee/et/liigiti-kogumise-juhendid-ja-sildid)
