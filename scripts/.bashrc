@@ -42,12 +42,11 @@ export PATH="/home/yasin/.local/bin:$PATH"
 
 # php
 alias phps='php -S 0.0.0.0:8088'
-
 # ruby
-export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
+# export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
 # sencha
-export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
+# export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
 
 # yarn
 export PATH="/home/yasin/.yarn/bin/:$PATH"
