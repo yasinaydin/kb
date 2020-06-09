@@ -4,6 +4,11 @@ General:
 - [homenauts.com - Resource directory to #StayAtHome](https://www.homenauts.com/)
 
 
+Travelling:
+- [matadornetwork.com - Destinations](https://matadornetwork.com/destinations/europe/united-kingdom/northern-ireland/belfast/#local-favorites)
+- [wikivoyage.org](https://en.wikivoyage.org/wiki/Belfast)
+
+
 Blogging
 - [Maybe the world's easiest website maker](https://sdnotes.com)
 
