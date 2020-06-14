@@ -10,6 +10,7 @@ Astronomy
 Astronomy-Satellites
 - [LibreSpace-The non-profit foundation for open source hardware and software in space](https://libre.space)
 - [NASA Open MCT (Mission Control Technologies)](https://github.com/nasa/openmct)
+- [apps.agi.com/SatelliteViewer](http://apps.agi.com/SatelliteViewer/)
 
 
 Geology

@@ -10,7 +10,8 @@ Travelling:
 
 
 Blogging
-- [Maybe the world's easiest website maker](https://sdnotes.com)
+- [sdnotes.com - Maybe the world's easiest website maker](https://sdnotes.com)
+- [bearblog.dev - No JS blogging](https://bearblog.dev)
 
 
 Business & New Ideas
@@ -35,6 +36,10 @@ Linguistics
 - [Reading German](https://courses.dcs.wisc.edu/wp/readinggerman/)
 
 
+Mapping:
+- [mapchart.net](https://mapchart.net)
+
+
 Music
 - [Ever Noise at Once](http://everynoise.com/)
 - [Psytrance Guide](http://psytranceguide.com/)
@@ -42,4 +47,5 @@ Music
 
 TV
 - [Collection of 7000+ publicly available IPTV channels from all over the world](https://github.com/freearhey/iptv)
-- [Watch US TVs via Puffer from Stanford University](https://puffer.stanford.edu/player/)
+- [puffer.stanford.edu - Watch US TVs via Puffer from Stanford University](https://puffer.stanford.edu/player/)
+

@@ -41,13 +41,30 @@ Git:
 HTTP:
 - [HTTP Security Headers](https://nullsweep.com/http-security-headers-a-complete-guide/)
 
+Hosting:
+- [vercel.com](https://vercel.com)
 
-Templates & Illustrations
+
+Imaging:
+- [creepyface.io - Animated logo creator](https://creepyface.io)
+- [niftypdf.com - QR Code Generator](http://niftypdf.com/Barcoder/QRCoder)
+
+
+Illustrations:
+- [undraw.co - Open-source illustrations for every project you can imagine and create](https://undraw.co/)
+
+
+Templates
 - [glazestock.com - Free illustrations, for everything](https://www.glazestock.com)
 - [creative-tim.com - Premium Bootstrap Themes and Templates](https://www.creative-tim.com/)
 - [print-to-css designs](https://www.dan-davies.co.uk/print-to-css)
 - [templatemag.com - Bootstrap and Website Templates](https://templatemag.com/)
-- [undraw.co - Open-source illustrations for every project you can imagine and create](https://undraw.co/)
+
+
+Designs:
+- [kasparkorjus.com](https://www.kasparkorjus.com)
+- [tinycapital.com/](https://www.tinycapital.com)
+
 
 Tools:
 - [creepyface.io - Animated Face maker](https://creepyface.io/create)

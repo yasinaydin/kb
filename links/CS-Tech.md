@@ -2,6 +2,8 @@
 
 CSS:
 - [CSS effects Snippets](https://emilkowalski.github.io/css-effects-snippets/)
+- [Youtube: Building responsive layouts - Designing in the Browser](https://www.youtube.com/watch?v=K1POS8yPqa8)
+- [mozilla.org - Faster Layouts with CSS Grid (and Subgrid!)](https://hacks.mozilla.org/2019/10/faster-layouts-with-css-grid-and-subgrid)
 
 
 Deno:
@@ -62,3 +64,4 @@ Vue.js
 - [Exciting new features in Vue 3](https://vueschool.io/articles/vuejs-tutorials/exciting-new-features-in-vue-3/)
 - [Vue.js: The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI)
 - [State Management Without Vuex](https://michaelnthiessen.com/state-management-without-vuex/)
+- [logaretm.com/tips - Vue Tips](https://logaretm.com/tips/)
