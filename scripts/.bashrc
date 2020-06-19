@@ -25,6 +25,7 @@ export CCACHE_DIR=/tmp/ccache
 #dns
 alias dns-cf="sudo cp ~/git/yasin/kb/settings/resolv.conf.cf /etc/resolv.conf"
 alias dns-next="sudo cp ~/git/yasin/kb/settings/resolv.conf.next /etc/resolv.conf"
+alias dns='cat /etc/resolv.conf'
 
 # pacman
 alias bul='sudo updatedb && sudo locate -i'

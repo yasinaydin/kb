@@ -58,7 +58,7 @@ const _zoom = zoomLevel => {
 
 const _loadUrl = () => {
   const hash = window.location.hash.substring(1);
-  const myUrl = `https://yasinaydin.net/unlisted/timelinedata/${hash}.json`;
+  const myUrl = `https://kb.yasinaydin.net/json/${hash}.json`;
 
   fetch(myUrl)
   .then(response => response.json())
