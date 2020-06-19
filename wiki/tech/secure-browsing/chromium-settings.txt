@@ -1,0 +1,13 @@
+flags:
+
+perf
+chrome://flags/#enable-parallel-downloading enable
+chrome://flags/#enable-quic enable
+
+sec
+chrome://flags/#PasswordImport disable
+chrome://flags/#enable-heavy-ad-intervention enable
+
+feat
+chrome://flags/#global-media-controls-picture-in-picture enable
+chrome://flags/#enable-reader-mode enable

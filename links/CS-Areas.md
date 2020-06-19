@@ -34,6 +34,11 @@ DB
 - [jsonbox.io - Free HTTP based JSON Storage](https://jsonbox.io/)
 - [SQL in small steps](https://sql-steps.wizardzines.com/)
 
+
+Frontend:
+- [jsgrids.io - A List of JavaScript Spreadsheets and Data Grid Libraries](https://jsgrids.io/)
+
+
 Git:
 - [gitexplorer.com - Git Command Explorer](https://gitexplorer.com/)
 - [Setting up Git identities](https://news.ycombinator.com/item?id=22672491)
@@ -64,6 +69,8 @@ Templates
 Designs:
 - [kasparkorjus.com](https://www.kasparkorjus.com)
 - [tinycapital.com/](https://www.tinycapital.com)
+- [carlosgonzalez.dev](https://carlosgonzalez.dev/)
+- [25daysofserverless.com](https://25daysofserverless.com/)
 
 
 Tools:

@@ -24,6 +24,7 @@ Javascript
 - [JavaScript Destructuring ES6: The Complete Guide](https://buginit.com/javascript/javascript-destructuring-es6-the-complete-guide/)
 - [quiz.typeofnan.dev - TypeOfNaN JavaScript Quizzes](https://quiz.typeofnan.dev/)
 - [devhints.io/es6 - ES2015+ Cheatsheet](https://devhints.io/es6)
+- [doesitmutate.xyz](https://doesitmutate.xyz/)
 
 
 Node.js
@@ -57,6 +58,7 @@ TypeScript
 - [TypeScript Tutorial For Beginners: The Missing Guide (2019)](https://www.valentinog.com/blog/typescript/)
 - [Basarat's TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
 - [How does TypeScript work? The bird’s eye view](https://2ality.com/2020/04/typescript-workflows.html)
+- [dev.to - Advanced TypeScript Types cheat sheet (with examples)](https://dev.to/ibrahima92/advanced-typescript-types-cheat-sheet-with-examples-5414)
 
 
 Vue.js
