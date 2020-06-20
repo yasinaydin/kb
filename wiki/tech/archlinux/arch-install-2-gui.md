@@ -29,7 +29,7 @@ sudo systemctl enable bumblebeed
 
 XFCE
 ```sh
-sudo pacman -S gtk-xfce-engine thunar xfce4-appfinder xfce4-notifyd xfce4-panel xfce4-session xfce4-settings xfconf xfdesktop xfwm4
+sudo pacman -S gtk-xfce-engine thunar xfce4-appfinder xfce4-panel xfce4-settings xfconf xfdesktop xfwm4
 ```
 
 Lightdm
@@ -45,12 +45,6 @@ sudo systemctl enable NetworkManager
 sudo systemctl disable dhcpcd
 ```
 
-Guake
-```sh
-sudo pacman -S guake
-sudo cp /usr/share/applications/guake.desktop /etc/xdg/autostart/
-```
-
 Audio
 ```sh
 sudo gpasswd -a yasin audio
@@ -61,15 +55,6 @@ alsamixer # Open up the sound
 
 Other
 ```sh
-sudo pacman -S gnome-keyring
+sudo pacman -S gnome-keyring xfce4-session
 reboot
-```
-
-Arch on Virtualbox
-```sh
-pacman -S virtualbox-guest-utils virtualbox-guest-modules-arch
-systemctl enable vboxservice.service
-sudo VBoxClient-all
-poweroff
-# For screen autoscaling, switch display driver to VboxVga on VirtualBox
 ```

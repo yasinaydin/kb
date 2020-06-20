@@ -1,7 +1,6 @@
 # Docker
 
-Source: https://wiki.archlinux.org/index.php/Docker
-
+Source: <https://wiki.archlinux.org/index.php/Docker>
 
 ## Install
 ```sh

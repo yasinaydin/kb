@@ -9,3 +9,6 @@ node
 
 # video tumbler
 ffmpegthumbnailer
+
+# dropbox
+dropbox

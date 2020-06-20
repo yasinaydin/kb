@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# todo order
+
+
+# noncat
+pikaur -S --needed \
+  encfs \
+  slock
 
 # tools
 bash-completion

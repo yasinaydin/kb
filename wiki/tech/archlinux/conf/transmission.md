@@ -1,9 +1,8 @@
-# Transmission
+# transmission
 
-Source: https://wiki.archlinux.org/index.php/transmission
+Source: <https://wiki.archlinux.org/index.php/transmission>
 
 ## Install
-
 ```sh
 kur transmission-gtk
 ```

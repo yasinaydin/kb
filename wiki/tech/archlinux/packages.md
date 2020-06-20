@@ -1,15 +1,9 @@
 pikaur
 
 
-## Foreign
-localepurge
-
-
 
 ## Community
 
-
-slock
 
 xfce
 xfce4-whiskermenu-plugin
@@ -20,8 +14,6 @@ alsa uitl
 network:
 dhclient
 
-uncat:
-encfs
 
 graph
 bumblebee
@@ -34,4 +26,3 @@ libva-vdpau-driver
 git
 haveged
 intel-ucode
-

@@ -1,20 +1,4 @@
----
-layout: default
-category: Arch Linux
-slug: installing-arch-linux-part-1-base
-title: "Installing Arch Linux Part 1: Base"
----
-
-
-## Sources
-
-- <https://wiki.archlinux.org/index.php/installation_guide>
-- <https://wiki.archlinux.org/index.php/Getting_and_installing_Arch>
-
-## Install Media
-
-- Download latest ISO from <https://www.archlinux.org/download/>
-- Mount and load ISO <https://wiki.archlinux.org/index.php/Getting_and_installing_Arch>
+Source: <https://wiki.archlinux.org/index.php/Installation_guide>
 
 ## Prepare
 
@@ -42,11 +26,12 @@ fdisk -l
 lsblk -a
 ```
 
-UEFI-new
+UEFI-new:
 ```sh
+# tbd
 ```
 
-UEFI-existing
+UEFI-existing:
 ```sh
 BOOTPART=/dev/sda1 #IF:Asus /dev/nvme0n1p1
 ROOTPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
@@ -58,8 +43,7 @@ mount $BOOTPART /mnt/boot
 rm /mnt/boot/vmlinuz-linux #IF: Already exists
 ```
 
-BIOS
-
+BIOS:
 ```sh
 fdisk -l
 fdisk /dev/sda # n -> Enter (x4) -> w

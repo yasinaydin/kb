@@ -7,4 +7,4 @@ Steps:
 4. exit
 5. select arch
 
-Source: https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface/Secure_Boot#How_to_use_while_booting?
+Source: <https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface/Secure_Boot#How_to_use_while_booting>
