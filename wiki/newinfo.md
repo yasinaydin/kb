@@ -52,7 +52,6 @@ they usually come froom the customer requests/tasks, like delfi or thinnect
 what i did in last few weeks are:
 -learninga bit extendscript
 -reading about indesign and creating plugins for it
--advanced docker config
 -kubernetes
 -various aws technologies
 

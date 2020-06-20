@@ -76,6 +76,7 @@ alias docker-remove-volumes='docker volume prune'
 # git
 alias gcm='git clone --mirror'
 alias grv='git remote -v'
+alias .gp='git push'
 
 # nvm
 # export NVM_DIR="/home/yasin/.nvm"
