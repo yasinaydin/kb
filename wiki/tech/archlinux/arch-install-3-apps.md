@@ -12,7 +12,6 @@ alsa-utils
 xfce4-power-manager
 vulkan-intel
 
-intel-media-driver 
 intel-ucode
 
 dhclient

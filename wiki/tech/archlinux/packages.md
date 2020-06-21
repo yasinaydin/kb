@@ -17,10 +17,7 @@ dhclient
 
 graph
 bumblebee
-intel-compute-runtime
-intel-media-driver
-libva-intel-driver
-libva-vdpau-driver
+
 
 # needs conf
 git

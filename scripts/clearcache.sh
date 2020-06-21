@@ -12,12 +12,6 @@ pikaur -Dk
 
 
 #
-# Locales
-#
-sudo localepurge > /dev/null
-
-
-#
 # Flatpak
 #
 if [ -x "$(command -v flatpak)" ]
