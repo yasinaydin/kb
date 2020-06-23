@@ -14,6 +14,7 @@ Then reboot
 ```sh
 sil virtualbox-guest-iso
 sil virtualbox
+sudo gpasswd -d $(whoami) vboxusers
 ```
 
 ---

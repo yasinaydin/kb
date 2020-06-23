@@ -1,5 +1,6 @@
 pikaur
 
+openssh
 
 
 ## Community

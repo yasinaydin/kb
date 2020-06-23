@@ -1,6 +1,11 @@
+# samsung magician?
+Set Device Security (Not opal, not class 0, but the last one)
+
+
+
 Source: <https://wiki.archlinux.org/index.php/Installation_guide>
 
-## Prepare
+## 1. Prepare
 
 ```sh
 setfont latarcyrheb-sun32 #IF: 4k screen
@@ -9,11 +14,15 @@ wifi-menu -o #IF: Wifi
 
 ping archlinux.org
 
+nano /etc/pacman.d/mirrorlist
+# Move Finland to top and save
+pacman -Syy
+
 timedatectl set-ntp true
 timedatectl status
 ```
 
-## Disk
+## 2. Disk
 
 Verify boot mode:
 ```sh
@@ -46,57 +55,59 @@ rm /mnt/boot/vmlinuz-linux #IF: Already exists
 BIOS:
 ```sh
 fdisk -l
-fdisk /dev/sda # n -> Enter (x4) -> w
+fdisk /dev/sda
+# g -> n -> Enter (x4) -> w
 fdisk -l
 mkfs.ext4 /dev/sda1
 mount /dev/sda1 /mnt
 ```
 
-## Base
+## 3. Base
 
 ```sh
-nano /etc/pacman.d/mirrorlist # Move Finland to top
-pacstrap /mnt base base-devel git linux linux-firmware nano net-tools dhcpcd sudo
+pacstrap /mnt base base-devel linux linux-firmware nano 
 
 genfstab -U /mnt >> /mnt/etc/fstab
 cat /mnt/etc/fstab
 
 arch-chroot /mnt
 
-rm /etc/localtime
 ln -sf /usr/share/zoneinfo/Europe/Tallinn /etc/localtime
 hwclock --systohc
 date
 
-nano /etc/locale.gen # uncomment en_US.UTF-8
+nano /etc/locale.gen
+# uncomment en_US.UTF-8 and save
 locale-gen
-echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf # If 4k screen
+echo "FONT=latarcyrheb-sun32" >> /etc/vconsole.conf #IF: 4k screen
 echo "LANG=en_US.UTF-8" > /etc/locale.conf
-echo "FONT_MAP=8859-2" >> /etc/vconsole.conf
+echo "FONT_MAP=8859-2" > /etc/vconsole.conf
 
 echo XXXXX > /etc/hostname
 cat /etc/hostname
 echo "127.0.1.1  XXXXX.localdomain  XXXXX" >> /etc/hosts
 cat /etc/hosts
 
-pacman -S iw wpa_supplicant dialog  #IF: Wireless
+sudo pacman -S networkmanager dhclient
+sudo systemctl enable NetworkManager
+pacman -S iw wpa_supplicant  #IF: Wireless
 
-systemctl enable dhcpcd
 
 passwd
 
 useradd -m -G wheel -s /bin/bash yasin
 passwd yasin
-nano /etc/sudoers # uncomment wheel line
+EDITOR=nano visudo
+# uncomment wheel line and save
 ```
 
-## Bootloader
+## 4. Bootloader
 
 BIOS+DOS
 
 ```sh
-pacman -S syslinux
-syslinux-install_update -i -a -m
+pacman -S syslinux gptfdisk # gptfdisk for legacy bios like virtualbox
+syslinux-install_update -iam
 nano /boot/syslinux/syslinux.cfg # rename sda3 to sda1, change timeout duration
 ```
 
@@ -112,40 +123,9 @@ param=`blkid -s PARTUUID -o value /dev/XXX` # Change /sdaX with your root part
 echo "options root=PARTUUID=$param add_efi_memmap" >> /boot/loader/entries/arch.conf
 ```
 
-## Exit
+## 5. Exit
 ```sh
 exit
 umount -R /mnt
 reboot
 ```
-
-## (Optional) Pikaur
-<https://github.com/actionless/pikaur>
-```sh
-mkdir -p tmp
-cd tmp
-git clone https://aur.archlinux.org/pikaur.git
-cd pikaur
-makepkg -fsri
-pikaur -Syu
-```
-
-***
-
-## Troubleshooting
-
-## Fix UEFI
-
-(Optional) to reset EFI partition if needed:
-```sh
-BOOTPART=/dev/sda1 #IF:Asus /dev/nvme0n1p1
-ROOTPART=/dev/sda4 #IF:Asus /dev/nvme0n1p5
-umount -R /boot /mnt
-mkfs.fat -F32 $BOOTPART
-mount $ROOTPART /mnt
-mkdir -p /mnt/boot
-mount $BOOTPART /mnt/boot
-arch-chroot /mnt
-pacman -S linux
-```
-Then run Install.Bootloader steps.
