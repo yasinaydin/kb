@@ -20,3 +20,6 @@ Local News:
 
 Selection:
 - [Lewis Model of Cultural Types](https://uquiz.com/Mkmxxl/what-culture-type-matches-your-personality?p=9961)
+
+## UK
+- london crime map

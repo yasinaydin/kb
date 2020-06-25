@@ -67,6 +67,7 @@ Templates
 
 
 Designs:
+- <http://umutgokbayrak.com/>
 - [kasparkorjus.com](https://www.kasparkorjus.com)
 - [tinycapital.com/](https://www.tinycapital.com)
 - [carlosgonzalez.dev](https://carlosgonzalez.dev/)
