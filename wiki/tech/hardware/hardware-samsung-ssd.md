@@ -17,6 +17,10 @@ title: "Samsung 1TB NVM-E SSD Comparison"
 | Power Consumption (w) | **5.7/8.5** | 6/9 | 6/10 |
 | Warranty (TBW) | **1200** | 600 | 600 |
 
+Differences:
+- NAND Flash V-NAND MLC vs TurboWrite
+- Warranty TBW
+
 <hr>
 
 All has:
