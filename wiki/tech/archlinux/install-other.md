@@ -2,6 +2,14 @@
 microcode
 multilib
 
+extra:
+libreoffice-fresh
+gimp
+hexchat
+
+
+
+bind-tools
 
 
 ********
