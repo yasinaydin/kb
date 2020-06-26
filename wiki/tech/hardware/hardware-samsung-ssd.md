@@ -5,6 +5,11 @@ slug: samsung-1tb-nvme-ssd-comparison
 title: "Samsung 1TB NVM-E SSD Comparison"
 ---
 
+## Specs:
+- Samsung V-NAND SSD 970 PRO: <https://www.samsung.com/semiconductor/global.semi.static/Samsung_NVMe_SSD_970_PRO_Data_Sheet_Rev.1.0.pdf>
+- 840 EVO Solid State Hard Drive: <https://www.samsung.com/us/system/consumer/product/mz/7t/e7/mz7te750bw/Sam_1303_SSD-840-EVO-Spec-Sheet_v9.pdf>
+
+
 | Feature | 970 Pro | 970 Evo Plus | 970 Evo |
 | - | - | - | - |
 | Sequential Read (MB/S) | **3500** | **3500** | 3400 |
