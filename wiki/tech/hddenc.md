@@ -21,6 +21,11 @@ Security:
 - Data-at-rest - <https://en.wikipedia.org/wiki/Data_at_rest>
 - Evil maid attack - <https://en.wikipedia.org/wiki/Evil_maid_attack>
 
+Security-SED:
+- paper: <https://www.ieee-security.org/TC/SP2019/papers/310.pdf>
+- c3 video: <https://media.ccc.de/v/35c3-9671-self-encrypting_deception>
+
+
 ## Terminology
 
 - BC: Bridge and Chipset (type of FDE)
