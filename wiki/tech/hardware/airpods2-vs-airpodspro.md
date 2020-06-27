@@ -2,6 +2,7 @@
 
 | Feat | Airpods 2 | Airpods Pro |
 | - | - | - |
+| US Price | $250 | $200 with wireless charge, $160 without |
 | Processor | H1 | H1 |
 | # of eartip sizes | 1 | 3 |
 | Eartip Material | ? | Silicone |
