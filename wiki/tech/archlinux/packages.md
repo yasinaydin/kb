@@ -24,3 +24,14 @@ bumblebee
 git
 haveged
 intel-ucode
+---
+
+
+arch gereksiz prog?
+xfsprogs
+systemd-sysvcompat
+net-tools
+mdadm
+iw?
+
+haveged

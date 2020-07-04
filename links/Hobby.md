@@ -4,9 +4,20 @@ General:
 - [homenauts.com - Resource directory to #StayAtHome](https://www.homenauts.com/)
 
 
-Travelling:
+## Travelling
+
+Destination info:
 - [matadornetwork.com - Destinations](https://matadornetwork.com/destinations/europe/united-kingdom/northern-ireland/belfast/#local-favorites)
 - [wikivoyage.org](https://en.wikivoyage.org/wiki/Belfast)
+- [inyourpocket.com](https://www.inyourpocket.com)
+- [wikitravel.org](https://wikitravel.org)
+
+Discounts:
+- <https://trip.ee/odavad-lennupiletid>
+- <https://travelfree.info>
+
+
+---
 
 
 Blogging
@@ -38,6 +49,8 @@ Linguistics
 
 Mapping:
 - [mapchart.net](https://mapchart.net)
+- [query.wikidata.org](https://query.wikidata.org/)
+- [wikidata.org - Request a query](https://www.wikidata.org/wiki/Wikidata:Request_a_query)
 
 
 Music

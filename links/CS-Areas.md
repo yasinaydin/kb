@@ -9,6 +9,8 @@ General
 
 Learning:
 - [hyperskill.org - JetBrains Academy (free) - Python/Java/Kotlin](https://hi.hyperskill.org/)
+- [teachyourselfcs.com](https://teachyourselfcs.com/)
+
 
 ---
 
@@ -72,6 +74,8 @@ Designs:
 - [tinycapital.com/](https://www.tinycapital.com)
 - [carlosgonzalez.dev](https://carlosgonzalez.dev/)
 - [25daysofserverless.com](https://25daysofserverless.com/)
+- [ruby-doc.org - The Ruby Language FAQ](https://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html)
+- [soygul.com](https://soygul.com/)
 
 
 Tools:

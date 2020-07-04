@@ -25,6 +25,7 @@ Javascript
 - [quiz.typeofnan.dev - TypeOfNaN JavaScript Quizzes](https://quiz.typeofnan.dev/)
 - [devhints.io/es6 - ES2015+ Cheatsheet](https://devhints.io/es6)
 - [doesitmutate.xyz](https://doesitmutate.xyz/)
+- [taniarascia.com - Understanding Generators in JavaScript](https://www.taniarascia.com/understanding-generators-in-javascript/)
 
 
 Node.js
@@ -47,6 +48,7 @@ Rust
 - [A half-hour to learn Rust](https://fasterthanli.me/blog/2020/a-half-hour-to-learn-rust/)
 - [HN: How I Start: Rust](https://news.ycombinator.com/item?id=22591544)
 - [HN: Considering Rust - video](https://news.ycombinator.com/item?id=22512214)
+- [sheshbabu.com - Rust for JavaScript Developers - Tooling Ecosystem Overview](http://www.sheshbabu.com/posts/rust-for-javascript-developers-tooling-ecosystem-overview)
 
 
 SQL:
