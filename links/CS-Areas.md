@@ -39,6 +39,7 @@ DB
 
 Frontend:
 - [jsgrids.io - A List of JavaScript Spreadsheets and Data Grid Libraries](https://jsgrids.io/)
+- [web.dev - Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/)
 
 
 Git:
