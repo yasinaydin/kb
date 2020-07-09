@@ -56,7 +56,7 @@ const _zoom = zoomLevel => {
   myChart.draw(myDataTable);
 }
 
-const _loadUrl = () => {
+const _loadUrl = callback => {
   const hash = window.location.hash.substring(1);
   const myUrl = `https://kb.yasinaydin.net/json/${hash}.json`;
 
@@ -65,11 +65,11 @@ const _loadUrl = () => {
   .then(data => {
     myData = data;
     google.charts.load('current', {'packages':['timeline']});
-    google.charts.setOnLoadCallback(_initChart);
+    google.charts.setOnLoadCallback(callback);
   })
 }
 
-_loadUrl();
+_loadUrl(_initChart);
 
 </script>
 </body>
