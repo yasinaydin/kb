@@ -8,6 +8,7 @@ General education and learning
 - [Archive.org Open Educational Resources](https://archive.org/details/education)
 - [classcentral.com - Search Engine for Free Online Courses & MOOCs](https://www.classcentral.com/)
 - [Wikipedia:Vital articles](https://en.wikipedia.org/wiki/Wikipedia:Vital_articles)
+- [wikiversity](https://en.wikiversity.org)
 
 
 Free eBooks

@@ -6,10 +6,13 @@ General
 - [Path to a free self-taught education in Computer Science!](https://github.com/ossu/computer-science)
 - [Most fundamental books on computer science](https://news.ycombinator.com/item?id=21311302)
 - [History of Computers Online Exhibition](http://cs-exhibitions.uni-klu.ac.at/index.php?id=320)
+- [Solutions for EVERY GATE Theory of Computation Question!](https://www.youtube.com/watch?v=g_ZdcHSFGv0)
+
 
 Learning:
 - [hyperskill.org - JetBrains Academy (free) - Python/Java/Kotlin](https://hi.hyperskill.org/)
 - [teachyourselfcs.com](https://teachyourselfcs.com/)
+- [wikiversity.com - Applied Programming](https://en.wikiversity.org/wiki/Applied_Programming)
 
 
 ---
@@ -40,6 +43,7 @@ DB
 Frontend:
 - [jsgrids.io - A List of JavaScript Spreadsheets and Data Grid Libraries](https://jsgrids.io/)
 - [web.dev - Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/)
+- [perf-track.web.app - JS frameworks speed comparison](https://perf-track.web.app/)
 
 
 Git:
@@ -67,6 +71,13 @@ Templates
 - [creative-tim.com - Premium Bootstrap Themes and Templates](https://www.creative-tim.com/)
 - [print-to-css designs](https://www.dan-davies.co.uk/print-to-css)
 - [templatemag.com - Bootstrap and Website Templates](https://templatemag.com/)
+
+
+Designs-Theming:
+- <https://www.nizkor.org>
+
+Designs-Functionality:
+- [HN/simone.computer - Websites that look like desktop GUIs](https://news.ycombinator.com/item?id=23734093)
 
 
 Designs:

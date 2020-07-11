@@ -26,6 +26,7 @@ Javascript
 - [devhints.io/es6 - ES2015+ Cheatsheet](https://devhints.io/es6)
 - [doesitmutate.xyz](https://doesitmutate.xyz/)
 - [taniarascia.com - Understanding Generators in JavaScript](https://www.taniarascia.com/understanding-generators-in-javascript/)
+- [freenodecamp.com - Debounce Explained – How to Make Your JavaScript Wait For Your User To Finish Typing](https://www.freecodecamp.org/news/debounce-explained-how-to-make-your-javascript-wait-for-your-user-to-finish-typing-2/)
 
 
 Node.js
@@ -49,6 +50,8 @@ Rust
 - [HN: How I Start: Rust](https://news.ycombinator.com/item?id=22591544)
 - [HN: Considering Rust - video](https://news.ycombinator.com/item?id=22512214)
 - [sheshbabu.com - Rust for JavaScript Developers - Tooling Ecosystem Overview](http://www.sheshbabu.com/posts/rust-for-javascript-developers-tooling-ecosystem-overview)
+- [sheshbabu.com - Rust for JavaScript Developers - Functions and Control Flow](http://www.sheshbabu.com/posts/rust-for-javascript-developers-functions-and-control-flow/)
+- [nicolodavis.com - Moving from TypeScript to Rust / WebAssembly](https://nicolodavis.com/blog/typescript-to-rust/)
 
 
 SQL:
