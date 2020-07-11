@@ -58,7 +58,7 @@ const _zoom = zoomLevel => {
 
 const _loadUrl = callback => {
   const hash = window.location.hash.substring(1);
-  const myUrl = `https://kb.yasinaydin.net/json/${hash}.json`;
+  const myUrl = `https://kb.yasinaydin.net/data/${hash}.json`;
 
   fetch(myUrl)
   .then(response => response.json())
