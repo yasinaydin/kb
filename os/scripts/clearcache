@@ -10,7 +10,6 @@ sudo pacman -Scc --noconfirm
 # sudo pacman --database --check --quiet
 pikaur -Dk
 
-
 #
 # Flatpak
 #
@@ -20,18 +19,15 @@ if [ -x "$(command -v flatpak)" ]
     flatpak --unused uninstall --delete-data
 fi
 
-
 #
 # Journal
 #
 sudo journalctl -q --vacuum-time=1h > /dev/null
 
-
 #
 # Bash history
 #
 history -c
-
 
 #
 # Files
@@ -39,7 +35,7 @@ history -c
 # Delete empty files and folders:
 find ~/.cache ~/.local ~/.mozilla -empty -delete
 
-# Just delete empty folders:
+# Delete empty folders only:
 find ~/.config -type d -empty -delete
 
 rm -f ~/.bash_history 

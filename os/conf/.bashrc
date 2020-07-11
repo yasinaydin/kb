@@ -23,8 +23,8 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 export CCACHE_DIR=/tmp/ccache
 
 #dns
-alias dns-cf="sudo cp ~/git/yasin/kb/settings/resolv.conf.cf /etc/resolv.conf"
-alias dns-next="sudo cp ~/git/yasin/kb/settings/resolv.conf.next /etc/resolv.conf"
+alias dns-cf="sudo cp $HOME/git/yasin/kb/linux/conf/resolv.conf.cf /etc/resolv.conf"
+alias dns-next="sudo cp $HOME/git/yasin/kb/linux/conf/resolv.conf.next /etc/resolv.conf"
 alias dns='cat /etc/resolv.conf'
 
 # pacman
@@ -91,27 +91,17 @@ alias .gp='git push'
 [[ -f ~/.bashrc.work ]] && . ~/.bashrc.work
 
 #
-# RM
+# Get scripts directory and make them reachable 
+# Works with symbolic linked .bashrc
+# https://stackoverflow.com/a/179231
 #
-function sil() {
-    if [ -z "$1" -o -z "$1" ]; then
-        echo "Usage: sil [package_name]";
-        return -1;
-    fi
-
-    pikaur -Rscnu $1;
-
-    FILE="/home/yasin/git/yasin/kb/uninstallers/$1.sh";
-    if test -f "$FILE"; then
-        echo "Has custom script: $FILE";
-        . "$FILE"
-    else
-        echo "Doesnt have custom script.";
-    fi
-
-    pikaur -Scc --noconfirm;
-    pikaur -Dk;
-    rm -f ~/.cache/pikaur/*;
-    sudo rm -rf /var/cache/pacman/pkg/$1-*
-    sudo rm -rf /var/lib/systemd/coredump/core.$1.*
-}
+pushd . > /dev/null
+SCRIPT_PATH="${BASH_SOURCE[0]}";
+if ([ -h "${SCRIPT_PATH}" ]) then
+  while([ -h "${SCRIPT_PATH}" ]) do cd `dirname "$SCRIPT_PATH"`; SCRIPT_PATH=`readlink "${SCRIPT_PATH}"`; done
+fi
+cd `dirname ${SCRIPT_PATH}` > /dev/null
+cd ../scripts
+SCRIPT_PATH=`pwd`
+popd  > /dev/null
+export PATH="$SCRIPT_PATH::$PATH"
