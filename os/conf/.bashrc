@@ -23,8 +23,8 @@ export PATH="/usr/lib/ccache/bin/:$PATH"
 export CCACHE_DIR=/tmp/ccache
 
 #dns
-alias dns-cf="sudo cp $HOME/git/yasin/kb/linux/conf/resolv.conf.cf /etc/resolv.conf"
-alias dns-next="sudo cp $HOME/git/yasin/kb/linux/conf/resolv.conf.next /etc/resolv.conf"
+alias dns-cf="sudo cp $HOME/git/yasin/kb/os/conf/resolv.conf.cf /etc/resolv.conf"
+alias dns-next="sudo cp $HOME/git/yasin/kb/os/conf/resolv.conf.next /etc/resolv.conf"
 alias dns='cat /etc/resolv.conf'
 
 # pacman
