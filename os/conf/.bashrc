@@ -57,6 +57,7 @@ export PATH="$PATH:$HOME/.local/bin"
 
 # ruby
 export PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
+export RBENV_VERSION=2.5.3
 
 # sencha
 export PATH="$PATH:$HOME/bin/Sencha/Cmd"
