@@ -18,6 +18,9 @@ export CHROME_BIN=/usr/bin/chromium
 alias encfs-keys='encfs ~/Dropbox/keys/ ~/keys'
 # export VISUAL=nano; # Conflicts with vscode
 
+# sys
+alias logs="journalctl -m -p warning" 
+
 # ccache
 export PATH="/usr/lib/ccache/bin/:$PATH"
 export CCACHE_DIR=/tmp/ccache
