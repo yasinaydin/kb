@@ -26,7 +26,7 @@ else
 fi
 
 # clear cache
-CLEARCACHE="$(dirname "$(readlink -f "$0")")/clearcache"
+CLEARCACHE="$(dirname "$(readlink -f "$0")")/cece"
 msg_info "clearing cache by running $CLEARCACHE"
 . "$CLEARCACHE" &> /dev/null
 msg_info "cleared cache"
