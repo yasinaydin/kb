@@ -1,3 +1,10 @@
+slack-desktop
+rbenv
+ruby-build
+aws-cli
+
+
+
 config within app:
 slack-desktop
 chromium
@@ -19,7 +26,3 @@ s3cmd - ?
 
 
 
-slack-desktop
-rbenv
-ruby-build
-aws-cli
