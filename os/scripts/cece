@@ -33,21 +33,25 @@ history -c
 # Files
 #
 # Delete empty files and folders:
-find ~/.cache ~/.local ~/.mozilla -empty -delete
+find ~/.cache ~/.local -empty -delete
+# fix mozilla
+# find ~/.cache ~/.local ~/.mozilla -empty -delete
 
 # Delete empty folders only:
 find ~/.config -type d -empty -delete
 
 rm -f ~/.bash_history 
 rm -f ~/.bash_logout # Commants to run on BASH logout
-rm -f ~/.dmrc # Legacy GNOME2 default user session
 rm -f ~/.cache/pikaur/*
 rm -f ~/.config/vlc/vlc-qt-interface.conf # vlc recent videos
-rm -f ~/.netrc # for heroku
+rm -f ~/.dmrc # Legacy GNOME2 default user session
+rm -f ~/.esd_auth # Pulseaudio cookie
+rm -f ~/.fontconfig # has CACHEDIR.TAG in it 
+rm -f ~/.lesshst # .less-history-file
 rm -f ~/.mysql_history
+rm -f ~/.netrc # for heroku
 rm -f ~/.node_repl_history
 rm -f ~/.python-history
-rm -f ~/.esd_auth # Pulseaudio cookie
 rm -f ~/.Rhistory # R Lang's/CLI's history
 rm -f ~/.vuerc
 rm -f ~/.xsession-errors*
