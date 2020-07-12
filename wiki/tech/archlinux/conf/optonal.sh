@@ -7,8 +7,5 @@ yarn
 npm
 node
 
-# video tumbler
-ffmpegthumbnailer
-
 # dropbox
 dropbox

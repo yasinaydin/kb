@@ -42,7 +42,14 @@ zip
 # media
 vlc
 eog
+
+# meida-tumbler
 tumbler
+# these are also good for boot warnings
+ffmpegthumbnailer
+poppler-glib
+libopenraw
+libgsf
 
 # automount
 gvfs

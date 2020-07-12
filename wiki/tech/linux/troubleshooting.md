@@ -2,6 +2,8 @@
 
 Source: <https://bugs.archlinux.org/task/65420>
 
+Info: ninfod is a part of **core/iputils**
+
 Check logs:
 ```sh
 journalctl -u ninfod
