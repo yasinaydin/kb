@@ -1,42 +1,12 @@
 #!/bin/bash
-# colors: https://misc.flogisoft.com/bash/tip_colors_and_formatting
-# 91=lighred 33=yellow 32=green 36=can
-# 1=bold 0=reset
+source _fn
 
-# err: https://riptutorial.com/bash/example/19824/print-error-messages-to-stderr
-# params: http://tldp.org/LDP/abs/html/refcards.html#AEN22006
-# dir: https://stackoverflow.com/questions/59895
+checkParamsExact $# 1
 
-msg_warn() {
-  echo -e "\e[33mwarning:\e[0m $*"
-}
-msg_info() {
-  echo -e "\e[36minfo:\e[0m $*"
-}
-msg_ok() {
-  echo -e "\e[32mfinished\e[0m"
-}
-exitWithError() {
-  echo -e "\e[91m\e[1merror:\e[0m $*" >>/dev/stderr
-  exit 1
-}
-
-
-# detect os
-if [ ! -f "/etc/arch-release" ]; then
-  exitWithError "not arch linux"
-fi
-
-
-# detect params
-if [ $# -eq 0 ]; then
-  exitWithError "no package specified"
-fi
-
+# main
 
 # delete package
 pikaur -Rscnu --color auto $1;
-
 
 # clean
 CLEANFILE="$(dirname "$(readlink -f "$0")")/../uninstallers/$1.sh"
@@ -49,13 +19,11 @@ else
   msg_warn "no clean file found: $CLEANFILE"
 fi
 
-
 # clear cache
 CLEARCACHE="$(dirname "$(readlink -f "$0")")/clearcache"
 msg_info "clearing cache by running $CLEARCACHE"
 . "$CLEARCACHE" &> /dev/null
 msg_info "cleared cache"
-
 
 # end
 msg_ok

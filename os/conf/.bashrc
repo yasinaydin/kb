@@ -1,97 +1,72 @@
 #!/bin/bash
 # ~/.bashrc
 
-# If not running interactively, don't do anything
-[[ $- != *i* ]] && return
-alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+[[ $- != *i* ]] && return # return if not interactive
+alias ls='ls --color=auto' # ls color
+PS1='[\u@\h \W]\$ ' # bash prompt
 
-###
-### SYSTEM
-###
+#############
+# ALIASES
+#############
 
-# general
-export HISTFILESIZE=
-export HISTSIZE=
-export BROWSER=chromium
-export CHROME_BIN=/usr/bin/chromium
-alias encfs-keys='encfs ~/Dropbox/keys/ ~/keys'
-# export VISUAL=nano; # Conflicts with vscode
-
-# sys
-alias logs="journalctl -m -p warning" 
-
-# ccache
-export PATH="/usr/lib/ccache/bin/:$PATH"
-export CCACHE_DIR=/tmp/ccache
-
-#dns
-alias dns-cf="sudo cp $HOME/git/yasin/kb/os/conf/resolv.conf.cf /etc/resolv.conf"
-alias dns-next="sudo cp $HOME/git/yasin/kb/os/conf/resolv.conf.next /etc/resolv.conf"
+# dns
 alias dns='cat /etc/resolv.conf'
 
+# encfs
+alias keys='encfs ~/Dropbox/keys/ ~/keys'
+
+# journalctl
+alias logs="journalctl -m -p warning" 
+
 # pacman
-alias bul='sudo updatedb && sudo locate -i'
 alias kur='pikaur -S --needed'
-# alias sil='pikaur -Rscnu'
-alias pro='ps aux | grep -i'
 alias upp='pikaur -Syu'
-
-###
-### PROGRAMMING LANGUAGES
-###
-
-# python
-export PATH="/home/yasin/.local/bin:$PATH"
 
 # php
 alias phps='php -S 0.0.0.0:8088'
-# ruby
-# export PATH="/home/yasin/.gem/ruby/2.7.0/bin:$PATH"
 
-# sencha
-# export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
+# updatedb
+alias bul='sudo updatedb && sudo locate -i'
 
-# yarn
-export PATH="/home/yasin/.yarn/bin/:$PATH"
-
-# vuejs
-# alias vue='vue -m yarn'
-# When enabled, vue upgrade doesnt work
-
-###
-### DEVELOPMENT
-###
+#############
+# ENV
+#############
 
 # aws-sam
 export SAM_CLI_TELEMETRY=0
 
-# code
-export VISUAL=code
-export ELECTRON_TRASH=gio
+# bash
+export HISTFILESIZE=
+export HISTSIZE=
+
+# browser/chrome
+export BROWSER=chromium
+export CHROME_BIN=/usr/bin/chromium
+
+# ccache
+export CCACHE_DIR=/tmp/ccache
+export PATH="$PATH:/usr/lib/ccache/bin"
+
+#code
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
-# alias code="flatpak run com.visualstudio.code.oss"
+export ELECTRON_TRASH=gio
+export VISUAL=code
 
-# docker
-alias docker-remove-containers='docker rm $(docker ps -a -q) -f'
-alias docker-remove-volumes='docker volume prune'
+# python
+export PATH="$PATH:$HOME/.local/bin"
 
-# git
-alias gcm='git clone --mirror'
-alias grv='git remote -v'
-alias .gp='git push'
+# ruby
+export PATH="$PATH:$HOME/.gem/ruby/2.7.0/bin"
 
-# nvm
-# export NVM_DIR="/home/yasin/.nvm"
-# [ -s "/home/yasin/.nvm/nvm.sh" ] && \. "/home/yasin/.nvm/nvm.sh"  # This loads nvm
-# export PATH="/home/yasin/bin/Sencha/Cmd:$PATH"
-#
-# [ -s "/home/yasin/.nvm/bash_completion" ] && \. "/home/yasin/.nvm/bash_completion"  # This loads nvm bash_completion
+# sencha
+export PATH="$PATH:$HOME/bin/Sencha/Cmd"
 
-#
-# WORK
-#
-[[ -f ~/.bashrc.work ]] && . ~/.bashrc.work
+# yarn
+export PATH="$PATH:$HOME/.yarn/bin"
+
+#############
+# SCRIPTS
+#############
 
 #
 # Get scripts directory and make them reachable 
@@ -108,3 +83,9 @@ cd ../scripts
 SCRIPT_PATH=`pwd`
 popd  > /dev/null
 export PATH="$SCRIPT_PATH::$PATH"
+
+#############
+# WORK
+#############
+
+[[ -f ~/.bashrc.work ]] && . ~/.bashrc.work
