@@ -17,6 +17,8 @@ alias keys='encfs ~/Dropbox/keys/ ~/keys'
 
 # journalctl
 alias logs="journalctl -m -p warning" 
+alias logs-rotate="sudo journalctl --rotate" 
+alias logs-vacuum="sudo journalctl --vacuum-time=1s" 
 
 # pacman
 alias kur='pikaur -S --needed'
