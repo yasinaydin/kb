@@ -12,13 +12,6 @@ Enabled network devices:
 systemctl list-units | grep -iE '(net|wpa|dhcp|conn|iwd|wicd)'
 ```
 
-## Journalctl
-
-Kernel log since current boot:
-```sh
-journalctl -kb
-```
-
 ## Pacman
 Find & remove orphans:
 ```sh

@@ -1,5 +1,9 @@
-## Logs by service
+## Kernel logs since boot
+```sh
+journalctl -kb
+```
 
+## Logs by service
 ```sh
 journalctl -u service-name
 ```
