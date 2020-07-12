@@ -6,7 +6,13 @@ checkParamsExact $# 1
 # main
 
 # delete package
-pikaur -Rscnu --color auto $1;
+Cmd="pikaur -Rscnu --color auto $1"
+$Cmd
+CmdStatus=$?
+
+if [ $CmdStatus -ne 0 ]; then
+  exit
+fi
 
 # clean
 CLEANFILE="$(dirname "$(readlink -f "$0")")/../uninstallers/$1.sh"
