@@ -39,7 +39,7 @@ pikaur -Rscnu --color auto $1;
 
 
 # clean
-CLEANFILE="$(dirname "$(readlink -f "$0")")/uninstallers/$1.sh"
+CLEANFILE="$(dirname "$(readlink -f "$0")")/../uninstallers/$1.sh"
 
 if test -f "$CLEANFILE"; then
   msg_info "found uninstall cleaner file: $CLEANFILE"
