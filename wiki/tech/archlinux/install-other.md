@@ -1,6 +1,5 @@
 
 microcode
-multilib
 
 extra:
 libreoffice-fresh
@@ -16,15 +15,8 @@ bind-tools
 
 bumblebee
 
-# haveged
-https://wiki.archlinux.org/index.php/Haveged
-haveged
-sudo systemctl enable haveged
-
-
-xfce4-whiskermenu-plugin
-
 # xfce
+xfce4-whiskermenu-plugin
 
 
 # hw video acceleration

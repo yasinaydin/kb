@@ -4,9 +4,8 @@
 
 
 # noncat
-pikaur -S --needed \
-  encfs \
-  slock
+encfs
+slock
 
 # tools
 bash-completion
