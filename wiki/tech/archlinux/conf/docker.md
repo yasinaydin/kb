@@ -6,10 +6,7 @@ Source: <https://wiki.archlinux.org/index.php/Docker>
 ```sh
 kur docker-compose
 sudo gpasswd -a $(whoami) docker
-
-# Optional
-sudo systemctl start docker
-sudo systemctl enable docker
+sudo systemctl enable --now docker
 ```
 
 ## Uninstall
