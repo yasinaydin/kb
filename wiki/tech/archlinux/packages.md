@@ -18,6 +18,7 @@ dhclient
 
 graph
 bumblebee
+??? bbswitch
 
 
 # needs conf
