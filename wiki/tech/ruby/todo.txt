@@ -1,0 +1,56 @@
+Ruby: read these:
+
+https://www.ruby-lang.org/en/documentation/
+https://www.rubyguides.com/
+https://rubyonrails.org/
+https://ruby-doc.org/docs/ruby-doc-bundle/FAQ/FAQ.html
+
+Ruby
+Technical:
+
+https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/
+https://www.ruby-lang.org/en/documentation/quickstart/
+https://www.ruby-lang.org/en/about/
+https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-java/
+https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-c-and-cpp/
+https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-php/
+https://www.ruby-lang.org/en/documentation/ruby-from-other-languages/to-ruby-from-python/
+Non-tech:
+
+https://www.ruby-lang.org/en/
+https://www.ruby-lang.org/en/about/license.txt
+https://www.ruby-lang.org/en/libraries/
+https://www.ruby-lang.org/en/community/
+https://www.ruby-lang.org/en/community/conferences/
+https://www.ruby-lang.org/en/documentation/success-stories/
+
+
+
+Ruby links:
+http://rubykoans.com/
+https://www.ruby-lang.org/en/documentation/quickstart/
+book: the ruby programming language (matsumoto)
+http://rubyquiz.com/
+https://guides.rubyonrails.org/v5.0/getting_started.html#creating-the-blog-application
+https://www.stuartellis.name/articles/erb/
+https://doc.rust-lang.org/stable/nomicon/
+
+
+rubymine shortcuts:
+open file
+ctrl shift n
+
+
+
+
+ruby vscode extensions
+:
+ruby - language
+ruby solargraph - intellisense
+ruby-linter - ruby -wc
+ruby-rubocop - 
+ruby-symbols - go to symbol sup
+simple ruby erb
+
+
+
