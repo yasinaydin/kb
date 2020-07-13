@@ -2,8 +2,12 @@
 # ~/.bashrc
 
 [[ $- != *i* ]] && return # return if not interactive
-alias ls='ls --color=auto' # ls color
 PS1='[\u@\h \W]\$ ' # bash prompt
+
+# Colors
+alias ls='ls --color=auto'
+alias pacman="pacman --color=auto"
+alias pikaur="pikaur --color=auto"
 
 #############
 # ALIASES
