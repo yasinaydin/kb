@@ -75,21 +75,11 @@ export PATH="$PATH:$HOME/.yarn/bin"
 # SCRIPTS
 #############
 
-#
-# Get scripts directory and make them reachable 
-# Works with symbolic linked .bashrc
-# https://stackoverflow.com/a/179231
-#
-pushd . > /dev/null
-SCRIPT_PATH="${BASH_SOURCE[0]}";
-if ([ -h "${SCRIPT_PATH}" ]) then
-  while([ -h "${SCRIPT_PATH}" ]) do cd `dirname "$SCRIPT_PATH"`; SCRIPT_PATH=`readlink "${SCRIPT_PATH}"`; done
-fi
-cd `dirname ${SCRIPT_PATH}` > /dev/null
-cd ../scripts
-SCRIPT_PATH=`pwd`
-popd  > /dev/null
-export PATH="$SCRIPT_PATH::$PATH"
+BASHRC_LOC=`readlink -f .bashrc`
+KB_DIR=`dirname $(dirname $(dirname $BASHRC_LOC))`
+
+export PATH="$PATH:$KB_DIR/os/scripts"
+export kb=$KB_DIR
 
 #############
 # WORK

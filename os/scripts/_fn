@@ -30,3 +30,9 @@ isArch() {
     exitWithError "not arch linux"
   fi
 }
+
+emptyAndDeleteFolder() {
+  if [ -d "$1" ]; then
+    find $1 -empty -delete
+  fi
+}
