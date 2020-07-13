@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.cache/filezilla
-rm -rf ~/.config/filezilla
+rm -rf $HOME/.cache/filezilla
+rm -rf $HOME/.config/filezilla

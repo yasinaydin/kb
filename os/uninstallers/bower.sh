@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf ~/.cache/bower
-rm  -f ~/.config/configstore/bower-github.json
-rm  -f ~/.config/configstore/update-notifier-bower.json
+rm -rf $HOME/.cache/bower
+rm -rf $HOME/.config/configstore/bower-github.json
+rm -rf $HOME/.config/configstore/update-notifier-bower.json

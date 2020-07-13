@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo rm -fr /var/lib/dhcpcd
+sudo rm -rf /var/lib/dhcpcd

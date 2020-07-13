@@ -1,5 +1,5 @@
 #!/bin/bash
 pikaur -Rscnu phpstorm-jre
 
-rm -rf ~/.PhpStorm2019.*
-rm -rf ~/.local/share/JetBrains
+rm -rf $HOME/.PhpStorm2019.*
+rm -rf $HOME/.local/share/JetBrains

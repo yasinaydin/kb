@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.config/vlc
-rm -rf ~/.local/share/vlc
+rm -rf $HOME/.config/vlc
+rm -rf $HOME/.local/share/vlc

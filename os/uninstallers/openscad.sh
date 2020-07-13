@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.config/OpenSCAD
+rm -rf $HOME/.config/OpenSCAD

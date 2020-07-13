@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.config/redshift
+rm -rf $HOME/.config/redshift

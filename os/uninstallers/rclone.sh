@@ -1,4 +1,4 @@
 #!/bin/bash
 
-rm -rf ~/.cache/rclone/
-rm -rf ~/.config/rclone/
+rm -rf $HOME/.cache/rclone/
+rm -rf $HOME/.config/rclone/

@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.cache/node-gyp
-rm -rf ~/.node-gyp
+rm -rf $HOME/.cache/node-gyp
+rm -rf $HOME/.node-gyp

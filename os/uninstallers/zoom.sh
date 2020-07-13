@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf ~/.cache/zoom/
-rm -rf ~/.zoom
-rm -rf ~/.config/zoomus.conf
+rm -rf $HOME/.cache/zoom/
+rm -rf $HOME/.zoom
+rm -rf $HOME/.config/zoomus.conf

@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.local/share/Steam
-rm -rf ~/.steam*
+rm -rf $HOME/.local/share/Steam
+rm -rf $HOME/.steam*

@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -f ~/.wget-hsts
+rm -rf $HOME/.wget-hsts

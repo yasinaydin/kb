@@ -17,7 +17,7 @@ alias pikaur="pikaur --color=auto"
 alias dns='cat /etc/resolv.conf'
 
 # encfs
-alias keys='encfs ~/Dropbox/keys/ ~/keys'
+alias keys='encfs $HOME/Dropbox/keys/ $HOME/keys'
 
 # journalctl
 alias logs="journalctl -m -p warning" 

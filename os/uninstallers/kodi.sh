@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.kodi
+rm -rf $HOME/.kodi

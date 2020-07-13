@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.cache/gimp
-rm -rf ~/.config/GIMP
+rm -rf $HOME/.cache/gimp
+rm -rf $HOME/.config/GIMP

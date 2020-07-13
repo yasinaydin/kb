@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.config/Postman
-rm -rf ~/Postman
+rm -rf $HOME/.config/Postman
+rm -rf $HOME/Postman

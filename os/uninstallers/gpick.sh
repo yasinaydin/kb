@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -fr ~/.config/gpick
+rm -rf $HOME/.config/gpick

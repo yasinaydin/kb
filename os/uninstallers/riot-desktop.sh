@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.config/Riot
+rm -rf $HOME/.config/Riot
 

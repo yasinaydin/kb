@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -fr ~/.anydesk
+rm -rf $HOME/.anydesk

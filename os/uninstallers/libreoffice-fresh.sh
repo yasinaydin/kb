@@ -1,3 +1,3 @@
 #!/bin/bash
 
-rm -rf ~/.config/libreoffice
+rm -rf $HOME/.config/libreoffice

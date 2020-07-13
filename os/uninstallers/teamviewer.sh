@@ -1,7 +1,7 @@
 #!/bin/bash
-rm -rf ~/.cache/TeamViewer
-rm -rf ~/.config/teamviewer
-rm -rf ~/.local/share/teamviewer*
+rm -rf $HOME/.cache/TeamViewer
+rm -rf $HOME/.config/teamviewer
+rm -rf $HOME/.local/share/teamviewer*
 
 sudo rm -rf /etc/teamviewer
 sudo rm -rf /root/.local/share/teamviewer*

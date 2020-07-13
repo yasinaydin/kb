@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.config/hexchat
+rm -rf $HOME/.config/hexchat
 

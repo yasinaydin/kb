@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.config/smplayer
+rm -rf $HOME/.config/smplayer

@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -fr ~/.cache/youtube-dl
+rm -rf $HOME/.cache/youtube-dl

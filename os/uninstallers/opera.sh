@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf ~/.cache/opera
-rm -rf ~/.config/opera
-rm -rf ~/.config/opera-back-ovfs
-rm -rf ~/.config/opera-backup
+rm -rf $HOME/.cache/opera
+rm -rf $HOME/.config/opera
+rm -rf $HOME/.config/opera-back-ovfs
+rm -rf $HOME/.config/opera-backup

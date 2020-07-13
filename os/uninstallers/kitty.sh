@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.cache/kitty/
-rm -rf ~/.config/kitty/
+rm -rf $HOME/.cache/kitty/
+rm -rf $HOME/.config/kitty/

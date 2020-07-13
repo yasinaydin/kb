@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.config/apper
+rm -rf $HOME/.config/apper

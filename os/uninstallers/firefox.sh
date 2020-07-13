@@ -1,8 +1,8 @@
 #!/bin/bash
 
-rm -rf ~/.cache/mozilla/firefox
-rm -rf ~/.mozilla/firefox
+rm -rf $HOME/.cache/mozilla/firefox
+rm -rf $HOME/.mozilla/firefox
 
-sudo rm -f /usr/share/xfce4/helpers/firefox.desktop
+sudo rm -rf /usr/share/xfce4/helpers/firefox.desktop
 
 emptyAndDeleteFolder "$HOME/.mozilla"

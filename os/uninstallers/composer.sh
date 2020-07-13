@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf ~/.cache/composer
-rm -rf ~/.config/composer
-rm -rf ~/.local/share/composer
+rm -rf $HOME/.cache/composer
+rm -rf $HOME/.config/composer
+rm -rf $HOME/.local/share/composer

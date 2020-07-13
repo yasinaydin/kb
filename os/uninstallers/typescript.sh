@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.cache/typescript/
+rm -rf $HOME/.cache/typescript/

@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.config/onedrive
+rm -rf $HOME/.config/onedrive
