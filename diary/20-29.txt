@@ -1,0 +1,8 @@
+film
+its a wonderful life
+
+kb:
+-systemctl enable --now
+-inject _fn file via source
+-better bash source in .bashrc
+-emptyAndDeleteFolder fn

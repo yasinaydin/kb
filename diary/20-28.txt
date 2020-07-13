@@ -1,2 +1,12 @@
 film
-its a wonderful life
+1290 caligari
+2006 brokeback mountain
+2019 joker
+
+dizi
+2009-2016 community - s6>finished
+
+pc
+cockpit, logs
+kb/os: imrpove basc scripts, more auto, only 1 symlink
+newsletters
