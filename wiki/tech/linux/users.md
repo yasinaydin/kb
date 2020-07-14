@@ -6,3 +6,8 @@ Source: <https://wiki.archlinux.org/index.php/Users_and_groups#Other_examples_of
 # r: delete home folder and mail spool
 userdel -r username
 ```
+
+## delete user from group
+```sh
+sudo gpasswd -d user group
+```
