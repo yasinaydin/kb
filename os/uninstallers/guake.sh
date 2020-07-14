@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf /home/yasin/.config/guake/
-rm  -f ~/.config/autostart/guake.desktop
+rm -rf $HOME/.config/autostart/guake.desktop
+rm -rf $HOME/.config/guake/

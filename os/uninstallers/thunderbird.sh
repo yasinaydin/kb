@@ -1,4 +1,4 @@
 #!/bin/bash
-rm -rf ~/.cache/thunderbird
-rm -rf ~/.thunderbird
+rm -rf $HOME/.cache/thunderbird
+rm -rf $HOME/.thunderbird
 sudo rm -rf /usr/share/xfce4/helpers/thunderbird.desktop

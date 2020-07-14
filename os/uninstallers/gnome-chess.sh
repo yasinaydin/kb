@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.local/share/gnome-chess
+rm -rf $HOME/.local/share/gnome-chess
 

@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.mplayer
+rm -rf $HOME/.mplayer

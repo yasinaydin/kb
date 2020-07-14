@@ -1,6 +1,6 @@
 #!/bin/bash
-rm -rf ~/.cache/pip
-rm -rf ~/.local/lib/python*
+rm -rf $HOME/.cache/pip
+rm -rf $HOME/.local/lib/python*
 
 sudo rm -rf /root/.cache/pip
 

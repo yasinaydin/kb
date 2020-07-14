@@ -2,8 +2,12 @@
 # ~/.bashrc
 
 [[ $- != *i* ]] && return # return if not interactive
-alias ls='ls --color=auto' # ls color
 PS1='[\u@\h \W]\$ ' # bash prompt
+
+# Colors
+alias ls='ls --color=auto'
+alias pacman="pacman --color=auto"
+alias pikaur="pikaur --color=auto"
 
 #############
 # ALIASES
@@ -13,7 +17,7 @@ PS1='[\u@\h \W]\$ ' # bash prompt
 alias dns='cat /etc/resolv.conf'
 
 # encfs
-alias keys='encfs ~/Dropbox/keys/ ~/keys'
+alias keys='encfs $HOME/Dropbox/keys/ $HOME/keys'
 
 # journalctl
 alias logs="journalctl -m -p warning" 

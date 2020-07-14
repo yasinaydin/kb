@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -rf ~/.config/Slack
+rm -rf $HOME/.config/Slack

@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf ~/.cache/yarn
-rm -rf ~/.config/yarn
-rm -rf ~/.yarn
-rm  -f ~/.yarnrc
+rm -rf $HOME/.cache/yarn
+rm -rf $HOME/.config/yarn
+rm -rf $HOME/.yarn
+rm -rf $HOME/.yarnrc

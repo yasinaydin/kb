@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.config/snappy
+rm -rf $HOME/.config/snappy
 

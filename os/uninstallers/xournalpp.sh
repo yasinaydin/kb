@@ -1,2 +1,2 @@
 #!/bin/bash
-rm -fr ~/.xournalpp
+rm -rf $HOME/.xournalpp

@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/go/
-rm -rf ~/.cache/go-build
+rm -rf $HOME/go/
+rm -rf $HOME/.cache/go-build

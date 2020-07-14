@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.cache/kamoso
-rm -rf ~/.config/kamosorc
+rm -rf $HOME/.cache/kamoso
+rm -rf $HOME/.config/kamosorc

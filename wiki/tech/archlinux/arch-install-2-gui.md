@@ -39,7 +39,7 @@ sudo pacman -S xf86-input-evdev xf86-input-synaptics
 To test:
 ```sh
 sudo pacman -S xorg-xinit xorg-twm xorg-xclock xterm
-cp /etc/X11/xinit/xinitrc ~/.xinitrc
+cp /etc/X11/xinit/xinitrc $HOME/.xinitrc
 startx
 sudo pacman -Rsc xorg-xinit xorg-twm xorg-xclock xterm
 ```

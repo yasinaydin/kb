@@ -1,7 +1,7 @@
 #!/bin/sh
 pikaur -Rscnu virtualbox-host-modules-arch virtualbox-guest-iso virtualbox-guest-utils
 
-rm -rf ~/.config/VirtualBox
-rm -rf ~/VirtualBox\ VMs
+rm -rf $HOME/.config/VirtualBox
+rm -rf $HOME/VirtualBox\ VMs
 
 sudo rm -rf /root/.config/VirtualBox

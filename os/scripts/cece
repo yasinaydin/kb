@@ -33,40 +33,40 @@ history -c
 # Files
 #
 # Delete empty files and folders:
-find ~/.cache ~/.local -empty -delete
+find $HOME/.cache $HOME/.local -empty -delete
 # fix mozilla
-# find ~/.cache ~/.local ~/.mozilla -empty -delete
+# find $HOME/.cache $HOME/.local $HOME/.mozilla -empty -delete
 
 # Delete empty folders only:
-find ~/.config -type d -empty -delete
+find $HOME/.config -type d -empty -delete
 
-rm -f ~/.bash_history 
-rm -f ~/.bash_logout # Commants to run on BASH logout
-rm -f ~/.cache/pikaur/*
-rm -f ~/.config/vlc/vlc-qt-interface.conf # vlc recent videos
-rm -f ~/.dmrc # Legacy GNOME2 default user session
-rm -f ~/.esd_auth # Pulseaudio cookie
-rm -f ~/.fontconfig # has CACHEDIR.TAG in it 
-rm -f ~/.lesshst # .less-history-file
-rm -f ~/.mysql_history
-rm -f ~/.netrc # for heroku
-rm -f ~/.node_repl_history
-rm -f ~/.python-history
-rm -f ~/.Rhistory # R Lang's/CLI's history
-rm -f ~/.vuerc
-rm -f ~/.xsession-errors*
-rm -f ~/.yarnrc
+rm -f $HOME/.bash_history 
+rm -f $HOME/.bash_logout # Commants to run on BASH logout
+rm -f $HOME/.cache/pikaur/*
+rm -f $HOME/.config/vlc/vlc-qt-interface.conf # vlc recent videos
+rm -f $HOME/.dmrc # Legacy GNOME2 default user session
+rm -f $HOME/.esd_auth # Pulseaudio cookie
+rm -f $HOME/.fontconfig # has CACHEDIR.TAG in it 
+rm -f $HOME/.lesshst # .less-history-file
+rm -f $HOME/.mysql_history
+rm -f $HOME/.netrc # for heroku
+rm -f $HOME/.node_repl_history
+rm -f $HOME/.python-history
+rm -f $HOME/.Rhistory # R Lang's/CLI's history
+rm -f $HOME/.vuerc
+rm -f $HOME/.xsession-errors*
+rm -f $HOME/.yarnrc
 
-rm -fr ~/.cache/thumbnails
-rm -fr ~/.config/chromium/Default/Service\ Worker/*
-rm -fr ~/.docker # auth setings
-rm -fr ~/.java # java settings
-rm -fr ~/.local/share/pikaur/aur_repos
-rm -fr ~/.putty
-rm -fr ~/.screenlayout # prob for arandr/xrandr
-rm -fr ~/.subversion
-rm -fr ~/.thumbnails
-rm -fr ~/.uml
+rm -fr $HOME/.cache/thumbnails
+rm -fr $HOME/.config/chromium/Default/Service\ Worker/*
+rm -fr $HOME/.docker # auth setings
+rm -fr $HOME/.java # java settings
+rm -fr $HOME/.local/share/pikaur/aur_repos
+rm -fr $HOME/.putty
+rm -fr $HOME/.screenlayout # prob for arandr/xrandr
+rm -fr $HOME/.subversion
+rm -fr $HOME/.thumbnails
+rm -fr $HOME/.uml
 
 
 #
@@ -74,22 +74,22 @@ rm -fr ~/.uml
 #
 
 # a better way to do this?
-# rm -fr ~/.config/chromium/Profile\ 1/Service\ Worker/*
-# rm -fr ~/.config/chromium/Profile\ 2/Service\ Worker/*
-# rm -fr ~/.config/chromium/Profile\ 3/Service\ Worker/*
-# rm -fr ~/.config/chromium/Profile\ 6/Service\ Worker/*
-# rm -fr ~/.config/chromium/Profile\ 7/Service\ Worker/*
-# rm -fr ~/.config/chromium/Profile\ 9/Service\ Worker/*
-# rm -fr ~/.config/chromium/Profile\ 10/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 1/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 2/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 3/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 6/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 7/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 9/Service\ Worker/*
+# rm -fr $HOME/.config/chromium/Profile\ 10/Service\ Worker/*
 
 # if [ $# -ne 0 ] # If has any parameter
 #   then
-#     rm -fr ~/.cache
-#     rm -fr ~/.npm
-#     rm -fr ~/.node-gyp
+#     rm -fr $HOME/.cache
+#     rm -fr $HOME/.npm
+#     rm -fr $HOME/.node-gyp
 
 #     # Requires restart
-#     rm -f ~/.ICEauthority # X11 Auth Client2Client
-#     rm -f ~/.Xauthority # X11 Auth Client2Server
+#     rm -f $HOME/.ICEauthority # X11 Auth Client2Client
+#     rm -f $HOME/.Xauthority # X11 Auth Client2Server
 # fi
 

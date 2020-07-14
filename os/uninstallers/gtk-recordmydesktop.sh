@@ -1,2 +1,2 @@
 #!/bin/bash
-rm  -f ~/.gtk-recordmydesktop
+rm -rf $HOME/.gtk-recordmydesktop

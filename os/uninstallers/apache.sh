@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo rm -fr /var/log/httpd
+sudo rm -rf /var/log/httpd

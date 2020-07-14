@@ -1,3 +1,2 @@
 #!/bin/bash
-rm -fr ~/.cache/deno
-
+rm -rf $HOME/.cache/deno

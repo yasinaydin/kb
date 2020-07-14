@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.bundle
-rm -rf ~/.gem
+rm -rf $HOME/.bundle
+rm -rf $HOME/.gem

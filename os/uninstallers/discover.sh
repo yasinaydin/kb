@@ -1,5 +1,5 @@
 #!/bin/bash
-rm -rf ~/.cache/discover
-rm -rf ~/.config/discoverrc
-rm -rf ~/.config/kde.org/UserFeedback.org.kde.discover.conf
-rm -rf ~/.local/share/discover
+rm -rf $HOME/.cache/discover
+rm -rf $HOME/.config/discoverrc
+rm -rf $HOME/.config/kde.org/UserFeedback.org.kde.discover.conf
+rm -rf $HOME/.local/share/discover

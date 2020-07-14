@@ -1,3 +1,3 @@
 #!/bin/bash
-rm -rf ~/.cache/Popcorn-Time
-rm -rf ~/.config/Popcorn-Time
+rm -rf $HOME/.cache/Popcorn-Time
+rm -rf $HOME/.config/Popcorn-Time
