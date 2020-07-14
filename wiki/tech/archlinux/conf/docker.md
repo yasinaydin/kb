@@ -8,8 +8,3 @@ kur docker-compose
 sudo gpasswd -a $(whoami) docker
 sudo systemctl enable --now docker
 ```
-
-## Uninstall
-```sh
-sil docker
-```
