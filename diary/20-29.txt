@@ -1,5 +1,15 @@
 film
 its a wonderful life
+thing
+
+tvshow
+f for family
+
+health
+dentist control
+
+hobby projects:
+postgresql citizens
 
 kb:
 -systemctl enable --now
