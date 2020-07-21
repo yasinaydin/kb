@@ -52,10 +52,27 @@ Once a month:
 ---
 
 ## Products
-- Food: Trovet - Diabetic food - https://bosse.ee/en/cats/dry-foods/adult/trovet-weight-diabetic-cat-3-kg/
-- Vitamins: https://bosse.ee/en/cats/treats/vitakraft-vita-herzis-3-mix-50-tab-30g/
-- Catnip: https://bosse.ee/en/cats/treats/armitages-catnip-bisquits-75g/
-- Litter sand is thin grained, smell reducing, holds water/urine inside. It's not plastic but bio-organic
-- Litter sand: Selim BioSand. Picture: https://www.perfarelalbero.it/7161/biosand-selim-lettiera-agglomerante-fine-profumata-75-kg.jpg Bosse.ee: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ8fVzZe2rrN9CpAwS3v5YxpBpxgSQA-RVMzQ&usqp=CAU
-- Litter showel: https://bosse.ee/en/nobby-litter-spoon-large-coarse/
-- Toilet: https://bosse.ee/en/savic-cat-toilet-nestor-white-green/
+
+| Type            | Brand               | Product                             | Buy Link       |
+|-----------------|---------------------|-------------------------------------|----------------|
+| Dry Food        | Trovet              | [Weight & Diabetic WRD][01]         | [bosse.ee][02] |
+| Vitamin Snacks  | Vitakraft           | Vita Herzis                         | [bosse.ee][03] |
+| Catnip Biscuits | Armitages Good Girl | Catnip Biscuits                     | [bosse.ee][04] |
+| Litter Sand     | Selim BioSand       | [BioSand SuperClumping Fine][05]    | [betta.ee][06] |
+| Litter Mat      | Savic               | [Litter Tray Mat][07]               | [bosse.ee][08] |
+| Litter Showel   | Nobby               | [Litter spoon][09] Big, Small holes | [bosse.ee][10] |
+| Litter Box      | Savic               | [Nestor White/Green][11]            | [bosse.ee][12] |
+| Leash/Harness   | ?                   | ?                                   | bosse.ee       |
+
+[01]: https://www.trovet.com/product/weight-diabetic-cat/
+[02]: https://bosse.ee/en/cats/dry-foods/adult/trovet-weight-diabetic-cat-3-kg
+[03]: https://bosse.ee/en/vitakraft-vita-herzis-3-mix-50-tab-30g/
+[04]: https://bosse.ee/en/cats/treats/armitages-catnip-bisquits-75g/
+[05]: http://www.biosand.it/FineSupClump.html#
+[06]: https://www.betta.ee/et/329/1494/prod/145/kassiliiv%20Selim%20Biosand%207,5kg
+[07]: https://www.savic.be/products/litter-tray-mat/
+[08]: https://bosse.ee/en/savic-mat-for-nestor-jumbo-toilet/
+[09]: https://nobby.de/en/cat/care-hygiene/toilets-equipment/7313/litter-spoon
+[10]: https://bosse.ee/en/nobby-litter-spoon-large/
+[11]: https://www.savic.be/products/nestor/
+[12]: https://bosse.ee/en/savic-cat-toilet-nestor-white-green/
