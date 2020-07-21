@@ -31,8 +31,10 @@ Business & New Ideas
 - [Discover exploding trends](https://trennd.co/)
 
 
-Cooking
+Cooking, Food. Cuisine, Kitchen
 - [Feast Genius](https://www.feastgenius.com/search)
+- <https://spoonacular.com> - Free meal planner, food tracker, and recipe saver
+- <https://borstell.github.io/dumplings.html> - A Typology of Dumplings
 
 
 Design & Lifestyle
@@ -60,7 +62,12 @@ Music
 - [driveandlisten.herokuapp.com - Drive through cities in the browser while listening to local radio stations](https://driveandlisten.herokuapp.com/)
 
 
+Painting
+- <https://www.google.com/search?hl=en&q=norman+rockwell+painting>
+
+
 TV
 - [Collection of 7000+ publicly available IPTV channels from all over the world](https://github.com/freearhey/iptv)
 - [puffer.stanford.edu - Watch US TVs via Puffer from Stanford University](https://puffer.stanford.edu/player/)
-
+- <https://arte.tv> - ARTE, the European culture TV channel, free and on demand
+- <https://insecam.org> - Insecure Worldwide Public IPCams

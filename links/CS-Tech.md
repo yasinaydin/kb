@@ -31,6 +31,7 @@ Javascript
 - [doesitmutate.xyz](https://doesitmutate.xyz/)
 - [taniarascia.com - Understanding Generators in JavaScript](https://www.taniarascia.com/understanding-generators-in-javascript/)
 - [freenodecamp.com - Debounce Explained – How to Make Your JavaScript Wait For Your User To Finish Typing](https://www.freecodecamp.org/news/debounce-explained-how-to-make-your-javascript-wait-for-your-user-to-finish-typing-2/)
+- <https://whatthefork.is/closure>
 
 
 Node.js
@@ -55,11 +56,9 @@ Rust
 - [HN: Considering Rust - video](https://news.ycombinator.com/item?id=22512214)
 - [sheshbabu.com - Rust for JavaScript Developers - Tooling Ecosystem Overview](http://www.sheshbabu.com/posts/rust-for-javascript-developers-tooling-ecosystem-overview)
 - [sheshbabu.com - Rust for JavaScript Developers - Functions and Control Flow](http://www.sheshbabu.com/posts/rust-for-javascript-developers-functions-and-control-flow/)
+- <http://sheshbabu.com/posts/rust-for-javascript-developers-pattern-matching-and-enums>
 - [nicolodavis.com - Moving from TypeScript to Rust / WebAssembly](https://nicolodavis.com/blog/typescript-to-rust/)
-
-
-SQL:
-- [drawsql.app - Database schema templates](https://drawsql.app/templates)
+- <https://tourofrust.com>
 
 
 TypeScript
