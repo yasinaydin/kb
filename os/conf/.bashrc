@@ -27,6 +27,8 @@ alias logs-vacuum="sudo journalctl --vacuum-time=1s"
 # pacman
 alias kur='pikaur -S --needed'
 alias upp='pikaur -Syu'
+alias _kur='recipe install'
+alias _sil='recipe uninstall'
 
 # php
 alias phps='php -S 0.0.0.0:8088'

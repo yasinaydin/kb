@@ -6,9 +6,18 @@
 msg_warn() {
   echo -e "\e[33mwarning:\e[0m $*"
 }
+msg_warn2() {
+  echo -e "\e[33m$1:\e[0m $2"
+}
+
 msg_info() {
   echo -e "\e[36minfo:\e[0m $*"
 }
+
+msg_info2() {
+  echo -e "\e[36m$1:\e[0m $2"
+}
+
 msg_ok() {
   echo -e "\e[32mfinished\e[0m"
 }
