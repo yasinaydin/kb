@@ -10,6 +10,9 @@ dentist control
 
 hobby projects:
 postgresql citizens started
+open streetmap where visited
+vector reinstall again
+install/uninstall with recipe
 
 game:
 rise of tomb raider 2005 finished normal story 100%
