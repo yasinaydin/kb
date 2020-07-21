@@ -127,15 +127,13 @@ if [ $MODE == "install" ]; then
 fi
 
 if [ $MODE == "uninstall" ]; then
-  # pkg_delete $RECIPE_PKGS
+  pkg_delete $RECIPE_PKGS
 
   groups_deletegroup $RECIPE_GROUP
-  echo 123
-
   # group_deleteold $RECIPE_GROUP
-  # file_delete_user "${RECIPE_FOLDERS_HOME[@]}"
-  # file_delete_root "${RECIPE_FOLDERS_ROOT[@]}"
-  # service_delete $RECIPE_SERVICE
+  file_delete_user "${RECIPE_FOLDERS_HOME[@]}"
+  file_delete_root "${RECIPE_FOLDERS_ROOT[@]}"
+  service_delete $RECIPE_SERVICE
 fi
 
 msg_ok

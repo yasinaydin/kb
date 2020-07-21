@@ -1,5 +1,0 @@
-this will include both install and uninstall part
-
-install will also include config
-
-uninstall is the same as scripts. it can be done with better stuff like removeFolders([...])
