@@ -1,7 +1,11 @@
 # Lola/Lolita
 
-## Main Care
+## Warnings
 
+- **Never leave her alone windows or doors open, as she might jump or get lost**
+
+
+## Main Care
 Every morning, when I wake up:
 - Clean her water bowl, fill it with tap water
 - Give her one handful of dry food
@@ -18,7 +22,9 @@ Once a month:
 - I put her both food or water bowls in the dish washer to clean it properly
 - I remove all the sand from her toilet and put new sand I bought
 
+
 ## Other
+
 
 ### Other foods:
 - I dont buy her any other food, especially wet food
@@ -48,6 +54,13 @@ Once a month:
 - Windows: As she is very excited on anything flies, especially birds, she might try to jump out. She fell down only once in last year but it's best to be careful. NEVER leave her alone with windows open when you leave the house. 
 - Don't let her eat lots of grass (on the garden or as a snack) otherwise she might puke. Otherwise if she doesnt have bad food or very different diet she doesnt puke. 
 - She doesnt scratch clothes or anyhing else, but she might try to play with the curtains
+
+### Health Info
+
+- Microchipped (lower neck)
+- Birth: 2017
+- Neutered
+- Registered in Estonia
 
 ---
 
