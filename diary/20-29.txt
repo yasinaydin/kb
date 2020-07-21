@@ -9,7 +9,10 @@ health
 dentist control
 
 hobby projects:
-postgresql citizens
+postgresql citizens started
+
+game:
+rise of tomb raider 2005 finished normal story 100%
 
 kb:
 -systemctl enable --now
