@@ -15,12 +15,16 @@ createuser --interactive
 exit
 createdb yasin
 
+---------------
+
 
 # speedup
 https://pgtune.leopard.in.ua/#/
-psql-c 'SHOW config_file'
+psql -c 'SHOW config_file'
+# edit file, copy config_file
+sudo systemctl restart postgresql
 
-
+------------------
 
 psql yasin < data_dump.sql
 ###
