@@ -40,6 +40,10 @@ list:
   - app library
   - widgets
 
+## app-independepent
+- add green light next to camera when an app is using cam/mic
+- add orange light next to camera when an app recently used cam/mic
+- add popup on top when ther's a copy-paste
 
 ## airpods
 - pro: spatial audio (via gyroscope and accel.meter)
