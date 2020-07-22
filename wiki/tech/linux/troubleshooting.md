@@ -17,12 +17,12 @@ Detect:
 ```sh
 sudo pacman -Qkkq | grep -v "0 altered files"
 sudo pacman -Qkq
+sudo pacman -Qkq | awk '{print $1 | "sort"}' | uniq
 ```
 
 Fix:
 ```sh
-pacman -Qkq | awk '{print $1 | "sort"}' | uniq
-pacman -S $(pacman -Qkq | awk '{print $1 | "sort"}' | uniq )
+pikaur -S $(sudo pacman -Qkq | awk '{print $1 | "sort"}' | uniq )
 ```
 
 ## ninfod
