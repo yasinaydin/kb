@@ -1,0 +1,55 @@
+https://wiki.archlinux.org/index.php/PostgreSQL
+
+kur postgresql
+
+sudo -iu postgres
+initdb -D /var/lib/postgres/data
+exit
+
+sudo systemctl enable --now postgresql
+
+sudo -iu postgres
+createuser --interactive
+# yasin
+# y (for superuser)
+exit
+createdb yasin
+
+
+# speedup
+https://pgtune.leopard.in.ua/#/
+psql-c 'SHOW config_file'
+
+
+
+psql yasin < data_dump.sql
+###
+ALTER TABLE "citizen"
+DROP "misc";
+COMMENT ON TABLE "citizen" IS '';
+# col adini tckn ye cevir
+# diger uid col sil
+
+###
+ALTER TABLE citizen ALTER COLUMN tckn TYPE bigint USING tckn::bigint
+#### 
+indexler: tckn=primary,dob,mother,father
+#########
+DELETE 
+FROM citizen
+WHERE ctid IN (
+
+SELECT ctid 
+FROM(
+    SELECT 
+        *, 
+        ctid,
+        row_number() OVER (PARTITION BY tckn ORDER BY ctid) 
+    FROM citizen
+)s
+WHERE row_number >= 2
+)
+
+
+
+
