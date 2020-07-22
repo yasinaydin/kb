@@ -9,6 +9,22 @@
 
 ---
 
+## pacman altered files
+
+Source: <https://bbs.archlinux.org/viewtopic.php?id=186994>
+
+Detect:
+```sh
+sudo pacman -Qkkq | grep -v "0 altered files"
+sudo pacman -Qkq
+```
+
+Fix:
+```sh
+pacman -Qkq | awk '{print $1 | "sort"}' | uniq
+pacman -S $(pacman -Qkq | awk '{print $1 | "sort"}' | uniq )
+```
+
 ## ninfod
 
 Source: <https://bugs.archlinux.org/task/65420>
