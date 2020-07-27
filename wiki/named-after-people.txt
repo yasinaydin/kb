@@ -1,0 +1,29 @@
+# Things Unexpectedly Named After People
+
+PageRank (Larry Page)
+MySQL (My Widenius, co founder Michael Widenius's older daugher)
+MariaDB (Maria Widenius, co founder Michael Widenius's younger daugher)
+MaxDB( after his son :slightly_smiling_face: 
+Debian (two people named Deb and Ian)
+New Relic (anagram of Lew Cirne)
+
+also
+French's mustard -> Robert Timothy French.
+
+Currying after Haskell Brooks Curry
+Sideburns : Named after the American Civil War general Ambrose Burnside.
+ELO Ratings: Arpad Elo
+The Mars bar was named after the company, which was named after the person, https://en.wikipedia.org/wiki/Franklin_Clarence_Mars
+Fuchsia is named after Leonhart Fuchs
+Pilates are named after Joe Pilates https://en.m.wikipedia.org/wiki/Pilates
+The word silhouette is derived from the name of Étienne de Silhouette, a French finance minister
+Bluetooth: tenth-century king Harald Bluetooth
+Adidas was founded by Adi Dassler. His brother founded Puma and they hated each other.
+The “pap” in Pap smear is short for Papanikolaou
+Noob Saibot, the Mortal Kombat character, is named after John Tobias and Ed Boon. (Founders)
+Bolivia is named after Simon Bolivar,
+
+Sources:
+https://notes.rolandcrosby.com/posts/unexpectedly-eponymous/
+https://news.ycombinator.com/item?id=23888725
+https://www.informatik-aktuell.de/fileadmin/templates/wr/pics/Artikel/03_Betrieb/Datenbanken/IMG_1379_Monty_Widenius.jpg
