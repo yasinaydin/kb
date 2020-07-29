@@ -35,6 +35,7 @@ Other:
 ## CSS Naming styles / Design Methodologies
 
 - ACSS (Atomic CSS)
+- AMCSS (AM, Attribute Modules for CSS)
 - BEM (Block, Element, Modifier) # created by yandex
 - OOCSS (Object Oriented CSS)
 - oCSS (organic Cascade Style Sheet)
@@ -46,8 +47,14 @@ Other:
 ```sass
 .card 			{} # block
 .card__button 		{} # element
-.card__button--success	{} # modifier
+.card__button-success	{} # modifier
 ```
+
+Info:
+- <https://en.bem.info/>
+- <https://medium.com//ab37c6d10b79>
+- <http://getbem.com/>
+- <https://seesparkbox.com/foundry/bem_by_example>
 
 
 ## Further reading
@@ -61,8 +68,3 @@ Preprocessor style sheet languages:
 - <https://en.wikipedia.org/wiki/Formatting_Output_Specification_Instance>
 - <https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)>
 - <https://en.wikipedia.org/wiki/Less_(stylesheet_language)>
-
-BEM:
-- <https://medium.com//ab37c6d10b79>
-- <http://getbem.com/>
-- <https://seesparkbox.com/foundry/bem_by_example>
