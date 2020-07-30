@@ -50,10 +50,11 @@ Linguistics
 
 
 Mapping:
-- [mapchart.net](https://mapchart.net)
-- [query.wikidata.org](https://query.wikidata.org/)
+- <https://mapchart.net>
+- >https://query.wikidata.org>
 - [wikidata.org - Request a query](https://www.wikidata.org/wiki/Wikidata:Request_a_query)
 - [mapbox.com - OpenStreetMap, a global map for worldwide insight](https://blog.mapbox.com/openstreetmap-a-global-map-for-worldwide-insight-4e041cbf1ec1)
+- <https://kumu.io/>
 
 
 Music

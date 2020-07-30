@@ -73,9 +73,17 @@ export PATH="$PATH:$HOME/bin/Sencha/Cmd"
 # yarn
 export PATH="$PATH:$HOME/.yarn/bin"
 
+# asdf
+if [ -d "$HOME/.asdf" ] 
+then
+  . $HOME/.asdf/asdf.sh
+  . $HOME/.asdf/completions/asdf.bash
+fi
+
 #############
 # SCRIPTS
 #############
+
 
 BASHRC_LOC=`readlink -f .bashrc`
 KB_DIR=`dirname $(dirname $(dirname $BASHRC_LOC))`
