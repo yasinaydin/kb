@@ -68,6 +68,9 @@ rm -fr $HOME/.subversion
 rm -fr $HOME/.thumbnails
 rm -fr $HOME/.uml
 
+# Hotfix for vlc subtitles
+mkdir -p $HOME/.cache/vlc
+
 
 #
 # Tmp
