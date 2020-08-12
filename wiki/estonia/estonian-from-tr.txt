@@ -1,0 +1,21 @@
+		et	tr
+		-------------
+comitative	ga	li
+abessive	ta	siz
+essive 	na	na	?
+terminative	ni	?
+translative	ks	
+(disindaysa/onto/uber)
+ablative	lt	den/dan
+adessive	l	de/da
+allative	le	e/a/ye/ya
+(icindeyse/into)
+elative		st	den/dan (
+inessive	s	de/da
+illative	sse	e/a/ye/ya
+partitive	d/t	üçü'ndeki ü eki
+
+https://conling.fandom.com/wiki/Grammatical_cases
+https://en.wikipedia.org/wiki/Turkish_grammar#Case
+https://en.wikipedia.org/wiki/Estonian_grammar#Nouns
+
