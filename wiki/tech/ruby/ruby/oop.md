@@ -1,7 +1,10 @@
 https://medium.com/@leo_hetsch/ruby-modules-include-vs-prepend-vs-extend-f09837a5b073
 https://medium.com/rubycademy/the-super-keyword-a75b67f46f05
 
+https://zellwk.com/blog/polymorphism-javascript/
 
+
+https://lucaguidi.com/2020/07/22/ruby-method-overloading/
 
 # oop
 

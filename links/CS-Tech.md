@@ -4,7 +4,7 @@ CSS:
 - [CSS effects Snippets](https://emilkowalski.github.io/css-effects-snippets/)
 - [Youtube: Building responsive layouts - Designing in the Browser](https://www.youtube.com/watch?v=K1POS8yPqa8)
 - [mozilla.org - Faster Layouts with CSS Grid (and Subgrid!)](https://hacks.mozilla.org/2019/10/faster-layouts-with-css-grid-and-subgrid)
-
+- [stylestage.dev - Styles Directory](https://stylestage.dev/styles/)
 
 Deno:
 - [Deno 1.0: What you need to know](https://blog.logrocket.com/deno-1-0-what-you-need-to-know/)
@@ -48,6 +48,10 @@ Python
 React
 - [Build your own React](https://pomb.us/build-your-own-react/)
 - [fullstackopen.com - Learn React, Redux, Node.js, MongoDB, GraphQL and TypeScript in one go](https://fullstackopen.com/en/)
+
+
+Regex:
+- [robertelder.org - Regex Visualiser](https://blog.robertelder.org/regular-expression-visualizer/)
 
 
 Rust
