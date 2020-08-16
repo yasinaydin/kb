@@ -20,6 +20,10 @@ Discounts:
 ---
 
 
+3D-Scanning:
+- [appstore - Scandy Pro 3D Scanner](https://apps.apple.com/us/app/scandy-pro-3d-scanner/id1388028223)
+
+
 Blogging
 - [sdnotes.com - Maybe the world's easiest website maker](https://sdnotes.com)
 - [bearblog.dev - No JS blogging](https://bearblog.dev)
