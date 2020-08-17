@@ -1,5 +1,5 @@
 #!/bin/bash
-source _fn
+. "$kb/os/bashset/init.sh"
 
 checkParamsExact $# 1
 
@@ -22,6 +22,7 @@ fi
 
 # clean
 CLEANFILE="$(dirname $(dirname "$(readlink -f "$0")"))/uninstallers/$1.sh"
+msg_info "Checking if clean file exists: $CLEANFILE"
 
 if test -f "$CLEANFILE"; then
   msg_info "found uninstall cleaner file: $CLEANFILE"
@@ -31,5 +32,4 @@ else
   msg_warn "no clean file found: $CLEANFILE"
 fi
 
-# end
-msg_ok
+msg_ok "Finished"

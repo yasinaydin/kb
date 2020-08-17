@@ -1,6 +1,6 @@
 export kb="$HOME/git/yasin/kb"
 
-. "$kb/os/bash/10-functions.sh"
+. "$kb/os/bashset/init.sh"
 
 _sourceIfExists "$kb/os/bash/20-bash.sh"
 _sourceIfExists "$kb/os/bash/30-alias.sh"
