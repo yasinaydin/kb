@@ -7,4 +7,4 @@
 . "$HOME/git/yasin/kb/os/bash/init.sh"
 
 # Work
-_sourceIfExists ~/.bashrc.work
+_sourceIfExists ~/.work.bashrc
