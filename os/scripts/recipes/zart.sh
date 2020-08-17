@@ -1,0 +1,5 @@
+RECIPE_PKGS="zart"
+
+RECIPE_FOLDERS_HOME=(
+  "$HOME/.config/GREYC"
+)

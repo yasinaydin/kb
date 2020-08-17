@@ -1,0 +1,5 @@
+RECIPE_PKGS="npm"
+
+RECIPE_FOLDERS_HOME=(
+  "$HOME/.npm"
+)

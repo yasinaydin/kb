@@ -6,6 +6,8 @@
 - pacman -Qkk
 - logs (journalctl)
 - cece (clear cache)
+- grpck (group consistency check)
+
 
 ---
 

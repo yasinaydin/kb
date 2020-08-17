@@ -1,5 +1,3 @@
-#!/bin/bash
-
 RECIPE_PKGS="php"
 
 RECIPE_FOLDERS_ROOT=(

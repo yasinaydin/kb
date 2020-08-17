@@ -1,111 +1,8 @@
 #!/bin/bash
 . "$kb/os/bashset/init.sh"
 
-### fns
-
-load_recipe() {
-  APPFILE="$(dirname "$(readlink -f "$0")")/recipes/$1.sh"
-  if [ ! -f "$APPFILE" ]; then
-    exitWithError "Recipe for $APPNAME not found at $APPFILE"
-  fi
-  source $APPFILE
-}
-
-pkg_install() {
-  if [ -z "$*" ]; then return; fi
-  pikaur --needed -S $*
-}
-
-pkg_delete() {
-  if [ -z "$*" ]; then return; fi
-  pikaur -Rscnu $*
-}
-
-group_add() {
-  if [ -z "$1" ]; then return; fi
-  msg_info "group_add: $1"
-  sudo gpasswd -a $(whoami) $1
-  # to refresh without restart
-  newgrp -
-  groups
-  msg_info "group_add done"
-}
-
-groups_deletegroup() {
-  FN="groups_deletegroup"
-
-  msg_info2 $FN "init"
-
-  if [ -z "$1" ]; then
-    msg_info2 $FN "no group specified, exiting"
-    return;
-  fi
-
-  if [ ! $(getent group $1) ]; then
-    msg_info2 $FN "no such group as '$1', exiting"
-    return
-  fi
-
-  msg_info2 $FN "trying to delete group '$1'"
-  sudo groupdel $1
-  msg_info2 $FN "deleted group '$1', done"
-  return
-}
-
-groups_deleteuser() {
-  FN="groups_deleteuser"
-
-  msg_info2 $FN "init"
-
-  if [ -z "$1" ]; then
-    msg_info2 $FN "no group specified, exiting"
-    return;
-  fi
-}
-
-oldgroup() {
-  msg_info "oldgroup: $1"
-  if [ -z "$1" ]; then return; fi
-  sudo gpasswd -d $(whoami) $1
-  sudo groupdel $1
-  newgrp wheel
-  id -g
-  groups
-  msg_info "oldgroup done"
-}
-
-file_delete_user() {
-  arr=("$@")
-  for i in "${arr[@]}"; do
-    rm -rf "$i"
-  done
-}
-
-file_delete_root() {
-  arr=("$@")
-  for i in "${arr[@]}"; do
-    sudo rm -rf "$i"
-  done
-}
-
-service_add() {
-  msg_info "service_add init"
-  if [ -z "$1" ]; then return; fi
-  msg_info "service_add running for: $1"
-  sudo systemctl daemon-reload
-  sudo systemctl enable --now $1
-  sudo systemctl daemon-reload
-}
-
-service_delete() {
-  if [ -z "$1" ]; then return; fi
-  sudo systemctl daemon-reload
-  sudo systemctl disable --now $1
-  sudo rm -rf /etc/systemd/system/multi-user.target.wants/$1.service
-  sudo systemctl daemon-reload
-}
-
-### main
+# exit on any error
+# set -e
 
 # check & load params
 checkParamsExact $# 2
@@ -113,27 +10,44 @@ MODE=$1
 APPNAME=$2
 
 # load recipe
+load_recipe() {
+  APPFILE="$(dirname "$(readlink -f "$0")")/recipes/$1.sh"
+  if [ ! -f "$APPFILE" ]; then
+    exitWithError "Recipe for $APPNAME not found at $APPFILE"
+  fi
+  source $APPFILE
+}
 load_recipe $APPNAME
 
 # operate
 if [ $MODE == "install" ]; then
-  # TODO separate pacamn and aur?
-  pkg_install $RECIPE_PKGS
-  group_add $RECIPE_GROUP
-  service_add $RECIPE_SERVICE
+  set -e
+  pkg_install_array $RECIPE_PKGS
+  set +e
 
-  # TODO depends on recipe
-  msg_warn "Please restart your computer..."
+  group_add $RECIPE_GROUP
+  systemctl_service_enable $RECIPE_SERVICE
+  folder_create_array "${RECIPE_FOLDERS_CREATE_HOME[@]}"
+
+  msg_warn "done"
 fi
 
 if [ $MODE == "uninstall" ]; then
-  pkg_delete $RECIPE_PKGS
+  if pikaur -Q $RECIPE_PKGS > /dev/null 2>&1; then
+    set -e
+    pkg_delete_array $RECIPE_PKGS
+    set +e
+  fi
 
-  groups_deletegroup $RECIPE_GROUP
-  # group_deleteold $RECIPE_GROUP
-  file_delete_user "${RECIPE_FOLDERS_HOME[@]}"
-  file_delete_root "${RECIPE_FOLDERS_ROOT[@]}"
-  service_delete $RECIPE_SERVICE
+  group_delete $RECIPE_GROUP
+  group_delete_array "${RECIPE_GROUPS_DELETE[@]}"
+  users_delete_array "${RECIPE_USERS_DELETE[@]}"
+  file_delete_array "${RECIPE_FOLDERS_HOME[@]}"
+  file_emptyfolder_array "${RECIPE_FOLDERS_HOME_CLEAN[@]}"
+  file_delete_array_with_sudo "${RECIPE_FOLDERS_ROOT[@]}"
+  systemctl_service_disable $RECIPE_SERVICE
 fi
+
+# TODO implement clean mode ?
 
 msg_ok

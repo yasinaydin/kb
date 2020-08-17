@@ -1,0 +1,25 @@
+#!/bin/bash
+. "$kb/os/bashset/init.sh"
+
+checkParamsExact $# 1
+
+# main
+
+DNSCONF=""
+
+if [ $1 = "cf" ]; then
+  DNSCONF="nameserver 1.1.1.1\nnameserver 1.0.0.1"
+elif [ $1 = "next" ]; then
+  DNSCONF="nameserver 45.90.28.227\nnameserver 45.90.30.227\nnameserver 2a07:a8c0::37:1832"
+else
+  exitWithError "conf not found"
+fi
+
+msg_info "will use conf: $1"
+
+# just sudo echo wont work
+# > /dev/null is to avoid printing to screen
+# https://stackoverflow.com/a/550808
+echo -en "$DNSCONF\n" | sudo tee /etc/resolv.conf > /dev/null
+
+msg_ok

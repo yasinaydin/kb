@@ -1,0 +1,7 @@
+RECIPE_PKGS="tor"
+
+RECIPE_GROUP="tor"
+
+RECIPE_USERS_DELETE=(
+  "tor"
+)
