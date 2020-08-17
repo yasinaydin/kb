@@ -13,7 +13,9 @@ docker rmi -f `docker images -qa `
 
 # Remove all volumes
 docker volume rm $(docker volume ls -qf)
+docker volume prune -f
 
 # Remove all networks
 docker network rm `docker network ls -q`
 
+docker system prune -af

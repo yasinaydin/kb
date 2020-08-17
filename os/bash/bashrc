@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# return if not interactive
+[[ $- != *i* ]] && return
+
+# All
+. "$HOME/git/yasin/kb/os/bash/init.sh"
+
+# Work
+_sourceIfExists ~/.bashrc.work
