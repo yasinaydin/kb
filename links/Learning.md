@@ -18,6 +18,8 @@ Free eBooks
 - [Library Genesis (libgen)](http://gen.lib.rus.ec/)
 - [openlibrary.org - Open Library by Internat Archive](https://openlibrary.org/)
 - [standardebooks.org - Free and liberated ebooks](https://standardebooks.org/ebooks)
+- [A collection of free books from Springer
+](https://hnarayanan.github.io/springer-books/)
 
 
 Self development

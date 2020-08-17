@@ -22,3 +22,20 @@ sudo pacman -Rns $(pacman -Qqdtt)
 
 ```sh
 pacman -Qt | awk -F ' ' '{print $1}'
+```
+
+## Users
+List:
+```sh
+less /etc/passwd
+```
+
+Force logout user:
+```sh
+pkill -KILL -u username
+```
+
+Remove with home and pool:
+```sh
+userdel -r username
+```

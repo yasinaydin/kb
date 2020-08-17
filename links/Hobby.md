@@ -20,6 +20,10 @@ Discounts:
 ---
 
 
+3D-Scanning:
+- [appstore - Scandy Pro 3D Scanner](https://apps.apple.com/us/app/scandy-pro-3d-scanner/id1388028223)
+
+
 Blogging
 - [sdnotes.com - Maybe the world's easiest website maker](https://sdnotes.com)
 - [bearblog.dev - No JS blogging](https://bearblog.dev)
@@ -50,10 +54,11 @@ Linguistics
 
 
 Mapping:
-- [mapchart.net](https://mapchart.net)
-- [query.wikidata.org](https://query.wikidata.org/)
+- <https://mapchart.net>
+- >https://query.wikidata.org>
 - [wikidata.org - Request a query](https://www.wikidata.org/wiki/Wikidata:Request_a_query)
 - [mapbox.com - OpenStreetMap, a global map for worldwide insight](https://blog.mapbox.com/openstreetmap-a-global-map-for-worldwide-insight-4e041cbf1ec1)
+- <https://kumu.io/>
 
 
 Music
