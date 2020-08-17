@@ -8,3 +8,4 @@
 
 # Work
 _sourceIfExists ~/.work.bashrc
+_sourceIfExists ~/.home.bashrc

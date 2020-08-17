@@ -1,5 +1,3 @@
-alias keys='encfs $HOME/Dropbox/keys/ $HOME/keys'
-
 alias dns='cat /etc/resolv.conf'
 
 alias kur='pikaur -S --needed'
