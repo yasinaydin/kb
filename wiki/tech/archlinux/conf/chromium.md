@@ -22,5 +22,3 @@ Home laptop:
 - Oz - Offline
 - Oz-gmail (synced with google)
 - Work (synced with google)
-- M
-- Exo
