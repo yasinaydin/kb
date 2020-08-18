@@ -11,11 +11,20 @@ APPNAME=$2
 
 # load recipe
 load_recipe() {
-  APPFILE="$(dirname "$(readlink -f "$0")")/recipes/$1.sh"
-  if [ ! -f "$APPFILE" ]; then
-    exitWithError "Recipe for $APPNAME not found at $APPFILE"
+  # todo make it work for multiple, iterate through params
+  # for each with $@
+
+  # todo get rid of other readlink stuff
+  #APPFILE="$(dirname "$(readlink -f "$0")")/recipes/$1.sh"
+  APPFILE="$kb/os/scripts/recipes/$1.sh"
+  if [ -f "$APPFILE" ]; then
+    msg_warn "Recipe for $APPNAME not found at $APPFILE"
+    source $APPFILE
+  else
+    echo "aa"
+    echo $@
+    pkg_delete_array $@
   fi
-  source $APPFILE
 }
 load_recipe $APPNAME
 
