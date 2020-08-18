@@ -24,8 +24,8 @@ checkAndLoadRecipe() {
 
   msg_info "aa" "bbb"
   if [ -f "$APPFILE" ]; then
-    msg_info "aa" "bbb"
-    exit
+    # msg_info "aa" "bbb"
+    # exit
     source $APPFILE
     HASRECIPE=true
     pkg_delete_array $@
