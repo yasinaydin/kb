@@ -1,8 +1,15 @@
 #!/bin/bash
-. "$kb/os/bashset/init.sh"
+#
+# Notes
+#
+# Currently works with only one app at a time. Cannot uninstall multiple at once.
+# It was designed this way. 
 
-# exit on any error
-# set -e
+
+# todo get rid of all readlink stuff
+
+
+. "$kb/os/bashset/init.sh"
 
 # check & load params
 checkParamsExact $# 2
@@ -10,14 +17,24 @@ MODE=$1
 APPNAME=$2
 
 # load recipe
-load_recipe() {
-  APPFILE="$(dirname "$(readlink -f "$0")")/recipes/$1.sh"
-  if [ ! -f "$APPFILE" ]; then
-    exitWithError "Recipe for $APPNAME not found at $APPFILE"
+HASRECIPE=false
+
+checkAndLoadRecipe() {
+  local APPFILE="$kb/os/scripts/recipes/$1.sh"
+
+  msg_info "aa" "bbb"
+  if [ -f "$APPFILE" ]; then
+    msg_info "aa" "bbb"
+    exit
+    source $APPFILE
+    HASRECIPE=true
+    pkg_delete_array $@
+  else
+    msg_warn "Recipe for $APPNAME not found at $APPFILE"
   fi
-  source $APPFILE
 }
-load_recipe $APPNAME
+
+checkAndLoadRecipe $APPNAME
 
 # operate
 if [ $MODE == "install" ]; then
@@ -38,6 +55,8 @@ if [ $MODE == "uninstall" ]; then
     pkg_delete_array $RECIPE_PKGS
     set +e
   fi
+
+  # Todo do not run the stuff
 
   group_delete $RECIPE_GROUP
   group_delete_array "${RECIPE_GROUPS_DELETE[@]}"
