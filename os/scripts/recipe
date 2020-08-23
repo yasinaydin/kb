@@ -1,72 +1,63 @@
 #!/bin/bash
-#
-# Notes
-#
-# Currently works with only one app at a time. Cannot uninstall multiple at once.
-# It was designed this way. 
 
+util-log "debug" "recipe" "Started"
 
-# todo get rid of all readlink stuff
-
-
-. "$kb/os/bashset/init.sh"
-
-# check & load params
-checkParamsExact $# 2
+# params
+set -e
+util-bash-checkparamcount $# 2
 MODE=$1
 APPNAME=$2
 
-# load recipe
+util-log "debug" "recipe" "MODE=$MODE APPNAME=$APPNAME"
+
+RECIPEFILE=""
 HASRECIPE=false
 
-checkAndLoadRecipe() {
+checkRecipe() {
+  util-log "debug" "recipe.check" "Determining recipe file for '$APPNAME'"
+
   local APPFILE="$kb/os/scripts/recipes/$1.sh"
 
-  msg_info "aa" "bbb"
+  util-log "debug" "recipe.check" "Trying to load '$APPFILE'"
+
   if [ -f "$APPFILE" ]; then
-    # msg_info "aa" "bbb"
-    # exit
-    source $APPFILE
+    util-log "info" "recipe.check" "Recipe file exists"
     HASRECIPE=true
-    pkg_delete_array $@
   else
-    msg_warn "Recipe for $APPNAME not found at $APPFILE"
+    util-log "warn" "recipe.check" "Recipe file does not exist"
   fi
 }
 
-checkAndLoadRecipe $APPNAME
+checkRecipe $APPNAME
 
-# operate
-if [ $MODE == "install" ]; then
-  set -e
-  pkg_install_array $RECIPE_PKGS
-  set +e
+params=(
+  "aa"
+  "bb"
+)
+echo "p=$params"
 
-  group_add $RECIPE_GROUP
-  systemctl_service_enable $RECIPE_SERVICE
-  folder_create_array "${RECIPE_FOLDERS_CREATE_HOME[@]}"
+# if [ $MODE =]
 
-  msg_warn "done"
-fi
+# if [ $MODE == "install" ]; then
+#   util-log "debug" "recipe.install" "Init"
 
-if [ $MODE == "uninstall" ]; then
-  if pikaur -Q $RECIPE_PKGS > /dev/null 2>&1; then
-    set -e
-    pkg_delete_array $RECIPE_PKGS
-    set +e
-  fi
+#   if [ $HASRECIPE = true ]; then
+#     util-log "debug" "recipe.install" "Has recipe file. Calling 'util-pacman-install'"
+#     util-recipe-install $RECIPEFILE
+#   else
+#     util-log "warn" "recipe.install" "No recipe file. Calling 'pikaur -S --needed'"
+#     pikaur -S --needed $APPNAME
+#   fi
+# fi
 
-  # Todo do not run the stuff
+# if [ $MODE == "install" ]; then
+#   util-log "debug" "recipe.install" "Init"
 
-  group_delete $RECIPE_GROUP
-  group_delete_array "${RECIPE_GROUPS_DELETE[@]}"
-  users_delete_array "${RECIPE_USERS_DELETE[@]}"
-  file_delete_array "${RECIPE_FOLDERS_HOME[@]}"
-  file_emptyfolder_array "${RECIPE_FOLDERS_HOME_CLEAN[@]}"
-  file_delete_array_with_sudo "${RECIPE_FOLDERS_ROOT[@]}"
-  systemctl_service_disable $RECIPE_SERVICE
-fi
-
-# TODO implement clean mode ?
-
-msg_ok
+#   if [ $HASRECIPE = true ]; then
+#     util-log "debug" "recipe.install" "Has recipe file. Calling 'util-pacman-install'"
+#     util-recipe-install $RECIPEFILE
+#   else
+#     util-log "warn" "recipe.install" "No recipe file. Calling 'pacman -Rscnu'"
+#     pikaur -Rscnu $APPNAME
+#   fi
+# fi
