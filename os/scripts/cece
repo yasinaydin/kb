@@ -3,96 +3,134 @@
 #
 # Packages
 #
-# sudo pacman --sync --clean --noconfirm
-pikaur -Scc --noconfirm
-sudo pacman -Sc --noconfirm
-sudo pacman -Scc --noconfirm
-# sudo pacman --database --check --quiet
-pikaur -Dk
+util-log "debug" "cece" "Running: pikaur -Scc --noconfirm"
+pikaur -Scc --noconfirm > /dev/null
+
+util-log "debug" "cece" "Running: sudo pacman -Sc --noconfirm"
+sudo pacman -Sc --noconfirm > /dev/null
+
+util-log "debug" "cece" "Running: sudo pacman -Scc --noconfirm"
+sudo pacman -Scc --noconfirm > /dev/null
+
+util-log "debug" "cece" "Running: pikaur -Dk"
+pikaur -Dk > /dev/null
 
 #
 # Flatpak
 #
+util-log "debug" "cece" "Checking for flatpak"
 if [ -x "$(command -v flatpak)" ]
   then
+    util-log "debug" "cece" "Running: flatpak uninstall --delete-data"
     flatpak uninstall --delete-data
+
+    util-log "debug" "cece" "Running: flatpak --unused uninstall --delete-data"
     flatpak --unused uninstall --delete-data
 fi
 
 #
 # Journal
 #
+util-log "debug" "cece" "Running: sudo journalctl -q --vacuum-time=1h"
 sudo journalctl -q --vacuum-time=1h > /dev/null
 
 #
 # Bash history
 #
-history -c
+util-log "debug" "cece" "Running: history -c"
+history -c > /dev/null
 
 #
 # Files
 #
 # Delete empty files and folders:
-find $HOME/.cache $HOME/.local -empty -delete
-# fix mozilla
-# find $HOME/.cache $HOME/.local $HOME/.mozilla -empty -delete
-
-# Delete empty folders only:
-find $HOME/.config -type d -empty -delete
-
-rm -f $HOME/.bash_history 
-rm -f $HOME/.bash_logout # Commants to run on BASH logout
-rm -f $HOME/.cache/pikaur/*
-rm -f $HOME/.config/vlc/vlc-qt-interface.conf # vlc recent videos
-rm -f $HOME/.dmrc # Legacy GNOME2 default user session
-rm -f $HOME/.esd_auth # Pulseaudio cookie
-rm -f $HOME/.fontconfig # has CACHEDIR.TAG in it 
-rm -f $HOME/.lesshst # .less-history-file
-rm -f $HOME/.mysql_history
-rm -f $HOME/.netrc # for heroku
-rm -f $HOME/.node_repl_history
-rm -f $HOME/.python-history
-rm -f $HOME/.Rhistory # R Lang's/CLI's history
-rm -f $HOME/.vuerc
-rm -f $HOME/.xsession-errors*
-rm -f $HOME/.yarnrc
-
-rm -fr $HOME/.cache/thumbnails
-rm -fr $HOME/.config/chromium/Default/Service\ Worker/*
-rm -fr $HOME/.docker # auth setings
-rm -fr $HOME/.java # java settings
-rm -fr $HOME/.local/share/pikaur/aur_repos
-rm -fr $HOME/.putty
-rm -fr $HOME/.screenlayout # prob for arandr/xrandr
-rm -fr $HOME/.subversion
-rm -fr $HOME/.thumbnails
-rm -fr $HOME/.uml
-
-# Hotfix for vlc subtitles
-mkdir -p $HOME/.cache/vlc
-
+FILES_TO_DELETE=(
+  # Bash
+  ".bash_history"
+  ".bash_logout" # Commants to run on BASH logout
+  # Chromium
+  ".config/chromium/Default/Service\ Worker/*"
+  # Docker
+  ".docker" # auth setings
+  # Fontconfig
+  ".fontconfig" # has CACHEDIR.TAG in it 
+  # GNOME
+  ".dmrc" # Legacy GNOME2 default user session
+  # Heroku
+  ".netrc" # for heroku
+  # Java
+  ".java" # java settings
+  # Less
+  ".lesshst" # .less-history-file
+  # MySQL
+  ".mysql_history"
+  # Node.js
+  ".node_repl_history"
+  # Pikaur
+  ".cache/pikaur/*"
+  ".local/share/pikaur/aur_repos"
+  # PostgreSQL
+  ".psql_history"
+  # Python
+  ".python-history"
+  # Pulseaudio
+  ".esd_auth" # Pulseaudio cookie
+  # Putty
+  ".putty"
+  # P
+  ".Rhistory" # R Lang's/CLI's history
+  # Tumblr
+  ".cache/thumbnails"
+  ".thumbnails"
+  # Subversion
+  ".subversion"
+  # Xorg
+  ".local/share/xorg/Xorg.0.log*"
+  ".screenlayout" # prob for arandr/xrandr
+  ".xsession-errors*"
+  # VLC
+  ".config/vlc/vlc-qt-interface.conf" # vlc recent videos
+  # Vue.js
+  ".vuerc"
+  # Yarn
+  ".yarnrc"
+  # VSCODE Web Template Studio Extension
+  ".local/share/WebTS\Logs/*.log" #ms webts web template studio"
+  # Other
+  ".uml"
+)
+util-log "debug" "cece" "Removing files & folders"
+for i in "${FILES_TO_DELETE[@]}"; do
+  rm -rf "$HOME/$i"
+done
 
 #
-# Tmp
+# Empty folders
 #
+util-log "debug" "cece" "Emptying folders"
+FILES_TO_CLEAN=(
+  "$HOME/.cache"
+  "$HOME/.local"
+  "$HOME/.config"
+)
+util-folder-empty FILES_TO_CLEAN > /dev/null
 
-# a better way to do this?
-# rm -fr $HOME/.config/chromium/Profile\ 1/Service\ Worker/*
-# rm -fr $HOME/.config/chromium/Profile\ 2/Service\ Worker/*
-# rm -fr $HOME/.config/chromium/Profile\ 3/Service\ Worker/*
-# rm -fr $HOME/.config/chromium/Profile\ 6/Service\ Worker/*
-# rm -fr $HOME/.config/chromium/Profile\ 7/Service\ Worker/*
-# rm -fr $HOME/.config/chromium/Profile\ 9/Service\ Worker/*
-# rm -fr $HOME/.config/chromium/Profile\ 10/Service\ Worker/*
+#
+# VLC
+#
+util-log "debug" "cece" "Removing ~/.cache/vlc"
+mkdir -p $HOME/.cache/vlc > /dev/null # for subtitles
 
-# if [ $# -ne 0 ] # If has any parameter
-#   then
-#     rm -fr $HOME/.cache
-#     rm -fr $HOME/.npm
-#     rm -fr $HOME/.node-gyp
+#
+# Chrome
+#
+# $HOME/.config/chromium/Profile\ */Service\ Worker/*
 
-#     # Requires restart
-#     rm -f $HOME/.ICEauthority # X11 Auth Client2Client
-#     rm -f $HOME/.Xauthority # X11 Auth Client2Server
-# fi
-
+#
+# Delete carefully
+#
+# .cache
+# .ICEauthority # X11 Auth Client2Client - Requires restart
+# .node-gyp
+# .npm
+# .Xauthority # X11 Auth Client2Server - Requires restart

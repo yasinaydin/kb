@@ -45,9 +45,10 @@ eog
 # meida-tumbler
 tumbler
 # these are also good for boot warnings
-ffmpegthumbnailer
-poppler-glib
-libopenraw
+# disable dis plugins
+ffmpegthumbnailer #[FfmpegThumbnailer]
+poppler-glib  # PDF/PS thumbnailer  [PopplerThumbnailer]
+libopenraw # [RawThumbnailer]
 libgsf
 
 # automount

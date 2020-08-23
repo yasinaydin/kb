@@ -7,3 +7,5 @@ _sourceIfExists "$kb/os/bash/30-alias.sh"
 _sourceIfExists "$kb/os/bash/40-asdf.sh"
 _sourceIfExists "$kb/os/bash/41-apps.sh"
 _importPathIfExists "$kb/os/scripts"
+
+_importPathIfExists "$kb/os/util"

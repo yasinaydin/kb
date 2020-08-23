@@ -1,0 +1,13 @@
+  #   source $APPFILE
+
+
+
+  # set -e
+  # pkg_install_array $RECIPE_PKGS
+  # set +e
+
+  # group_add $RECIPE_GROUP
+  # systemctl_service_enable $RECIPE_SERVICE
+  # folder_create_array "${RECIPE_FOLDERS_CREATE_HOME[@]}"
+
+  # msg_warn "done"

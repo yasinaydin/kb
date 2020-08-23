@@ -1,0 +1,30 @@
+#!/bin/bash
+
+set -e
+util-bash-checkparamcount $# 1
+
+RECIPEFILE=$1
+
+
+  #   source $APPFILE
+
+
+
+# group_delete $RECIPE_GROUP
+# group_delete_array "${RECIPE_GROUPS_DELETE[@]}"
+# users_delete_array "${RECIPE_USERS_DELETE[@]}"
+# file_delete_array "${RECIPE_FOLDERS_HOME[@]}"
+# file_emptyfolder_array "${RECIPE_FOLDERS_HOME_CLEAN[@]}"
+# file_delete_array_with_sudo "${RECIPE_FOLDERS_ROOT[@]}"
+# systemctl_service_disable $RECIPE_SERVICE
+
+
+
+  # if pikaur -Q $RECIPE_PKGS > /dev/null 2>&1; then
+  #   set -e
+  #   pkg_delete_array $RECIPE_PKGS
+  #   set +e
+  # fi
+
+  # # Todo do not run the stuff
+

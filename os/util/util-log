@@ -1,0 +1,22 @@
+#!/bin/bash
+. "$kb/os/util/colors"
+
+set -e
+util-bash-checkparamcount $# 3
+
+LEVEL=$1
+SRC=$2
+MSG=$3
+
+declare -A logColors=(
+  ["info"]=$C_256_Info
+  ["debug"]=$C_256_Debug
+  ["warn"]=$C_256_Yellow
+  ["error"]=$C_Red
+)
+
+
+COLOR="${logColors[$LEVEL]}"
+DATESTR="$(date '+%T.%3N')"
+
+echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"

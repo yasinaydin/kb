@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+util-bash-checkparamcount $# 1
+
+# if given folder exists
+if [ -d "$1" ]; then
+
+  # remove empty files and folders (includes given folder)
+  find $1 -empty -delete
+fi
