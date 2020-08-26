@@ -1,0 +1,12 @@
+trailerparbos:
+
+
+// @Todo:
+// Add movie/season length by minute
+// Add and visualize watch order (not necessarily same as release date)
+
+
+// Sources:
+// https://en.wikipedia.org/wiki/List_of_Trailer_Park_Boys_episodes
+// https://eksisozluk.com/entry/86559264
+// https://eksisozluk.com/entry/106781393

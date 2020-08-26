@@ -100,6 +100,9 @@ Designs-Personal Websites:
 - <https://kasparkorjus.com>
 - <https://carlosgonzalez.dev>
 - <https://soygul.com>
+- <https://kulekci.net/about>
+- <https://edwardthomson.com/speaking/>
+- <https://blog.geographer.fr/resume>
 
 
 Tools:
