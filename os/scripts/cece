@@ -60,6 +60,8 @@ FILES_TO_DELETE=(
   ".netrc" # for heroku
   # Java
   ".java" # java settings
+  # Jetbrains
+  ".swt/trims.prefs"
   # Less
   ".lesshst" # .less-history-file
   # MySQL
@@ -87,7 +89,9 @@ FILES_TO_DELETE=(
   # Xorg
   ".local/share/xorg/Xorg.0.log*"
   ".screenlayout" # prob for arandr/xrandr
+  ".xsession-errors"
   ".xsession-errors*"
+  ".xsession-errors.old"
   # VLC
   ".config/vlc/vlc-qt-interface.conf" # vlc recent videos
   # Vue.js
@@ -110,15 +114,18 @@ done
 util-log "debug" "cece" "Emptying folders"
 FILES_TO_CLEAN=(
   "$HOME/.cache"
-  "$HOME/.local"
   "$HOME/.config"
+  "$HOME/.local"
+  "$HOME/.swt"
 )
-util-folder-empty FILES_TO_CLEAN > /dev/null
+for i in "${FILES_TO_CLEAN[@]}"; do
+  util-folder-empty $i
+done
 
 #
 # VLC
 #
-util-log "debug" "cece" "Removing ~/.cache/vlc"
+util-log "debug" "cece" "Creating ~/.cache/vlc"
 mkdir -p $HOME/.cache/vlc > /dev/null # for subtitles
 
 #

@@ -1,9 +1,12 @@
 #!/bin/bash
-
 set -e
 util-bash-checkparamcount $# 1
 
+LOGSRC="util-folder-empty"
+util-log "debug" $LOGSRC "Emptying $1"
+
 # if given folder exists
+
 if [ -d "$1" ]; then
 
   # remove empty files and folders (includes given folder)
