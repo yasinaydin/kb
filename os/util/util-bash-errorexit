@@ -1,0 +1,7 @@
+#!/bin/bash
+
+exitWithError() {
+  echo -e "${BG_LightRed}${C_Black} ERROR ${F_Reset} $*" >>/dev/stderr
+  exit 1
+  # echo -e "${BG_LightRed}${F_BoldOn}error:${F_Reset} $*" >>/dev/stderr
+}

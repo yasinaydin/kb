@@ -1,7 +1,10 @@
 #!/bin/bash
-. "$kb/os/bashset/init.sh"
 
-checkParamsExact $# 1
+set -e
+util-bash-checkparamcount $# 1
+SCRIPTNAME="dns-change"
+
+util-log "debug" $SCRIPTNAME "Init"
 
 # main
 
@@ -12,14 +15,15 @@ if [ $1 = "cf" ]; then
 elif [ $1 = "next" ]; then
   DNSCONF="nameserver 45.90.28.227\nnameserver 45.90.30.227\nnameserver 2a07:a8c0::37:1832"
 else
-  exitWithError "conf not found"
+  util-log "error" $SCRIPTNAME "conf not found: $1"
+  exit 1
 fi
 
-msg_info "will use conf: $1"
+util-log "info" $SCRIPTNAME "Will use conf: $1"
 
 # just sudo echo wont work
 # > /dev/null is to avoid printing to screen
 # https://stackoverflow.com/a/550808
 echo -en "$DNSCONF\n" | sudo tee /etc/resolv.conf > /dev/null
 
-msg_ok
+util-log "debug" $SCRIPTNAME "Done."

@@ -1,8 +1,9 @@
 #!/bin/bash
-. "$kb/os/util/colors"
 
 set -e
 util-bash-checkparamcount $# 3
+
+. "$kb/os/util/colors"
 
 LEVEL=$1
 SRC=$2
@@ -15,8 +16,11 @@ declare -A logColors=(
   ["error"]=$C_Red
 )
 
-
 COLOR="${logColors[$LEVEL]}"
 DATESTR="$(date '+%T.%3N')"
 
-echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
+if [ $LEVEL == "error" ]; then
+  >&2 echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
+else
+  echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
+fi

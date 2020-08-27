@@ -1,5 +1,10 @@
 #!/bin/bash
 
+set -e
+util-bash-checkparamcount $# 0
+
+util-log "debug" "cece" "Init"
+
 #
 # Packages
 #
@@ -134,3 +139,5 @@ mkdir -p $HOME/.cache/vlc > /dev/null # for subtitles
 # .node-gyp
 # .npm
 # .Xauthority # X11 Auth Client2Server - Requires restart
+
+util-log "debug" "cece" "Done."
