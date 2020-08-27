@@ -42,14 +42,15 @@ zip
 vlc
 eog
 
-# meida-tumbler
+# media-tumbler
 tumbler
+# /etc/xdg/tumbler/tumbler.rc 
 # these are also good for boot warnings
 # disable dis plugins
 ffmpegthumbnailer #[FfmpegThumbnailer]
 poppler-glib  # PDF/PS thumbnailer  [PopplerThumbnailer]
 libopenraw # [RawThumbnailer]
-libgsf
+libgsf # [GstThumbnailer ?]
 
 # automount
 gvfs
