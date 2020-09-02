@@ -1,30 +1,81 @@
 #!/bin/bash
-
 set -e
+
+
+util-log "debug" "recipe-uninstall" "Init"
+
+
 util-bash-checkparamcount $# 1
-
 RECIPEFILE=$1
+util-log "debug" "recipe-uninstall" "RECIPEFILE='$RECIPEFILE'"
 
 
-  #   source $APPFILE
+util-log "debug" "recipe-uninstall" "Loading recipe file '$RECIPEFILE'"
+source $RECIPEFILE
 
 
+# package
 
-# group_delete $RECIPE_GROUP
-# group_delete_array "${RECIPE_GROUPS_DELETE[@]}"
-# users_delete_array "${RECIPE_USERS_DELETE[@]}"
-# file_delete_array "${RECIPE_FOLDERS_HOME[@]}"
-# file_emptyfolder_array "${RECIPE_FOLDERS_HOME_CLEAN[@]}"
-# file_delete_array_with_sudo "${RECIPE_FOLDERS_ROOT[@]}"
-# systemctl_service_disable $RECIPE_SERVICE
+if [ ! -z $RECIPE_PKGS ]; then
+  util-log "debug" "recipe-uninstall.package" "Trying to uninstall packages: '$RECIPE_PKGS'"
+
+  if pikaur -Q $RECIPE_PKGS > /dev/null 2>&1; then
+    pikaur -Rscnu $RECIPE_PKGS
+  else
+    util-log "warn" "recipe-uninstall.package" "$RECIPE_PKGS does not exist"
+  fi
+
+  util-log "debug" "recipe-uninstall.package" "Done"
+fi
 
 
+# groups
 
-  # if pikaur -Q $RECIPE_PKGS > /dev/null 2>&1; then
-  #   set -e
-  #   pkg_delete_array $RECIPE_PKGS
-  #   set +e
-  # fi
+if [ ! -z $RECIPE_GROUP ]; then
+  util-group-delete $RECIPE_GROUP
+fi
 
-  # # Todo do not run the stuff
+if [ ! -z $RECIPE_GROUPS_DELETE ]; then
+  for i in "${RECIPE_GROUPS_DELETE[@]}"; do
+    util-group-delete "$i"
+  done
+fi
 
+if [ ! -z $RECIPE_USERS_DELETE ]; then
+  for i in "${RECIPE_USERS_DELETE[@]}"; do
+    sudo userdel -r "$i"
+  done
+fi
+
+
+# files
+
+if [ ! -z $RECIPE_FOLDERS_HOME ]; then
+  for i in "${RECIPE_FOLDERS_HOME[@]}"; do
+    rm -rf "$i"
+  done
+fi
+
+if [ ! -z $RECIPE_FOLDERS_HOME_CLEAN ]; then
+  for i in "${RECIPE_FOLDERS_HOME_CLEAN[@]}"; do
+    util-folder-empty "$i"
+  done
+fi
+
+if [ ! -z $RECIPE_FOLDERS_ROOT ]; then
+  for i in "${RECIPE_FOLDERS_ROOT[@]}"; do
+    sudo rm -rf "$i"
+  done
+fi
+
+
+# services
+
+if [ ! -z $RECIPE_SERVICE ]; then
+  sudo systemctl daemon-reload
+  sudo systemctl disable --now $RECIPE_SERVICE
+  sudo systemctl daemon-reload
+fi
+
+
+util-log "debug" "recipe-uninstall" "Done"

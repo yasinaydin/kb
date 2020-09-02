@@ -1,0 +1,32 @@
+#!/bin/bash
+set -e
+
+
+util-log "debug" "group-delete" "Init"
+
+
+util-bash-checkparamcount $# 1
+GROUPNAME=$1
+util-log "debug" "group-delete" "GROUPNAME=$GROUPNAME"
+
+
+util-log "debug" "group-delete" "Checking if group '$GROUPNAME' exists"
+
+if [ ! $(getent group $1) ]; then
+  util-log "warn" "group-delete" "Group '$GROUPNAME' does not exist"
+  exit
+fi
+
+
+util-log "debug" "group-delete" "Trying to delete group '$GROUPNAME'"
+
+if sudo groupdel $1 ; then
+  HASRECIPE=true
+  util-log "error" "group-delete" "Group delete successful"
+else
+  HASRECIPE=false
+  util-log "info" "group-delete" "Group delete failed"
+fi
+
+
+util-log "debug" "group-delete" "Done"

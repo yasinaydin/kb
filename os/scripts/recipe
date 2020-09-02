@@ -8,47 +8,47 @@ util-bash-checkparamcount $# 2
 MODE=$1
 APPNAME=$2
 
-util-log "debug" "recipe" "MODE=$MODE APPNAME=$APPNAME"
+util-log "debug" "recipe" "MODE='$MODE' APPNAME='$APPNAME'"
 
 RECIPEFILE=""
+
+
 HASRECIPE=false
 
 checkRecipe() {
-  util-log "debug" "recipe.check" "Determining recipe file for '$APPNAME'"
+  RECIPEFILE="$kb/os/scripts/recipes/$1.sh"
 
-  local APPFILE="$kb/os/scripts/recipes/$1.sh"
+  util-log "debug" "recipe.checkRecipe" "Trying to load '$RECIPEFILE'"
 
-  util-log "debug" "recipe.check" "Trying to load '$APPFILE'"
-
-  if [ -f "$APPFILE" ]; then
-    util-log "info" "recipe.check" "Recipe file exists"
+  if [ -f "$RECIPEFILE" ]; then
     HASRECIPE=true
+    util-log "info" "recipe.checkRecipe" "Recipe file exists"
   else
-    util-log "warn" "recipe.check" "Recipe file does not exist"
+    util-log "info" "recipe.checkRecipe" "Recipe file does not exist"
   fi
 }
 
 checkRecipe $APPNAME
 
-params=(
-  "aa"
-  "bb"
-)
-echo "p=$params"
+if [ $MODE == "uninstall" ]; then
+  if [ $HASRECIPE = true ]; then
+    util-log "info" "recipe" "Has recipe file. Calling 'util-recipe-uninstall $RECIPEFILE'"
 
-# if [ $MODE =]
+    if util-recipe-uninstall $RECIPEFILE ; then
+      util-log "info" "recipe" "recipe removal success"
+    else
+      util-log "error" "recipe" "recipe removal failed"
+    fi
+  else
+    util-log "info" "recipe" "No recipe file. Calling 'pikaur -Rscnu $APPNAME'"
 
-# if [ $MODE == "install" ]; then
-#   util-log "debug" "recipe.install" "Init"
-
-#   if [ $HASRECIPE = true ]; then
-#     util-log "debug" "recipe.install" "Has recipe file. Calling 'util-pacman-install'"
-#     util-recipe-install $RECIPEFILE
-#   else
-#     util-log "warn" "recipe.install" "No recipe file. Calling 'pikaur -S --needed'"
-#     pikaur -S --needed $APPNAME
-#   fi
-# fi
+    if pikaur -Rscnu $APPNAME ; then
+      util-log "info" "recipe" "pikaur removal success"
+    else
+      util-log "error" "recipe" "pikaur removal failed"
+    fi
+  fi
+fi
 
 # if [ $MODE == "install" ]; then
 #   util-log "debug" "recipe.install" "Init"
@@ -61,3 +61,5 @@ echo "p=$params"
 #     pikaur -Rscnu $APPNAME
 #   fi
 # fi
+
+util-log "debug" "recipe" "Done"

@@ -1,9 +1,10 @@
 #!/bin/bash
 set -e
-util-bash-checkparamcount $# 1
 
-LOGSRC="util-folder-empty"
-util-log "debug" $LOGSRC "Emptying $1"
+
+util-log "debug" "util-folder-empty" "Init $1"
+util-bash-checkparamcount $# 1
+util-log "debug" "util-folder-empty" "Emptying $1"
 
 # if given folder exists
 

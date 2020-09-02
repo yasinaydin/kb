@@ -8,4 +8,3 @@
 . "$kb/os/bashset/fn-params.sh"
 . "$kb/os/bashset/fn-pkg.sh"
 . "$kb/os/bashset/fn-systemctl.sh"
-. "$kb/os/bashset/fn-users.sh"

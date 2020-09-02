@@ -1,7 +1,7 @@
 #!/bin/bash
 
 set -e
-util-bash-checkparamcount $# 3
+# util-bash-checkparamcount $# 3
 
 . "$kb/os/util/colors"
 

@@ -1,7 +1,11 @@
 #!/bin/bash
+set -e
 
-if [ $1 -ne $2 ]; then
-  util-log "error" "bash-checkparam" "Error: $2 params required, $1 provided"
+PROVIDED=$1
+REQUIRED=$2
+
+if [ $PROVIDED -ne $REQUIRED ]; then
+  util-log "error" "bash-checkparam" "Error: $REQUIRED params required, $PROVIDED provided"
 
   exit 1
 fi

@@ -21,11 +21,3 @@ isArch() {
     exitWithError "not arch linux"
   fi
 }
-
-emptyAndDeleteFolder() {
-  # if said folder exists
-  if [ -d "$1" ]; then
-    # remove empty files and folders (includes itself)
-    find $1 -empty -delete
-  fi
-}
