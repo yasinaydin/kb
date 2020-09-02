@@ -1,0 +1,13 @@
+#!/bin/bash
+set -e
+
+util-bash-checkparamcount $# 1
+CMD=$1
+
+util-log "debug" "bash-cmd-exists" "Checking if command exists: $CMD"
+
+if ! command -v $CMD &> /dev/null
+then
+  util-log "error" "bash-cmd-exists" "Command does not exist: $CMD"
+  exit
+fi
