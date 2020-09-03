@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# TODO: REMOVE this and use util-log "error" and exit 1 instead. 
+# See util-bash-cmd-exists for an example
+
 exitWithError() {
   echo -e "${BG_LightRed}${C_Black} ERROR ${F_Reset} $*" >>/dev/stderr
   exit 1

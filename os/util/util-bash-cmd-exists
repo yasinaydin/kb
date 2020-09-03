@@ -9,5 +9,5 @@ util-log "debug" "bash-cmd-exists" "Checking if command exists: $CMD"
 if ! command -v $CMD &> /dev/null
 then
   util-log "error" "bash-cmd-exists" "Command does not exist: $CMD"
-  exit
+  exit 1
 fi
