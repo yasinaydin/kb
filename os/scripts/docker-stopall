@@ -1,0 +1,27 @@
+#!/bin/bash
+
+
+force_it=" -f "  #  normal
+# force_it=" -f "  #  when you see  "device or resource busy"
+
+for curr_container_id in $( docker ps -q ); do
+
+    echo curr_container_id $curr_container_id
+    echo
+    echo "docker stop $curr_container_id "
+          docker stop $curr_container_id
+    echo
+    echo "docker rm $force_it $curr_container_id "
+          docker rm $force_it $curr_container_id
+done
+
+for curr_container_id in $( docker ps -q -a ); do
+
+    echo curr_container_id $curr_container_id
+    echo
+    echo "docker stop $curr_container_id "
+          docker stop $curr_container_id
+    echo
+    echo "docker rm $force_it $curr_container_id "
+          docker rm $force_it $curr_container_id
+done
