@@ -24,6 +24,10 @@ keybindings:
 open: f12
 ```
 
+## startup
+-session and startup > app autostart
+
+
 ## alt: guake (deprec)
 
 
