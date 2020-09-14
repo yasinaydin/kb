@@ -4,7 +4,7 @@ set -e
 util-bash-checkparamcount $# 1
 CMD=$1
 
-util-log "debug" "bash-cmd-exists" "Checking if command exists: $CMD"
+# util-log "debug" "bash-cmd-exists" "Checking if command exists: $CMD"
 
 if ! command -v $CMD &> /dev/null
 then

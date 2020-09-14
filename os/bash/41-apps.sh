@@ -19,8 +19,10 @@ fi
 # journalctl
 if [ -x "$(command -v journalctl)" ]; then
   alias logs="journalctl -m -p warning" 
+  alias logs-all="journalctl -m" 
   alias logs-rotate="sudo journalctl --rotate" 
   alias logs-vacuum="sudo journalctl --vacuum-time=1s" 
+  alias logs-clean="logs-rotate && logs-vacuum"
 fi
 
 # kubectl
