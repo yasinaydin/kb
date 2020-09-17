@@ -44,6 +44,8 @@ eog
 
 # media-tumbler
 tumbler
+pikaur -S  ffmpegthumbnailer  poppler-glib libopenraw libgsf
+
 # /etc/xdg/tumbler/tumbler.rc 
 # these are also good for boot warnings
 # disable dis plugins
