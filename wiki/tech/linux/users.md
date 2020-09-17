@@ -11,3 +11,9 @@ userdel -r username
 ```sh
 sudo gpasswd -d user group
 ```
+
+## reset password retries
+```sh
+$ su
+# faillock --user yasin --reset
+```
