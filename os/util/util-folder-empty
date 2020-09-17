@@ -1,15 +1,16 @@
 #!/bin/bash
 set -e
-
-
-util-log "debug" "util-folder-empty" "Init $1"
 util-bash-checkparamcount $# 1
-util-log "debug" "util-folder-empty" "Emptying $1"
+
+util-log "debug" "util-folder-empty" "Emptying $1..." true
 
 # if given folder exists
-
 if [ -d "$1" ]; then
 
   # remove empty files and folders (includes given folder)
   find $1 -empty -delete
+
+  echo -e " Done."
+else
+  echo -e " Dir not found."
 fi

@@ -8,6 +8,7 @@ set -e
 LEVEL=$1
 SRC=$2
 MSG=$3
+SINGLELINE=$4
 
 declare -A logColors=(
   ["info"]=$C_256_Info
@@ -22,5 +23,9 @@ DATESTR="$(date '+%T.%3N')"
 if [ $LEVEL == "error" ]; then
   >&2 echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
 else
-  echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
+  if [[ $SINGLELINE = true ]]; then
+    echo -ne "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
+  else
+    echo -e "$DATESTR $SRC: ${COLOR}${MSG}${F_Reset}"
+  fi
 fi
