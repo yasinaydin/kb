@@ -65,3 +65,20 @@ BG_Magenta="\e[45m"
 BG_Red="\e[41m"
 BG_White="\e[106m"
 BG_Yellow="\e[43m"
+
+# Sets
+declare -A COLORLEVELS=(
+  ["info"]=$C_256_Info
+  ["debug"]=$C_256_Debug
+  ["warn"]=$C_256_Yellow
+  ["error"]=$C_Red
+)
+
+function PrintColor() {
+  LEVEL=$1
+  MESSAGE=$2
+
+  COLOR="${COLORLEVELS[$LEVEL]}"
+
+  echo -e "${COLOR}${MESSAGE}${F_Reset}"
+}

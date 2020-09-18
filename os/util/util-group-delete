@@ -1,31 +1,27 @@
 #!/bin/bash
 set -e
+. "$kb/os/util/colors"
 
-
-util-log "debug" "group-delete" "Init"
 
 
 util-bash-checkparamcount $# 1
 GROUPNAME=$1
-util-log "debug" "group-delete" "GROUPNAME=$GROUPNAME"
 
 
-util-log "debug" "group-delete" "Checking if group '$GROUPNAME' exists"
-
-if [ ! $(getent group $1) ]; then
-  util-log "warn" "group-delete" "Group '$GROUPNAME' does not exist"
+util-log "debug" "group-delete" "Checking if group '$GROUPNAME' exists... " true
+if [ ! $(getent group $GROUPNAME) ]; then
+  PrintColor "info" "No"
   exit
+else
+  PrintColor "info" "Yes"
 fi
 
 
-util-log "debug" "group-delete" "Trying to delete group '$GROUPNAME'"
-
-if sudo groupdel $1 ; then
-  HASRECIPE=true
-  util-log "error" "group-delete" "Group delete successful"
+util-log "debug" "group-delete" "Deleting group '$GROUPNAME'... " true
+if sudo groupdel $GROUPNAME > /dev/null; then
+  PrintColor "info" "Done"
 else
-  HASRECIPE=false
-  util-log "info" "group-delete" "Group delete failed"
+  PrintColor "error" "FAILED"
 fi
 
 

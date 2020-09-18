@@ -1,0 +1,27 @@
+#!/bin/bash
+set -e
+. "$kb/os/util/colors"
+
+
+util-bash-checkparamcount $# 1
+USERNAME=$1
+
+
+util-log "debug" "user-delete" "Checking if user '$USERNAME' exists... " true
+if id "$USERNAME" >/dev/null 2>&1; then
+  PrintColor "info" "Yes"
+else
+  PrintColor "info" "No"
+  exit
+fi
+
+
+util-log "debug" "user-delete" "Deleting user '$USERNAME'... " true
+if  sudo userdel -r "$USERNAME" > /dev/null; then
+  PrintColor "info" "Done"
+else
+  PrintColor "error" "FAILED"
+fi
+
+
+util-log "debug" "user-delete" "Done"

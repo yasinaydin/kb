@@ -43,7 +43,7 @@ fi
 
 if [ ! -z $RECIPE_USERS_DELETE ]; then
   for i in "${RECIPE_USERS_DELETE[@]}"; do
-    sudo userdel -r "$i"
+    util-user-delete "$i"
   done
 fi
 
