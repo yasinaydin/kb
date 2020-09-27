@@ -8,17 +8,21 @@ util-log "debug" "cece" "Init"
 #
 # Packages
 #
-util-log "debug" "cece" "Running: pikaur -Scc --noconfirm"
+util-log "debug" "cece" "Running: pikaur -Scc --noconfirm..." true
 pikaur -Scc --noconfirm > /dev/null
+echo -e " Done."
 
-util-log "debug" "cece" "Running: sudo pacman -Sc --noconfirm"
+util-log "debug" "cece" "Running: sudo pacman -Sc --noconfirm..." true
 sudo pacman -Sc --noconfirm > /dev/null
+echo -e " Done."
 
-util-log "debug" "cece" "Running: sudo pacman -Scc --noconfirm"
+util-log "debug" "cece" "Running: sudo pacman -Scc --noconfirm..." true
 sudo pacman -Scc --noconfirm > /dev/null
+echo -e " Done."
 
-util-log "debug" "cece" "Running: pikaur -Dk"
+util-log "debug" "cece" "Running: pikaur -Dk" true
 pikaur -Dk > /dev/null
+echo -e " Done."
 
 #
 # Flatpak
@@ -108,15 +112,16 @@ FILES_TO_DELETE=(
   # Other
   ".uml"
 )
-util-log "debug" "cece" "Removing files & folders"
+util-log "debug" "cece" "Removing files & folders..." true
 for i in "${FILES_TO_DELETE[@]}"; do
   rm -rf "$HOME/$i"
 done
+echo -e " Done."
 
 #
 # Empty folders
 #
-util-log "debug" "cece" "Emptying folders"
+util-log "debug" "cece" "Emptying folders..."
 FILES_TO_CLEAN=(
   "$HOME/.cache"
   "$HOME/.config"
