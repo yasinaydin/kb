@@ -11,6 +11,20 @@
 
 ---
 
+## journalct: lightdm: error getting user list
+Error:
+```
+lightdm[320]: ** (process:398): WARNING **: Error getting user list from org.freedesktop.Accounts
+```
+
+Solution:
+```sh
+kur accountsservice
+```
+
+Src: https://bbs.archlinux.org/viewtopic.php?pid=1453420#p1453420
+
+
 ## pacman altered files
 
 Source: <https://bbs.archlinux.org/viewtopic.php?id=186994>
