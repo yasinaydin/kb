@@ -59,6 +59,8 @@ October 4, 2020 Sunday:
 - http://www.saaremaa.ee
 - https://visitsaaremaa.ee/
 - Kingitus: https://www.kingitus.ee/tulemused/?search_data=saaremaa
+- Events: Kuressaare Kultuurivara: <http://www.kultuurivara.ee/>
+- Events: Piletilevi: <https://www.piletilevi.ee/>
 
 ## Stuff left to do
 
