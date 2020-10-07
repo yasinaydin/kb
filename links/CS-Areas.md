@@ -1,5 +1,9 @@
 # CS
 
+Mobile-App making:
+- <https://thunkable.com/#/>
+
+
 General
 - [CS50 - 2017](https://www.youtube.com/watch?v=y62zj9ozPOM&list=PLhQjrBD2T3828ZVcVzEIhsHVgjANGZveu)
 - [Computer Science Illustrated](http://csillustrated.berkeley.edu/)
@@ -88,6 +92,9 @@ Designs-Functionality:
 - [HN/simone.computer - Websites that look like desktop GUIs](https://news.ycombinator.com/item?id=23734093)
 
 
+Design system:
+- <https://thesephist.com/posts/tools/>
+
 Designs:
 - [tinycapital.com/](https://www.tinycapital.com)
 - [25daysofserverless.com](https://25daysofserverless.com/)
@@ -103,6 +110,8 @@ Designs-Personal Websites:
 - <https://kulekci.net/about>
 - <https://edwardthomson.com/speaking/>
 - <https://blog.geographer.fr/resume>
+- <https://www.taniarascia.com/>
+- <https://thesephist.com/>
 
 
 Tools:

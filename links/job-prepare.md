@@ -6,6 +6,9 @@ Questions to ask:
 
 ## Interview Questions
 
+General:
+- <https://leetcode.com/>
+
 Javascript:
 - [github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions#readme)
 
