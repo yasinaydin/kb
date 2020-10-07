@@ -58,6 +58,9 @@ October 4, 2020 Sunday:
 - TripAdvisor: Kuressaare, Saaremaa
 - http://www.saaremaa.ee
 - https://visitsaaremaa.ee/
+- Kingitus: https://www.kingitus.ee/tulemused/?search_data=saaremaa
+- Events: Kuressaare Kultuurivara: <http://www.kultuurivara.ee/>
+- Events: Piletilevi: <https://www.piletilevi.ee/>
 
 ## Stuff left to do
 
@@ -77,3 +80,30 @@ October 4, 2020 Sunday:
 ### Flights
 - Website/ticket says mask is mandatory in airport and during flight
 - Half of the plane was not wearing masks, incl pilots
+
+---
+
+## Backpack
+
+Left:
+- Napkins
+- Pills
+- Company masks
+- Extra bags (cop, kilitli)
+
+On cep:
+- Poster
+- Sapka
+- Mavi maske
+- Sarj iphone
+
+Ana
+- Dis firca xxx
+- Sivilar  xxx
+- Et, magazin, sahan
+- Swimming reunk terlik havlu
+- 1x extra pants
+- 2x extra tshirt
+- 2x extra undershirt
+- 2x extra underwear
+- 2x extra socks

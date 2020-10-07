@@ -1,5 +1,13 @@
 # Estonia
 
+Restaurants:
+- <https://www.vabalaud.ee/en>
+- <http://silverspoon.ee/en/>
+- <https://whiteguide.com/baltic/en>
+- <https://www.toidutee.ee/en>
+- <https://flavoursofestonia.com/eng/restaurant-guide/>
+
+
 Healthcare
 - [apteegiinfo.ee - Pharmacy and Drug Search](http://apteegiinfo.ee/)
 - [kiirkliinik.ee - Walk-in and Online Clinic](https://kiirkliinik.ee/)
