@@ -58,6 +58,7 @@ October 4, 2020 Sunday:
 - TripAdvisor: Kuressaare, Saaremaa
 - http://www.saaremaa.ee
 - https://visitsaaremaa.ee/
+- Kingitus: https://www.kingitus.ee/tulemused/?search_data=saaremaa
 
 ## Stuff left to do
 
