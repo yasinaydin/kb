@@ -11,6 +11,7 @@ Destination info:
 - [wikivoyage.org](https://en.wikivoyage.org/wiki/Belfast)
 - [inyourpocket.com](https://www.inyourpocket.com)
 - [wikitravel.org](https://wikitravel.org)
+- <https://atlasobscura.com>
 
 Discounts:
 - <https://trip.ee/odavad-lennupiletid>
