@@ -18,6 +18,10 @@ Discounts:
 - <https://travelfree.info>
 
 
+## Virtual/Digital Travelling
+- https://window-swap.com/window
+- http://radio.garden/
+
 ---
 
 
@@ -56,7 +60,7 @@ Linguistics
 
 Mapping:
 - <https://mapchart.net>
-- >https://query.wikidata.org>
+- <https://query.wikidata.org>
 - [wikidata.org - Request a query](https://www.wikidata.org/wiki/Wikidata:Request_a_query)
 - [mapbox.com - OpenStreetMap, a global map for worldwide insight](https://blog.mapbox.com/openstreetmap-a-global-map-for-worldwide-insight-4e041cbf1ec1)
 - <https://kumu.io/>

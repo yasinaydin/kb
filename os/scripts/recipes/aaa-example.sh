@@ -1,4 +1,4 @@
-RECIPE_PKGS="teamviewer"
+RECIPE_PKGS="123123213123"
 
 RECIPE_FOLDERS_HOME=(
   "$HOME/.cache/TeamViewer"
