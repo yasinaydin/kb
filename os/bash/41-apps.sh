@@ -25,11 +25,6 @@ if [ -x "$(command -v journalctl)" ]; then
   alias logs-clean="logs-rotate && logs-vacuum"
 fi
 
-# kubectl
-if [ -x "$(command -v kubectl)" ]; then
-	alias kubectl='kubectl -o yaml'
-fi
-
 # pacman
 if [ -x "$(command -v pacman)" ]; then
   alias pacman="pacman --color=auto"
