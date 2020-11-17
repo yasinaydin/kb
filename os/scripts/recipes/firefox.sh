@@ -10,5 +10,6 @@ RECIPE_FOLDERS_ROOT=(
 )
 
 RECIPE_FOLDERS_HOME_CLEAN=(
+  "$HOME/.cache/mozilla"
   "$HOME/.mozilla"
 )
