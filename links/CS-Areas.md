@@ -87,6 +87,7 @@ Templates
 
 Designs-Theming:
 - <https://www.nizkor.org>
+- SCI-FI: <https://arwes.dev/>
 
 Designs-Functionality:
 - [HN/simone.computer - Websites that look like desktop GUIs](https://news.ycombinator.com/item?id=23734093)

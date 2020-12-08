@@ -32,7 +32,7 @@ Javascript
 - [taniarascia.com - Understanding Generators in JavaScript](https://www.taniarascia.com/understanding-generators-in-javascript/)
 - [freenodecamp.com - Debounce Explained – How to Make Your JavaScript Wait For Your User To Finish Typing](https://www.freecodecamp.org/news/debounce-explained-how-to-make-your-javascript-wait-for-your-user-to-finish-typing-2/)
 - <https://whatthefork.is/closure>
-
+- Compare packages: <https://jsdiff.dev/?apps=vue--react--angular>
 
 Node.js
 - [79 NodeJS Interview Questions & Answers](https://coderrocketfuel.com/article/node-js-interview-questions-and-answers)
