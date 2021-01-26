@@ -3,6 +3,7 @@ RECIPE_PKGS="vlc"
 RECIPE_FOLDERS_HOME=(
   "$HOME/.config/vlc"
   "$HOME/.local/share/vlc"
+  "$HOME/.cache/vlc"
 )
 
 RECIPE_FOLDERS_CREATE_HOME=(
