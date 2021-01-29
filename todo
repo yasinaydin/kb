@@ -1,0 +1,6 @@
+scripts-sil
+
+after delete:
+find for all files
+grep exclude some known paths (like appinfo icons)
+then show the rest of found files

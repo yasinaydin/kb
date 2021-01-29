@@ -1,0 +1,6 @@
+v4l2-ctl -d /dev/video0 --set-ctrl=exposure_auto=3
+v4l2-ctl -d /dev/video0 --set-ctrl=brightness=10
+v4l2-ctl -d /dev/video0 --set-ctrl=saturation=0
+
+# https://www.reddit.com/r/chromeos/comments/b281o5/adjusting_webcam_camera_settings_semisolved/
+
