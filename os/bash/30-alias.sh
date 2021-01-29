@@ -2,7 +2,7 @@ alias dns='cat /etc/resolv.conf'
 
 alias upp='pikaur -Syu'
 
-alias kur='pikaur -S --needed'
+alias kur='pikaur -Syy && pikaur -S --needed'
 # alias kur='recipe install'
 alias sil='recipe uninstall'
 
