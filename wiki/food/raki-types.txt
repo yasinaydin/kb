@@ -1,0 +1,27 @@
+Sarper Icecek
+	Beylerbeyi Raki
+	Beyoglu Raki
+Mey Icki
+	Mest Raki
+	Yekta Raki
+	Kulup Raki
+	Altinbas Raki
+	Herdem Izmir Sakizli
+	Izmir Rakisi
+	Tekirdag Rakisi
+	Tekirdag Rakisi Altin Seri
+	Yeni Raki
+ELDA Icecek
+	Cilingir Raki
+	Efe Raki
+Burgaz Ltd
+	Burgaz Raki
+	Ata Raki
+
+?:
+  Mercan raki
+  Beylerbeyi
+  Sari Zeybek Raki
+
+Sources:
+-http://www.tekirdagrakisi.com/raki-cesitleri
