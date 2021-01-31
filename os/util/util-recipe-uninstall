@@ -50,9 +50,10 @@ fi
 
 # files
 
-if [ ! -z $RECIPE_FOLDERS_HOME ]; then
-  for i in "${RECIPE_FOLDERS_HOME[@]}"; do
-    rm -rf "$i"
+if [ ! -z ${#RECIPE_FOLDERS_HOME[@]} ]; then
+  for ((i = 0; i < ${#RECIPE_FOLDERS_HOME[@]}; i++))
+  do
+    rm -rf "${RECIPE_FOLDERS_HOME[$i]}"
   done
 fi
 
