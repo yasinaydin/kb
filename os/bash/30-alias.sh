@@ -1,6 +1,6 @@
 alias dns='cat /etc/resolv.conf'
 
-alias upp='pikaur -Syu'
+# alias upp='pikaur -Syu'
 
 alias kur='pikaur -Syy && pikaur -S --needed'
 # alias kur='recipe install'
