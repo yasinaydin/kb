@@ -1,5 +1,7 @@
 ## Country Rankings
 
+NEET: https://en.wikipedia.org/wiki/NEET#/media/File:%E8%8B%A5%E5%B9%B4%E3%83%8B%E3%83%BC%E3%83%88%E6%AF%94%E7%8E%87.png
+
 Unlisted:
 - https://eksisozluk.com/turkiyenin-ekonomik-buyuklukte-19-siraya-dusmesi--6371494?day=2020-02-18
 
