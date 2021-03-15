@@ -1,0 +1,16 @@
+
+Docker Security Cheat Sheet
+https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html
+
+RULE #0 - Keep Host and Docker up to date
+  RULE #1 - Do not expose the Docker daemon socket (even to the containers)
+  RULE #2 - Set a user
+  RULE #3 - Limit capabilities (Grant only specific capabilities, needed by a container)
+  RULE #4 - Add –no-new-privileges flag
+  RULE #5 - Disable inter-container communication (--icc=false)
+  RULE #6 - Use Linux Security Module (seccomp, AppArmor, or SELinux)
+  RULE #7 - Limit resources (memory, CPU, file descriptors, processes, restarts)
+  RULE #8 - Set filesystem and volumes to read-only
+  RULE #9 - Use static analysis tools
+  RULE #10 - Set the logging level to at least INFO
+  Rule #11 - Lint the Dockerfile at build time
