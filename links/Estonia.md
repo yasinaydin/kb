@@ -22,6 +22,7 @@ News
 
 Language
 - [hm.ee - Tasuta kursused 2020 otsing](https://www.hm.ee/en/kursused)
+- <https://www.contdict.com/translate/estonian-english>
 
 Waste:
 - [tallinn.ee - A Guide to Sorting Waste](https://www.tallinn.ee/eng/A-Guide-to-Sorting-Waste)
