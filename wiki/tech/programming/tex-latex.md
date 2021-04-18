@@ -31,5 +31,5 @@ BibTeX entry types: <https://www.bibtex.com/e/entry-types/>
 
 To use, in content file:
 ```tex
-some text\cite{%CITENAME%}
+some text\cite{CITENAME}
 ```
