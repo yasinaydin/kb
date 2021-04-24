@@ -2,7 +2,8 @@
 
 ## Key Management
 
-Note: GnuPG requires both public and private keys to be sted in GnuPG keyring to encrypt/decrypt. 
+Notes:
+* GnuPG requires both public and private keys to be sted in GnuPG keyring to encrypt/decrypt. 
 
 List all locally installed keys:
 ```sh
