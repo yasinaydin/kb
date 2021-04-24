@@ -2,9 +2,14 @@
 
 ## Key Management
 
-List all locally installed keys:
+List all locally installed public keys:
 ```sh
 gpg -k
+```
+
+List private keys:
+```sh
+gpg -K
 ```
 
 Export a specific keypair's public key:
