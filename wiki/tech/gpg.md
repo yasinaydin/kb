@@ -2,9 +2,6 @@
 
 ## Key Management
 
-Notes:
-* GnuPG requires both public and private keys to be sted in GnuPG keyring to encrypt/decrypt. 
-
 List all locally installed keys:
 ```sh
 gpg -k
@@ -17,6 +14,11 @@ gpg --export --armor name@email > name-public.
 # --armor wraps it around 'BEGIN PGP PUBLIC KEY BLOCK'
 # Without --armor it exports binary (I guess?)
 ```
+
+Notes:
+* GnuPG requires both public and private keys to be sted in GnuPG keyring to encrypt/decrypt. 
+
+---
 
 ## Encrypt/Decrpyt
 
