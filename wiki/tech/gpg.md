@@ -42,4 +42,5 @@ gpg --decrypt filename
 Arch Linux:
 - GPG wiki page: <https://wiki.archlinux.org/index.php/GnuPG>
 - Core package: [gnupg](https://archlinux.org/packages/core/x86_64/gnupg)
+- UI App: [gpg-crypter](https://archlinux.org/packages/community/x86_64/gpg-crypter/)
 - [Wiki: Other applications](https://wiki.archlinux.org/index.php/List_of_applications/Security#Encryption,_signing,_steganography)
