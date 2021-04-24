@@ -34,3 +34,12 @@ gpg --decrypt filename
 # Note: You need to have private key in GnuPG keyring
 # See Key Management section
 ```
+
+---
+
+## Applications
+
+Arch Linux:
+- GPG wiki page: <https://wiki.archlinux.org/index.php/GnuPG>
+- Core package: [gnupg](https://archlinux.org/packages/core/x86_64/gnupg)
+- [Wiki: Other applications](https://wiki.archlinux.org/index.php/List_of_applications/Security#Encryption,_signing,_steganography)
