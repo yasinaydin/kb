@@ -11,15 +11,17 @@ Source: <https://wiki.archlinux.org/index.php/Installation_guide>
 setfont latarcyrheb-sun32 #IF: 4k screen
 
 wifi-menu -o #IF: Wifi
+# Updated?
 
 ping archlinux.org
+
+timedatectl set-ntp true
+timedatectl status
 
 nano /etc/pacman.d/mirrorlist
 # Move Finland to top and save
 pacman -Syy
 
-timedatectl set-ntp true
-timedatectl status
 ```
 
 ## 2. Disk

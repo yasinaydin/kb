@@ -128,9 +128,11 @@ FILES_TO_CLEAN=(
   "$HOME/.local"
   "$HOME/.swt"
 )
+set +e
 for i in "${FILES_TO_CLEAN[@]}"; do
   util-folder-empty $i
 done
+set -e
 
 #
 # VLC
